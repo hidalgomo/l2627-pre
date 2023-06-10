@@ -12,20 +12,20 @@ const navigation = {
     ],
     categories: [
         {
-            id: 'info',
-            name: 'INFO',
+            id: 'moreinfo',
+            name: 'MORE INFO',
             featured: [
                 {
-                    name: 'New Arrivals',
-                    href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-                    imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+                    name: 'Predominant Stack Used Citywide',
+                    href: 'techstack',
+                    imageSrc: 'https://miro.medium.com/v2/resize:fit:6042/1*znTBsSR_DHLHDJlYz6Goow.jpeg',
+                    imageAlt: 'The majority of city departments use this tech stack to construct applications or systems.',
                 },
                 {
-                    name: 'Basic Tees',
-                    href: '#',
-                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
-                    imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+                    name: 'Working as a Civil Servant',
+                    href: 'civilservant',
+                    imageSrc: 'https://cdn.dribbble.com/users/2424687/screenshots/5348661/media/a2b91fc37ceb5fc0895c0bb3d9f22e49.png?compress=1&resize=400x300&vertical=top',
+                    imageAlt: 'Close up on what it is to be a civil servant and serve the City of New York.',
                 },
             ],
             sections: [
@@ -33,28 +33,28 @@ const navigation = {
                     id: 'resources',
                     name: 'Resources',
                     items: [
-                        { name: 'Telework', href: '#' },
-                        { name: 'Salaries', href: '#' },
-                        { name: 'Grievances', href: '#' },
-                        { name: 'Benefits', href: '#' },
-                        { name: 'Contracts', href: '#' },
-                        { name: 'Meetings', href: '#' },
-                        { name: 'Workers\' Comp Attorneys & Reps', href: '#' },
-                        { name: 'COVID-19', href: '#' },
-                        { name: 'Local 2627\' Constitution', href: '#' },
+                        { name: 'Telework', href: 'telework' },
+                        { name: 'Salaries', href: 'salaries' },
+                        { name: 'Grievances', href: 'grievances' },
+                        { name: 'Benefits', href: 'benefits' },
+                        { name: 'Contracts', href: 'contracts' },
+                        { name: 'Meetings', href: 'meetings' },
+                        { name: 'COVID-19', href: 'covid19' },
+                        { name: 'Local 2627\'s Constitution', href: 'constitution' },
+                        { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
                     ],
                 },
                 {
                     id: 'workSafety',
                     name: 'Work Safety',
                     items: [
-                        { name: 'Workplace Safety', href: '#' },
-                        { name: 'Citywide', href: '#' },
-                        { name: 'CUNY', href: '#' },
-                        { name: 'DOE', href: '#' },
-                        { name: 'MTA', href: '#' },
-                        { name: '90 Church Staff Lobbying For Better Windows', href: '#' },
-                        { name: 'Citywide Air Conditioning Policy', href: '#' },
+                        { name: 'Workplace Safety', href: 'safety/workplace' },
+                        { name: 'Citywide', href: 'safety/citywide' },
+                        { name: 'CUNY', href: 'safety/cuny' },
+                        { name: 'DOE', href: 'safety/doe' },
+                        { name: 'MTA', href: 'safety/mta' },
+                        { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
+                        { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
                     ],
                 },
             ],
@@ -138,7 +138,7 @@ export default function Navbar() {
                                                                         <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                         { item.name }
                                                                     </Link>
-                                                                    <p aria-hidden="true" className="mt-1">Shop now</p>
+                                                                    <p aria-hidden="true" className="mt-1">Learn More</p>
                                                                 </div>
                                                             ))
                                                         }
@@ -245,7 +245,7 @@ export default function Navbar() {
                                                                                                 <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                                                 { item.name }
                                                                                             </Link>
-                                                                                            <p aria-hidden="true" className="mt-1">Shop now</p>
+                                                                                            <p aria-hidden="true" className="mt-1">Learn More</p>
                                                                                         </div>
                                                                                     ))
                                                                                 }
