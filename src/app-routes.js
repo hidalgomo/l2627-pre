@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import { Navbar, Footer } from './components';
 import Home from './views/home';
 import Education from './views/education';
 import Titles from './views/titles';
@@ -7,7 +7,7 @@ import Titles from './views/titles';
 const AppRoutes = () => {
     return (
         <div>
-        <Navbar />
+            <Navbar />
             <div className="container mx-auto max-w-full  px-4 sm:px-6 lg:px-8" style={{ paddingTop: "20px" }}>
                 <Routes>
                     <Route path="/" element={ <Home /> } />
@@ -15,6 +15,7 @@ const AppRoutes = () => {
                     <Route path="titles" element={ <Titles /> } />
                 </Routes>
             </div>
+            <Footer />
         </div>
     );
 }
