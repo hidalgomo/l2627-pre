@@ -21,81 +21,93 @@ export default function Footer() {
                             <ul>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        SaaS Development
+                                        Home
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Our Products
+                                        Education
                                     </Link>
                                 </li>
                                 <li>
                                 <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                    User Flow
+                                    Titles
                                 </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        User Strategy
+                                        Contact Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                        E-Alerts
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
-                        <div className="mb-10 w-full">
-                            <h4 className="mb-9 text-lg font-semibold text-dark">Company</h4>
-                            <ul>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        About TailGrids
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Contact & Support
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Success History
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Setting & Privacy
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                     <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Quick Links</h4>
                             <ul>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Premium Support
+                                        Telework
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Our Services
+                                        Grievances
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Our Team
+                                        Contracts
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Download App
+                                        Local's Constitution
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
+                    <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
+                        <div className="mb-10 w-full">
+                            <h4 className="mb-9 text-lg font-semibold text-dark">Affiliates</h4>
+                            <ul>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">AFL-CIO</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">AFSCME</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">DC37</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">APRI</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">APALA</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">CBTU</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">CLUW</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">LCLAA</Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                     <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Social</h4>
