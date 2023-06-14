@@ -2,17 +2,17 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <footer className="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+        <footer className="relative z-10 bg-black px-4 sm:px-6 lg:px-8" 
+            style={{ color: '#fff', paddingTop: '100px', paddingBottom: '60px' }}>
+
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
                         <div className="mb-10 w-full">
-                            <Link to="/" className="mb-6 inline-block max-w-[160px]">
+                            <Link to="/" className="mb-6 inline-block">
                                 <h1 style={{ letterSpacing: '2.5px', fontWeight: 500, fontSize: '1.5em' }}>L2627</h1>
+                                <small>IT Professional of the City of New York</small>
                             </Link>
-                            <p className="mb-7 text-base text-body-color">
-                                IT Professional of the City of New York
-                            </p>
                         </div>
                     </div>
                     <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
