@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "react-router-dom": "^6.12.1"
-  }
+  },
+  "homepage": "https://local2627.org/pre"
 }
