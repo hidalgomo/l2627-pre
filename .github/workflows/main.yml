@@ -1,7 +1,8 @@
 name: Build and deploy
 on:
   push:
-    branches: [main]
+    branches:
+    - main
   workflow_dispatch:
   
 jobs:
@@ -19,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
           name: build
-          path: build/
+          path: build
   deploy:
     name: Deploy
     needs: build
@@ -31,8 +32,8 @@ jobs:
         uses: actions/download-artifact@v2.1.1
         with:
           name: build
-          path: build/
-      - name: Sync files to hosting
+          path: build
+      - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.local2627.org
