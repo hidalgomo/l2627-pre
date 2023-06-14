@@ -196,7 +196,47 @@ export default function Home() {
                     </Link>
                 </p>
             </div>
-            <div>home col 2</div>
+            <div className="col-span-2">
+                <h3 className="mb-8 text-2xl font-bold">Orthopoxyvirus-Monkeypox</h3>
+                <p>
+                    <Link to="https://local2627.org/resources/pdf/Monkeypox_Leave_Guidance_80922_sent_to_MLC.pdf"
+                        target="_blank" style={{ color: '#3B71CA' }}>
+                        
+                        Read the policy
+                    </Link>
+                </p>
+                <br />
+
+                <h3 className="mb-8 text-2xl font-bold">Unlimited Sick Leave for Employees with 9/11 Related Illnesses</h3>
+                <p>
+                    <Link to="https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf"
+                        target="_blank" style={{ color: '#3B71CA' }}>
+                        
+                        Read more
+                    </Link>
+                </p>
+                <br />
+
+                <h3 className="mb-8 text-2xl font-bold">Titles That Can Live Outside of NYC</h3>
+                <p>
+                    <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
+                        target="_blank" style={{ color: '#3B71CA' }}>
+                        
+                        Read more
+                    </Link>
+                </p>
+                <br />
+
+                <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
+                <p>
+                    <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
+                        target="_blank">
+                        
+                        <img src="https://local2627.org/resources/images/Womens_Leadership_Academy.png" alt="Women" />
+                    </Link>
+                </p>
+                <br />
+            </div>
         </div>
     );
 }
