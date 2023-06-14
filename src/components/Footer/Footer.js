@@ -25,50 +25,50 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="education" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Education
                                     </Link>
                                 </li>
                                 <li>
-                                <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                <Link to="titles" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                     Titles
                                 </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="contactus" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Contact Us
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="ealerts" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         E-Alerts
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Quick Links</h4>
                             <ul>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="telework" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Telework
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="grievances" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Grievances
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="contracts" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Contracts
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                    <Link to="constitution" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
                                         Local's Constitution
                                     </Link>
                                 </li>
