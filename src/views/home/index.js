@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-        <div className="grid grid-cols-5 gap-10">
-            <div className="col-span-3">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 grid-flow-row">
+            <div className="lg:col-span-3">
                 
                 <h3 className="mb-8 text-3xl font-bold">Welcome</h3>
                 <p>
@@ -196,7 +196,7 @@ export default function Home() {
                     </Link>
                 </p>
             </div>
-            <div className="col-span-2">
+            <div className="lg:col-span-2">
                 <h3 className="mb-8 text-2xl font-bold">Orthopoxyvirus-Monkeypox</h3>
                 <p>
                     <Link to="https://local2627.org/resources/pdf/Monkeypox_Leave_Guidance_80922_sent_to_MLC.pdf"
