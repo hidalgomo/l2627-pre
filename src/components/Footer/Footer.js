@@ -63,8 +63,10 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="contracts" className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
-                                        Contracts
+                                    <Link to="https://local2627.org/resources/pdf/CSExamFactSheet.pdf" target="_blank" 
+                                        className="mb-2 inline-block text-base leading-loose text-body-color hover:text-primary">
+                                            
+                                        Civil Service Exam Fact Sheet
                                     </Link>
                                 </li>
                                 <li>
