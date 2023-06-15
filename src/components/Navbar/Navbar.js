@@ -39,7 +39,7 @@ const navigation = {
                         { name: 'Benefits', href: 'benefits' },
                         { name: 'Contracts', href: 'contracts' },
                         { name: 'Meetings', href: 'meetings' },
-                        { name: 'COVID-19', href: 'covid19' },
+                        { name: 'Leadership', href: 'leadership' },
                         { name: 'Local 2627\'s Constitution', href: 'constitution' },
                         { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
                     ],

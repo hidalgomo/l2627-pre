@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './components';
-import Home from './views/home';
-import Education from './views/education';
-import Titles from './views/titles';
+import { Education, Home, Leadership, Titles } from './views';
 
 const AppRoutes = () => {
     return (
@@ -12,8 +10,9 @@ const AppRoutes = () => {
                 style={{ paddingTop: "20px", paddingBottom: '20px' }}>
 
                 <Routes>
-                    <Route path="/" element={ <Home /> } />
                     <Route path="education" element={ <Education /> } />
+                    <Route path="/" element={ <Home /> } />
+                    <Route path="leadership" element={ <Leadership /> } />
                     <Route path="titles" element={ <Titles /> } />
                 </Routes>
             </div>
