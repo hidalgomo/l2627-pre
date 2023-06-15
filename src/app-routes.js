@@ -6,9 +6,7 @@ const AppRoutes = () => {
     return (
         <div>
             <Navbar />
-            <div className="container mx-auto max-w-full px-4 sm:px-6 lg:px-8" 
-                style={{ paddingTop: "20px", paddingBottom: '20px' }}>
-
+            <div className="container mx-auto max-w-full p-4 sm:p-6 lg:p-8">
                 <Routes>
                     <Route path="education" element={ <Education /> } />
                     <Route path="/" element={ <Home /> } />

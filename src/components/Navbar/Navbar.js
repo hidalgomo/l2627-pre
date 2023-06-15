@@ -167,14 +167,6 @@ export default function Navbar() {
                                     </Tab.Panels>
                                 </Tab.Group>
 
-                                {/* <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                                    <div className="flow-root">
-                                        <Link to="login" className="-m-2 block p-2 font-medium text-gray-900">LOGIN</Link>
-                                    </div>
-                                    <div className="flow-root">
-                                        <Link to="register" className="-m-2 block p-2 font-medium text-gray-900">REGISTER</Link>
-                                    </div>
-                                </div> */}
                             </Dialog.Panel>
                         </Transition.Child>
                     </div>
