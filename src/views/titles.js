@@ -3,8 +3,8 @@ import { Collapse } from "react-collapse";
 
 export default function Titles() {
     const [isOpen, setOpen] = useState(false);
-    const [titles, setTitles] = useState(null);
-    
+    const [titles, setTitles] = useState();
+
     useEffect(() => {
         fetch('https://local2627.org/api/titles')
         .then(res => res.json())
@@ -13,7 +13,7 @@ export default function Titles() {
             console.log(titles);
         })
         .catch(err => console.log(err));
-    }, []);
+    }, [titles]);
 
     return (
         <div>
