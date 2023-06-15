@@ -10,7 +10,7 @@ export default function Titles() {
         .then(res => res.json())
         .then(data => {
             setTitles(data);
-            console.log(titles);
+            console.log(titles, data);
         })
         .catch(err => console.log(err));
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -21,7 +21,11 @@ export default function Titles() {
             <Collapse isOpened={ isOpen }>
                 <div className="pb-8 mb-8 flex justify-center">
                     <div>
-                        List
+                        {
+                            titles.forEach(title => {
+                                <p>{ title.name }</p>
+                            })
+                        }
                     </div>
                 </div>
             </Collapse>
