@@ -10,7 +10,7 @@ export default function Titles() {
         .then(res => res.json())
         .then(data => {
             setTitles(data);
-            console.log(titles);
+            console.log(titles, data);
         })
         .catch(err => console.log(err));
         // eslint-disable-next-line react-hooks/exhaustive-deps
