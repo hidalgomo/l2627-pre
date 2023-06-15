@@ -49,7 +49,7 @@ export default function Titles() {
                             <div>
                                 <div className="mt-10">
                                     <button className="inline-block rounded-md border border-transparent 
-                                        bg-cyan-600 px-4 py-1 text-center font-medium text-white"
+                                        bg-cyan-700 px-4 py-1 text-center font-medium text-white"
                                         onClick={ () => setOpen(!isOpen) }>
                                         
                                         Title list
