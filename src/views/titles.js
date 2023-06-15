@@ -13,7 +13,8 @@ export default function Titles() {
             console.log(titles);
         })
         .catch(err => console.log(err));
-    }, [titles]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
         <div>
