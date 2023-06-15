@@ -9,8 +9,8 @@ export default function Titles() {
         fetch('https://local2627.org/api/titles')
         .then(res => res.json())
         .then(data => {
-            console.log(data);
             setTitles(data);
+            console.log(titles);
         })
         .catch(err => console.log(err));
     });
