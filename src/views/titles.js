@@ -21,11 +21,11 @@ export default function Titles() {
             <Collapse isOpened={ isOpen }>
                 <div className="pb-8 mb-8 flex justify-center">
                     <div>
-                        {
-                            titles.forEach(title => {
+                        {/* {
+                            titles.map((title) => (
                                 <p>{ title.name }</p>
-                            })
-                        }
+                            )
+                        } */}
                     </div>
                 </div>
             </Collapse>
