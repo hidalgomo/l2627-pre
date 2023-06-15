@@ -13,7 +13,7 @@ export default function Titles() {
             console.log(titles);
         })
         .catch(err => console.log(err));
-    });
+    }, []);
 
     return (
         <div>
