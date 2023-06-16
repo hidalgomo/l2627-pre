@@ -1,4 +1,4 @@
-export { default as Navbar } from './navbar'
-export { default as Footer } from './footer'
+export { default as Navbar } from './Navbar'
+export { default as Footer } from './Footer'
 const placeholder = {};
 export default placeholder;
