@@ -1,6 +1,7 @@
 import { Transition, Dialog } from '@headlessui/react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function TitlePanel(props) {
     return (
@@ -36,7 +37,6 @@ export default function TitlePanel(props) {
 
                                 <div className="mt-2">
                                     
-
                                     <div className="mt-6 border-t border-gray-100">
                                         <dl className="divide-y divide-gray-100">
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -76,9 +76,9 @@ export default function TitlePanel(props) {
                                                                 </div>
                                                             </div>
                                                             <div className="ml-4 flex-shrink-0">
-                                                                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                                <Link href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
                                                                     Download
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -86,7 +86,6 @@ export default function TitlePanel(props) {
                                             </div>
                                         </dl>
                                     </div>
-
 
                                 </div>
 
