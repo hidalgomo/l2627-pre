@@ -3,7 +3,6 @@ import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-//navbar.js
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     const classNames = (...classes) =>  classes.filter(Boolean).join(' ');
