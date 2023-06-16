@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Collapse } from "react-collapse";
+import { Link } from "react-router-dom";
 
 export default function Titles() {
     const [isOpen, setOpen] = useState(false);
@@ -8,10 +9,7 @@ export default function Titles() {
     useEffect(() => {
         fetch('https://local2627.org/api/titles')
         .then(res => res.json())
-        .then(data => {
-            setTitles(data);
-            console.log(titles, data);
-        })
+        .then(data => setTitles(data))
         .catch(err => console.log(err));
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -20,13 +18,23 @@ export default function Titles() {
         <div>
             <Collapse isOpened={ isOpen }>
                 <div className="pb-8 mb-8 flex justify-center">
-                    <div>
+                    <ul className="divide-y divide-gray-100">
                         {
                             titles?.map((title) => (
-                                <p>{ title.name }</p>
+                                <li key={ title.code } className="flex justify-between gap-x-6 py-5">
+                                    <Link onClick={() => { console.log(title); }}>
+                                        <div className="flex gap-x-4">
+                                            {/* <img className="h-12 w-12 flex-none rounded-full bg-gray-50" src={ person.imageUrl } alt="" /> */}
+                                            <div className="min-w-0 flex-auto">
+                                                <p className="text-sm font-semibold leading-6 text-gray-900">{ title.name }</p>
+                                                <p className="mt-1 truncate text-xs leading-5 text-gray-500">{ title.code }</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </li>
                             ))
                         }
-                    </div>
+                    </ul>
                 </div>
             </Collapse>
 
