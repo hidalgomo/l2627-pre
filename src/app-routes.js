@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import { Navbar, Footer } from './components';
 import { Education, Home, Leadership, Titles } from './views';
 
 const AppRoutes = () => {
