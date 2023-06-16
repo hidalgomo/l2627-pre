@@ -1,10 +1,20 @@
 import { useState, useEffect } from "react";
 import { Collapse } from "react-collapse";
 import { Link } from "react-router-dom";
+import TitlePanel from "../components/title-panel";
 
 export default function Titles() {
-    const [isOpen, setOpen] = useState(false);
     const [titles, setTitles] = useState();
+    const [isTitleListOpen, setTitleListOpen] = useState(false);
+    const [isTitlePanelOpen, setTitlePanelOpen] = useState(false);
+    const openTitlePanel = () => setTitlePanelOpen(true);
+    const closeTitlePanel = () => setTitlePanelOpen(false);
+    const [selectedTitle, setSelectedTitle] = useState({});
+
+    const selectTitle = (title) => {
+        setSelectedTitle(title);
+        openTitlePanel();
+    }
 
     useEffect(() => {
         fetch('https://local2627.org/api/titles')
@@ -15,14 +25,16 @@ export default function Titles() {
     }, []);
 
     return (
-        <div>
-            <Collapse isOpened={ isOpen }>
+        <>
+            <TitlePanel isTitlePanelOpen={ isTitlePanelOpen } title={ selectedTitle } closeTitlePanel={ closeTitlePanel }  />
+
+            <Collapse isOpened={ isTitleListOpen }>
                 <div className="pb-8 mb-8 flex justify-center">
                     <ul className="divide-y divide-gray-100">
                         {
                             titles?.map((title) => (
                                 <li key={ title.code } className="flex justify-between gap-x-6 py-5">
-                                    <Link onClick={() => { console.log(title); }}>
+                                    <Link onClick={ () => selectTitle(title) }>
                                         <div className="flex gap-x-4">
                                             <div className="min-w-0 flex-auto">
                                                 <p className="text-lg leading-6 text-gray-900">{ title.name }</p>
@@ -62,7 +74,7 @@ export default function Titles() {
                                 <div className="mt-10">
                                     <button className="inline-block rounded-md border border-transparent 
                                         bg-cyan-700 px-4 py-1 text-center font-medium text-white"
-                                        onClick={ () => setOpen(!isOpen) }>
+                                        onClick={ () => setTitleListOpen(!isTitleListOpen) }>
                                         
                                         Title list
                                         <svg className="inline-block w-6 h-6 ml-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -75,6 +87,6 @@ export default function Titles() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
