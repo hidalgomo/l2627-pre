@@ -3,71 +3,69 @@ import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const navigation = {
-    pages: [
-        { name: 'EDUCATION', href: 'education' },
-        { name: 'TITLES', href: 'titles' },
-        { name: 'CONTACT US', href: 'contactus' },
-        { name: 'E-ALERTS', href: 'ealerts' },
-    ],
-    categories: [
-        {
-            id: 'moreinfo',
-            name: 'MORE INFO',
-            featured: [
-                {
-                    name: 'Predominant Stack Used Citywide',
-                    href: 'techstack',
-                    imageSrc: 'https://miro.medium.com/v2/resize:fit:6042/1*znTBsSR_DHLHDJlYz6Goow.jpeg',
-                    imageAlt: 'The majority of city departments use this tech stack to construct applications or systems.',
-                },
-                {
-                    name: 'Working as a Civil Servant',
-                    href: 'civilservant',
-                    imageSrc: 'https://cdn.dribbble.com/users/2424687/screenshots/5348661/media/a2b91fc37ceb5fc0895c0bb3d9f22e49.png?compress=1&resize=400x300&vertical=top',
-                    imageAlt: 'Close up on what it is to be a civil servant and serve the City of New York.',
-                },
-            ],
-            sections: [
-                {
-                    id: 'resources',
-                    name: 'Resources',
-                    items: [
-                        { name: 'Telework', href: 'telework' },
-                        { name: 'Salaries', href: 'salaries' },
-                        { name: 'Grievances', href: 'grievances' },
-                        { name: 'Benefits', href: 'benefits' },
-                        { name: 'Contracts', href: 'contracts' },
-                        { name: 'Meetings', href: 'meetings' },
-                        { name: 'Leadership', href: 'leadership' },
-                        { name: 'Local 2627\'s Constitution', href: 'constitution' },
-                        { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
-                    ],
-                },
-                {
-                    id: 'workSafety',
-                    name: 'Work Safety',
-                    items: [
-                        { name: 'Workplace Safety', href: 'safety/workplace' },
-                        { name: 'Citywide', href: 'safety/citywide' },
-                        { name: 'CUNY', href: 'safety/cuny' },
-                        { name: 'DOE', href: 'safety/doe' },
-                        { name: 'MTA', href: 'safety/mta' },
-                        { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
-                        { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
-                    ],
-                },
-            ],
-        }
-    ]
-};
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
+//navbar.js
 export default function Navbar() {
     const [open, setOpen] = useState(false)
+    const classNames = (...classes) =>  classes.filter(Boolean).join(' ');
+
+    const navigation = {
+        pages: [
+            { name: 'EDUCATION', href: 'education' },
+            { name: 'TITLES', href: 'titles' },
+            { name: 'CONTACT US', href: 'contactus' },
+            { name: 'E-ALERTS', href: 'ealerts' },
+        ],
+        categories: [
+            {
+                id: 'moreinfo',
+                name: 'MORE INFO',
+                featured: [
+                    {
+                        name: 'Predominant Stack Used Citywide',
+                        href: 'techstack',
+                        imageSrc: 'https://miro.medium.com/v2/resize:fit:6042/1*znTBsSR_DHLHDJlYz6Goow.jpeg',
+                        imageAlt: 'The majority of city departments use this tech stack to construct applications or systems.',
+                    },
+                    {
+                        name: 'Working as a Civil Servant',
+                        href: 'civilservant',
+                        imageSrc: 'https://cdn.dribbble.com/users/2424687/screenshots/5348661/media/a2b91fc37ceb5fc0895c0bb3d9f22e49.png?compress=1&resize=400x300&vertical=top',
+                        imageAlt: 'Close up on what it is to be a civil servant and serve the City of New York.',
+                    },
+                ],
+                sections: [
+                    {
+                        id: 'resources',
+                        name: 'Resources',
+                        items: [
+                            { name: 'Telework', href: 'telework' },
+                            { name: 'Salaries', href: 'salaries' },
+                            { name: 'Grievances', href: 'grievances' },
+                            { name: 'Benefits', href: 'benefits' },
+                            { name: 'Contracts', href: 'contracts' },
+                            { name: 'Meetings', href: 'meetings' },
+                            { name: 'Leadership', href: 'leadership' },
+                            { name: 'Local 2627\'s Constitution', href: 'constitution' },
+                            { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
+                        ],
+                    },
+                    {
+                        id: 'workSafety',
+                        name: 'Work Safety',
+                        items: [
+                            { name: 'Workplace Safety', href: 'safety/workplace' },
+                            { name: 'Citywide', href: 'safety/citywide' },
+                            { name: 'CUNY', href: 'safety/cuny' },
+                            { name: 'DOE', href: 'safety/doe' },
+                            { name: 'MTA', href: 'safety/mta' },
+                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
+                            { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
+                        ],
+                    },
+                ],
+            }
+        ]
+    };
 
     return (
         <div className="bg-white">
