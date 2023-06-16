@@ -24,7 +24,7 @@ export default function TitlePanel(props) {
                             enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95">
                             
-                            <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white
+                            <Dialog.Panel className="w-full max-w-xl transform overflow-hidden rounded-2xl bg-white
                                 p-6 text-left align-middle shadow-xl transition-all">
 
                                 <Dialog.Title as="h3" className="relative text-lg font-medium leading-6 text-gray-900">
@@ -57,18 +57,22 @@ export default function TitlePanel(props) {
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                                 <dt className="text-sm font-medium leading-6 text-gray-900">Level & rate</dt>
-                                                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                                <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                                     <div class="grid grid-cols-12 gap-1 text-xs">
-                                                    {
-                                                        props.title.title_levels?.sort((a, b) => a.level - b.level).map(lvl => (
-                                                            <>
-                                                                <div className="col-span-1">{ lvl.level }</div>
-                                                                <div className="col-span-4">{ USDollar.format(lvl.min_rate) }</div>
-                                                                <div className="col-span-4">{ USDollar.format(lvl.max_rate) }</div>
-                                                                <div className="col-span-3">{ USDollar.format(lvl.incumbent_rate) }</div>
-                                                            </>
-                                                        ))
-                                                    }
+                                                        <div className="col-span-1">Lvl</div>
+                                                        <div className="col-span-3">Min</div>
+                                                        <div className="col-span-4">Max</div>
+                                                        <div className="col-span-4">Incumbent</div>
+                                                        {
+                                                            props.title.title_levels?.sort((a, b) => a.level - b.level).map(lvl => (
+                                                                <>
+                                                                    <div className="col-span-1">{ lvl.level }</div>
+                                                                    <div className="col-span-3">{ USDollar.format(lvl.min_rate) }</div>
+                                                                    <div className="col-span-4">{ USDollar.format(lvl.max_rate) }</div>
+                                                                    <div className="col-span-4">{ USDollar.format(lvl.incumbent_rate) }</div>
+                                                                </>
+                                                            ))
+                                                        }
                                                     </div>
                                                 </dd>
                                             </div>
