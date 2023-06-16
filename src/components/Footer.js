@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+//footer.js
 export default function Footer() {
     return (
         <footer className="relative z-10 bg-black px-4 sm:px-6 lg:px-8" 
