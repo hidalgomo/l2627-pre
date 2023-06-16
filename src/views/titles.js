@@ -24,9 +24,8 @@ export default function Titles() {
                                 <li key={ title.code } className="flex justify-between gap-x-6 py-5">
                                     <Link onClick={() => { console.log(title); }}>
                                         <div className="flex gap-x-4">
-                                            {/* <img className="h-12 w-12 flex-none rounded-full bg-gray-50" src={ person.imageUrl } alt="" /> */}
                                             <div className="min-w-0 flex-auto">
-                                                <p className="text-lg font-semibold leading-6 text-gray-900">{ title.name }</p>
+                                                <p className="text-lg leading-6 text-gray-900">{ title.name }</p>
                                                 <p className="mt-1 truncate text-sm leading-5 text-gray-900">{ title.code }</p>
                                             </div>
                                         </div>
