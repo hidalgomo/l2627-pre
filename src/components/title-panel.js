@@ -4,6 +4,10 @@ import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function TitlePanel(props) {
+    const USDollar = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+    });
     return (
         <>
         <Transition appear show={ props.isTitlePanelOpen } as={ Fragment }>
@@ -53,7 +57,20 @@ export default function TitlePanel(props) {
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                                 <dt className="text-sm font-medium leading-6 text-gray-900">Level & rate</dt>
-                                                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">$120,000</dd>
+                                                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                                    <div class="grid grid-cols-12 gap-1 text-xs">
+                                                    {
+                                                        props.title.title_levels?.sort((a, b) => a.level - b.level).map(lvl => (
+                                                            <>
+                                                                <div className="col-span-1">{ lvl.level }</div>
+                                                                <div className="col-span-4">{ USDollar.format(lvl.min_rate) }</div>
+                                                                <div className="col-span-4">{ USDollar.format(lvl.max_rate) }</div>
+                                                                <div className="col-span-3">{ USDollar.format(lvl.incumbent_rate) }</div>
+                                                            </>
+                                                        ))
+                                                    }
+                                                    </div>
+                                                </dd>
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                                 <dt className="text-sm font-medium leading-6 text-gray-900">Document(s)</dt>
