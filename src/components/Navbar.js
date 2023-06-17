@@ -12,7 +12,7 @@ export default function Navbar() {
             { name: 'EDUCATION', href: 'education' },
             { name: 'TITLES', href: 'titles' },
             { name: 'CONTACT US', href: 'contactus' },
-            { name: 'E-ALERTS', href: 'ealerts' },
+            { name: 'E-ALERTS', href: 'ealert' },
         ],
         categories: [
             {
