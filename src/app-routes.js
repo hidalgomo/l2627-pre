@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './components';
-import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles } from './views';
+import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, EalertSignupForm } from './views';
 
 const AppRoutes = () => {
     return (
@@ -12,6 +12,7 @@ const AppRoutes = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="leadership" element={<Leadership />} />
                     <Route path="titles" element={<Titles />} />
+                    <Route path="ealert" element={<EalertSignupForm />} />
                     <Route path="grievances" element={<Grievances />} />
                     <Route path="benefits" element={<Benefits />} />
                     <Route path="telework" element={<Telework />} />

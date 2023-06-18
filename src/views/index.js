@@ -6,5 +6,6 @@ export { default as Telework } from "./telework";
 export { default as Grievances } from "./grievances";
 export { default as Benefits } from "./benefits";
 
+export { default as EalertSignupForm } from "./ealert-signup-form";
 const placeholder = {};
 export default placeholder;
