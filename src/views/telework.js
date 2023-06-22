@@ -3,8 +3,8 @@ export default function Telework() {
         padding: "20px 30px"
     };
 
-    return <section class="container-fluid" style={teleworkContainerStyle}>
-        <h3 class="header-label">Telework</h3>
+    return <section style={teleworkContainerStyle}>
+        <h3>Telework</h3>
         <h4>Updated Guidance Related to Attendance, Leave, and Timekeeping Policies During COVID-19</h4>
         <ul>
             <li id="Personnel_Memorandum_No_1-2022-23">
@@ -55,7 +55,7 @@ export default function Telework() {
                 MTA Bulletin on Child Care
             </a>
         </p>
-        <h3 class="header-label">Fund the Front Lines</h3>
+        <h3>Fund the Front Lines</h3>
         <p>
             This isn't about partisanship. It's about clean water, road repairs, safe schools, first responders and
             well-staffed hospitals. And the bottom line is this: we can't defeat the coronavirus and reopen the economy
@@ -64,11 +64,11 @@ export default function Telework() {
         </p>
         <p>Contact Congress and tell them to fund the front lines by texting FUND to 237-263.</p>
         <p>
-            <iframe title="Public Service Army" height="315" width="560" border="0" class="boxes" src="https://www.youtube-nocookie.com/embed/NvpBk400Ifw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
+            <iframe title="Public Service Army" height="315" width="560" border="0" src="https://www.youtube-nocookie.com/embed/NvpBk400Ifw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
             </iframe>
         </p>
         <p>
-            <iframe title="Front-Line Fighters" height="315" width="560" border="0" class="boxes" src="https://www.youtube-nocookie.com/embed/gOb0FHT4xsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
+            <iframe title="Front-Line Fighters" height="315" width="560" border="0" src="https://www.youtube-nocookie.com/embed/gOb0FHT4xsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
             </iframe>
         </p>
         <ul>
