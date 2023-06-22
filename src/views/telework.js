@@ -57,9 +57,9 @@ export default function Telework() {
             <h3 className="text-2xl">Remote Work Guidelines for CUNY</h3>
             <div className="py-4">
                 <p>
-                    <a href="/resources/pdf/CUNY_Remote_Work_Guidelines.pdf" target="_blank" title="CUNY Remote Work Guidelines">
+                    <Link to="/resources/pdf/CUNY_Remote_Work_Guidelines.pdf" target="_blank" title="CUNY Remote Work Guidelines">
                         CUNY Remote Work Guidelines
-                    </a>
+                    </Link>
                 </p>
             </div>
             
