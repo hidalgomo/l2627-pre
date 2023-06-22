@@ -8,9 +8,9 @@ export default function Telework() {
             <h3 className="text-2xl">Leave, & Timekeeping Policies During COVID-19</h3>
             <div className="py-4">
                 <p>
-                    <a href="/resources/pdf/Personnel_Memorandum_No_1-2022-23.pdf" target="_blank" title="Personnel Memorandum No 1-2022-23">
+                    <Link to="/resources/pdf/Personnel_Memorandum_No_1-2022-23.pdf" target="_blank" title="Personnel Memorandum No 1-2022-23">
                         Updated Guidance Related to Attendance, COVID-19 Personnel Memorandum No 1-2022-23
-                    </a>
+                    </Link>
                 </p>
             </div>
 
