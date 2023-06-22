@@ -12,7 +12,7 @@ export default function Navbar() {
             { name: 'EDUCATION', href: 'education' },
             { name: 'TITLES', href: 'titles' },
             { name: 'CONTACT US', href: 'contactus' },
-            { name: 'E-ALERTS', href: 'ealerts' },
+            { name: 'E-ALERTS', href: 'ealert' },
         ],
         categories: [
             {
@@ -67,7 +67,7 @@ export default function Navbar() {
     };
 
     return (
-        <div className="bg-white">
+        <div className="bg-white sticky top-0 z-10">
             {/* Mobile menu */}
             <Transition.Root show={ open } as={ Fragment }>
                 <Dialog as="div" className="relative z-40 lg:hidden" onClose={ setOpen }>

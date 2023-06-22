@@ -4,6 +4,10 @@ import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function TitlePanel(props) {
+    const USDollar = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+    });
     return (
         <>
         <Transition appear show={ props.isTitlePanelOpen } as={ Fragment }>
@@ -20,7 +24,7 @@ export default function TitlePanel(props) {
                             enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95">
                             
-                            <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white
+                            <Dialog.Panel className="w-full max-w-xl transform overflow-hidden rounded-2xl bg-white
                                 p-6 text-left align-middle shadow-xl transition-all">
 
                                 <Dialog.Title as="h3" className="relative text-lg font-medium leading-6 text-gray-900">
@@ -40,7 +44,7 @@ export default function TitlePanel(props) {
                                     <div className="mt-6 border-t border-gray-100">
                                         <dl className="divide-y divide-gray-100">
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                                <dt className="text-sm font-medium leading-6 text-gray-900">Full name</dt>
+                                                <dt className="text-sm font-medium leading-6 text-gray-900">Title name</dt>
                                                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{ props.title.name }</dd>
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -52,8 +56,25 @@ export default function TitlePanel(props) {
                                                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{ props.title.scope }</dd>
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                                <dt className="text-sm font-medium leading-6 text-gray-900">Level & Rate</dt>
-                                                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">$120,000</dd>
+                                                <dt className="text-sm font-medium leading-6 text-gray-900">Level & rate</dt>
+                                                <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                                    <div class="grid grid-cols-12 gap-1 text-xs">
+                                                        <div className="col-span-1">Lvl</div>
+                                                        <div className="col-span-3">Min</div>
+                                                        <div className="col-span-4">Max</div>
+                                                        <div className="col-span-4">Incumbent</div>
+                                                        {
+                                                            props.title.title_levels?.sort((a, b) => a.level - b.level).map(lvl => (
+                                                                <>
+                                                                    <div className="col-span-1">{ lvl.level }</div>
+                                                                    <div className="col-span-3">{ USDollar.format(lvl.min_rate) }</div>
+                                                                    <div className="col-span-4">{ USDollar.format(lvl.max_rate) }</div>
+                                                                    <div className="col-span-4">{ USDollar.format(lvl.incumbent_rate) }</div>
+                                                                </>
+                                                            ))
+                                                        }
+                                                    </div>
+                                                </dd>
                                             </div>
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                                 <dt className="text-sm font-medium leading-6 text-gray-900">Document(s)</dt>
@@ -63,11 +84,13 @@ export default function TitlePanel(props) {
                                                             <div className="flex w-0 flex-1 items-center">
                                                                 <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
                                                                 <div className="ml-4 flex min-w-0 flex-1 gap-2">
-                                                                    <span className="truncate font-medium">resume_back_end_developer.pdf</span>
+                                                                    <span className="truncate font-medium">title_specifications.pdf</span>
                                                                 </div>
                                                             </div>
                                                             <div className="ml-4 flex-shrink-0">
-                                                                <Link href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                                <Link to={ 'https://local2627.org' + props.title.doc_link } target='_blank' 
+                                                                    className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                                    
                                                                     Download
                                                                 </Link>
                                                             </div>

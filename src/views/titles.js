@@ -29,6 +29,7 @@ export default function Titles() {
             <TitlePanel isTitlePanelOpen={ isTitlePanelOpen } title={ selectedTitle } closeTitlePanel={ closeTitlePanel }  />
 
             <Collapse isOpened={ isTitleListOpen }>
+                { !titles ? <p className="text-center">Loading...</p> : null }
                 <div className="pb-8 mb-8 flex justify-center">
                     <ul className="divide-y divide-gray-100">
                         {
