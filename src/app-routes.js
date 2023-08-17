@@ -3,6 +3,7 @@ import { Navbar, Footer } from './components';
 import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, EalertSignupForm } from './views';
 import { Contact } from './views/contact';
 import { Salaries } from './views/salaries';
+import { Meetings } from './views/meetings';
 
 const AppRoutes = () => { 
     return (
@@ -20,6 +21,7 @@ const AppRoutes = () => {
                     <Route path="telework" element={<Telework />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="salaries" element={<Salaries />} />
+                    <Route path="meetings" element={ <Meetings /> } />
                 </Routes>
             </main>
             <Footer />
