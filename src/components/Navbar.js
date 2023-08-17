@@ -11,7 +11,7 @@ export default function Navbar() {
         pages: [
             { name: 'EDUCATION', href: 'education' },
             { name: 'TITLES', href: 'titles' },
-            { name: 'CONTACT US', href: 'contactus' },
+            { name: 'CONTACT US', href: 'contact' },
             { name: 'E-ALERTS', href: 'ealert' },
         ],
         categories: [

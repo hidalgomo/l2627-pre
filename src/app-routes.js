@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './components';
 import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, EalertSignupForm } from './views';
+import { Contact } from './views/contact';
 
-const AppRoutes = () => {
+const AppRoutes = () => { 
     return (
         <div>
             <Navbar />
@@ -16,6 +17,7 @@ const AppRoutes = () => {
                     <Route path="grievances" element={<Grievances />} />
                     <Route path="benefits" element={<Benefits />} />
                     <Route path="telework" element={<Telework />} />
+                    <Route path='contact' element={<Contact />} />
                 </Routes>
             </div>
             <Footer />
