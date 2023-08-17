@@ -248,6 +248,133 @@ export default function Education() {
                     <Link to={'https://www1.nyc.gov/site/dcas/employment/what-is-civil-service.page'} target="_blank">DCAS Website</Link>
                 </div>
             </section>
+
+            <section className="mb-10">
+                <p className="text-xl font-bold">AFSCME Online Training</p>
+                <div>                        
+                    <ul className="list-disc mb-6 pl-8">
+                        <li><Link to={'http://www.afscme.org/academy'}>AFSCME Leadership Academy</Link></li>
+                        <li><Link to={'http://invested.afscme.org/'}>Investor Education for Working Families</Link></li>
+                        <li><Link to={'https://freecollege.afscme.org/'}>AFSCME Free College</Link></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="mb-10">
+                <p className="text-xl font-bold">Bernie Rifkin Solidarity</p>
+                <div>
+                    DC 37 members and retirees are invited to visit the&nbsp;
+                    <Link to={'http://www.dc37.net/benefits/education/offerings/library'}>Bernie Rifkin Solidarity Library</Link>&nbsp;
+                    to check out books, videos and other educational materials. The DC 37 Education Fund offers a wide 
+                    range of free classes for DC 37 members. Recent courses have included English as a second 
+                    language, computer courses, high school equivalency, conflict resolution, theater workshops, 
+                    American Sign Language, and many more. These courses are held in all five boroughs. To find 
+                    out what classes are available, look in the Public Employee Press.
+                    <br />
+                    <br />
+                    A number of classes and activities are open to members' spouses, domestic partners, and 
+                    children, as well as to members and retirees. Click on the links below to find out more.
+                    <br />
+                    <br />
+                    <ul className="list-disc mb-6 pl-8">
+                        <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/SAT.html'}>SAT Prep Courses</Link></li>
+                        <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/saturday.html'}>Saturday Fun Programs (Guitar, Photography, Tai Chi, and Yoga, etc.)</Link></li>
+                        <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/retirees.html'}>Special Programs for Retirees</Link></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="mb-10">
+                <p className="text-xl font-bold">Scholarships</p>
+                <div>
+                    Both AFSCME and DC 37 offer scholarships for the children and grandchildren of members. 
+                    To find out about these programs &nbsp;
+                    <Link to={'http://www.dc37.net/benefits/education'} target="_blank">click here</Link>.
+                </div>
+            </section>
+
+            <section>
+                <p className="text-xl font-bold">Members in CUNY</p>
+                <div>
+                    <p className="text-md font-bold">CUNY White Collar Contract</p>
+                    <p className="text-sm font-bold">Section 5 — Educational Opportunities</p>
+                    <p className="mb-2">
+                        Employees shall be exempted from the payment of tuition fees for courses offered at 
+                        colleges of The City University, as defined in Article I, pursuant to the following conditions;
+                    </p>
+                    <ol className="pl-8" style={{ listStyleType: 'lower-alpha' }}>
+                        <li className="mb-2">
+                            Each employee, to qualify for tuition fee exemption, shall:
+                            <ul className="pl-8 list-decimal">
+                                <li>be a full-time active employee, and</li>
+                                <li>have served full time for at least twelve months prior to the first day of classes, and</li>
+                                <li>
+                                    meet the academic requirements for the course. (It is not necessary for the employee to 
+                                    be a candidate for a degree; the employee may be a non-degree student)
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="mb-2">
+                            Tuition fee exemption shall be offered for courses which are:
+                            <ul className="pl-8 list-decimal">
+                                <li>in an associate degree program</li>
+                                <li>in a baccalaureate degree program</li>
+                            </ul>
+                        </li>
+                        <li className="mb-2">
+                            Exemption from payment of tuition fees shall not apply to adult education courses or to 
+                            other courses supported solely by fees except as provided herein.
+                        </li>
+                        <li className="mb-2">
+                            Exemption from payment of tuition fees does not include exemption from payment 
+                            of non-instructional fees.
+                        </li>
+                        <li className="mb-2">
+                            Selected employees who are recommended by their supervisor for training in 
+                            stenography, typing, and other special work skills, after consultation with the administrative 
+                            head of the Division in which the course is offered, for example, a Dean of a School, 
+                            shall be exempt from payment of tuition fees for such courses.
+                        </li>
+                        <li className="mb-2">
+                            Other conditions of tuition fee exemption:
+                            <ul className="pl-8 list-decimal">
+                                <li>
+                                    There must be an available vacancy in the course at the time of enrollment and such 
+                                    enrollment shall not be used to determine if the course is to be given.
+                                </li>
+                                <li>The course shall not be taken during employee's normal working hours.</li>
+                                <li>
+                                    An employee may choose to take a course during his/her lunch hour which is designated as 
+                                    the period between the hours of 11:45 a.m. and 2:15 p.m., provided that when an employee 
+                                    elects to take a course during the lunch hour he/she will automatically be charged, 
+                                    at the beginning of the semester, at the rate of 15 minutes of annual leave per contact 
+                                    hour. Therefore, on a semester basis, an employee will be charged one-half (1/2) day 
+                                    of annual leave for each classroom period per week (a classroom period is not to exceed 
+                                    sixty (60) minutes). If at the end of the semester, the employee can reasonably demonstrate 
+                                    to his/her College Director of Human Resources that the time charged was not used, all such 
+                                    time will be restored to the employee's annual leave balance.
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="mb-2">
+                            The controlling factors in the availability of the educational opportunities described above 
+                            shall continue to be time in employment, availability of courses, work schedules, and, with 
+                            reference to subsection (e) selection.
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <p className="text-md font-bold">Memorandum of Agreement CUNY & DC 37 (July 2005)</p>
+                    <p className="text-sm font-bold">Section 6</p>
+                    <p>
+                        the respective Blue and White Collar Unit Agreements shall be amended to provide 
+                        three (3) credits per semester at the graduate level to full-time employees of the 
+                        Blue and White Collar Units during the fall and spring semesters, on a space available, no 
+                        cost basis, in accordance with the requirements set forth in Article V, Section 5 of the 
+                        Blue and White Collar Unit Agreements.
+                    </p>
+                </div>
+            </section>
         </>
     );
 }
