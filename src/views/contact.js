@@ -46,6 +46,12 @@ export function Contact() {
                     </div>
                 </div>
             </section>
+
+            <section className="mt-24">
+                <p style={{ textAlign: 'center', fontSize: '13px' }}>
+                    Please use your personal e-mail address when e-mailing Local 2627. We are not allowed to send e-mail to sites owned and operated by the city.
+                </p>
+            </section>
         </>
     );
 }
