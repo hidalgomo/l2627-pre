@@ -70,7 +70,8 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="constitution" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
+                                    <Link to={ 'https://local2627.org/resources/pdf/L2627Constitution.pdf' } target='_blank'
+                                        className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
                                         Local's Constitution
                                     </Link>
                                 </li>
