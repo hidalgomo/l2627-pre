@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Education() {
     return (
         <>
+            <p className="mb-8 text-3xl font-bold">Education</p>
             <section className="mb-10">
                 <p className="text-xl font-bold">Online Training</p>
                 <p>
