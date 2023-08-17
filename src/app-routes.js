@@ -4,6 +4,7 @@ import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, Ea
 import { Contact } from './views/contact';
 import { Salaries } from './views/salaries';
 import { Meetings } from './views/meetings';
+import { Minutes } from './views/minutes';
 
 const AppRoutes = () => { 
     return (
@@ -22,6 +23,7 @@ const AppRoutes = () => {
                     <Route path="contact" element={<Contact />} />
                     <Route path="salaries" element={<Salaries />} />
                     <Route path="meetings" element={ <Meetings /> } />
+                    <Route path="minutes" element={ <Minutes /> } />
                 </Routes>
             </main>
             <Footer />
