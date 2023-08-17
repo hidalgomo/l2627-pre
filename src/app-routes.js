@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './components';
 import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, EalertSignupForm } from './views';
 import { Contact } from './views/contact';
+import { Salaries } from './views/salaries';
 
 const AppRoutes = () => { 
     return (
@@ -17,7 +18,8 @@ const AppRoutes = () => {
                     <Route path="grievances" element={<Grievances />} />
                     <Route path="benefits" element={<Benefits />} />
                     <Route path="telework" element={<Telework />} />
-                    <Route path='contact' element={<Contact />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="salaries" element={<Salaries />} />
                 </Routes>
             </div>
             <Footer />
