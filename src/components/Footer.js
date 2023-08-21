@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import L2627Logo from '../assets/l2627_logo.png'
 
 export default function Footer() {
     return (
@@ -10,8 +11,11 @@ export default function Footer() {
                     <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
                         <div className="mb-10 w-full">
                             <Link to="/" className="mb-6 inline-block text-inherit">
-                                <h1 style={{ letterSpacing: '2.5px', fontWeight: 500, fontSize: '1.5em' }}>L2627</h1>
-                                <small>IT Professional of the City of New York</small>
+                                {/* <h1 style={{ letterSpacing: '2.5px', fontWeight: 500, fontSize: '1.5em' }}>L2627</h1>
+                                <small>IT Professional of the City of New York</small> */}
+
+                                <img src={ L2627Logo } alt='Local2627 Logo' style={{ width: '80%'  }} />
+
                             </Link>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ const AppRoutes = () => {
     return (
         <div>
             <Navbar />
-            <main className="container mx-auto max-w-full p-4 sm:p-6 lg:p-8">
+            <main className="container mx-auto max-w-full p-4 sm:p-6 lg:p-8" style={{ minHeight: '500px' }}>
                 <Routes>
                     <Route path="education" element={<Education />} />
                     <Route path="/" element={<Home />} />
