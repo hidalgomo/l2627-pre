@@ -11,7 +11,7 @@ export default function Navbar() {
         pages: [
             { name: 'EDUCATION', href: 'education' },
             { name: 'TITLES', href: 'titles' },
-            { name: 'CONTACT US', href: 'contactus' },
+            { name: 'CONTACT US', href: 'contact' },
             { name: 'E-ALERTS', href: 'ealert' },
         ],
         categories: [
@@ -44,7 +44,7 @@ export default function Navbar() {
                             { name: 'Contracts', href: 'contracts' },
                             { name: 'Meetings', href: 'meetings' },
                             { name: 'Leadership', href: 'leadership' },
-                            { name: 'Local 2627\'s Constitution', href: 'constitution' },
+                            { name: 'Local 2627\'s Constitution', href: 'https://local2627.org/resources/pdf/L2627Constitution.pdf' },
                             { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
                         ],
                     },
