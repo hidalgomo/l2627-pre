@@ -44,7 +44,11 @@ export default function Navbar() {
                             { name: 'Contracts', href: 'contracts' },
                             { name: 'Meetings', href: 'meetings' },
                             { name: 'Leadership', href: 'leadership' },
-                            { name: 'Local 2627\'s Constitution', href: 'https://local2627.org/resources/pdf/L2627Constitution.pdf' },
+                            { 
+                                name: 'Local 2627\'s Constitution', 
+                                href: 'https://local2627.org/resources/pdf/L2627Constitution.pdf',
+                                hasTarget: true
+                            },
                             { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
                         ],
                     },
@@ -248,7 +252,8 @@ export default function Navbar() {
                                                                                                 {
                                                                                                     section.items.map((item) => (
                                                                                                         <li key={item.name} className="flex">
-                                                                                                            <Link to={ item.href } className="hover:text-gray-800">{ item.name }</Link>
+                                                                                                            <Link to={ item.href } className="hover:text-gray-800"
+                                                                                                                target={ item.hasTarget? '_blank' : '' } >{ item.name }</Link>
                                                                                                         </li>
                                                                                                     ))
                                                                                                 }

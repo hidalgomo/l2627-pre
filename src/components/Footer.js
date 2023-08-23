@@ -2,6 +2,50 @@ import { Link } from 'react-router-dom';
 import L2627Logo from '../assets/l2627_logo.png'
 
 export default function Footer() {
+
+    const affiliates = [
+        {
+            name: 'AFL-CIO',
+            title: 'American Federation of Labor - Congress of Industrial Organizations',
+            href: 'https://www.aflcio.org/'
+        },
+        {
+            name: 'AFSCME',
+            title: 'American Federation of State, County and Municipal Employees',
+            href: 'https://www.afscme.org/'
+        },
+        {
+            name: 'DC37',
+            title: 'District Council 37',
+            href: 'https://www.dc37.net/'
+        },
+        {
+            name: 'APRI',
+            title: 'A. Philip Randolph Institute',
+            href: 'http://www.apri.org/'
+        },
+        {
+            name: 'APALA',
+            title: 'Asian Pacific American Labor Alliance',
+            href: 'https://www.apalanet.org/'
+        },
+        {
+            name: 'CBTU',
+            title: 'Coalition of Black Trade Unionists',
+            href: 'https://www.cbtu.org/'
+        },
+        {
+            name: 'CLUW',
+            title: 'Coalition of Labor Union Women',
+            href: 'https://www.cluw.org/'
+        },
+        {
+            name: 'LCLAA',
+            title: 'Labor Council for Latin American Advancement',
+            href: 'https://www.lclaa.org/'
+        }
+    ];
+
     return (
         <footer className="relative z-10 bg-black px-4 sm:px-6 lg:px-8 text-white" 
             style={{ paddingTop: '100px', paddingBottom: '60px' }}>
@@ -87,30 +131,14 @@ export default function Footer() {
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Affiliates</h4>
                             <ul>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">AFL-CIO</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">AFSCME</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">DC37</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">APRI</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">APALA</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">CBTU</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">CLUW</Link>
-                                </li>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">LCLAA</Link>
-                                </li>
+                                {
+                                    affiliates.map((item) => (
+                                        <li key={ item.name }>
+                                            <Link to={ item.href } target="_blank" title={ item.title }
+                                                className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">{ item.name }</Link>
+                                        </li>
+                                    ))
+                                }
                             </ul>
                         </div>
                     </div>
