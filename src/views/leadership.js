@@ -4,6 +4,78 @@ const people = [
         role: 'President',
         imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         imageUrl2: 'https://local2627.org/resources/images/LauraPirtleMorand150x255_20180808.jpg',
+    },
+    {
+        name: 'Kalpesh Patel',
+        role: '1st Vice President, DC 37 Delegate',
+        imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        imageUrl2: 'https://local2627.org/resources/images/KalpeshPatel150x225_20220203.jpg',
+    },
+    {
+        name: 'Marie Lodescar',
+        role: '2nd Vice President, DC 37 Delegate',
+        imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        imageUrl2: 'https://local2627.org/resources/images/MarieLodescar150x255_20220203.jpg',
+    },
+    {
+        name: "Mohammad Chowdhury",
+        role: "Treasurer, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/MohammadChowdhury150x225_200141219.jpg"
+    },
+    {
+        name: "Ann George",
+        role: "Secretary, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/AnnGeorge150x225_20200506.jpg"
+    },
+    {
+        name: "Charles L. McClain",
+        role: "Executive Board Member, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/CharlesMcClain150x225_20141014.jpg"
+    },
+    {
+        name: "George Villegas",
+        role: "Executive Board Member, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/GeorgeVillegas150x225_20151020.jpg"
+    },
+    {
+        name: "Anthony Chambers",
+        role: "Executive Board Member, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/anthony_chambers.jpg"
+    },
+    {
+        name: "Noel Ramos",
+        role: "Executive Board Member, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/NoelRamos150x225_20151020.jpg"
+    },
+    {
+        name: "Robert Benjamin",
+        role: "DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/RobertBenjamin150x225_20170918.jpg"
+    },
+    {
+        name: "Marie R. Jeremie",
+        role: "NYC Central Labor Council Delegate",
+        imageUrl2: "https://local2627.org/resources/images/MarieJeremie150x225_20200915.jpg"
+    },
+    {
+        name: "MD Jaman",
+        role: "NYC Central Labor Council Delegate",
+        imageUrl2: "https://local2627.org/resources/images/MDJaman150x255_20220203.jpg"
+    },
+    {
+        name: "Mitchell Goldberg",
+        role: "NYC Central Labor Council Delegate",
+        imageUrl2: "https://local2627.org/resources/images/MitchellGoldberg150x255_20220203.jpg"
+    },
+    {
+        name: "Kennard Gopaul",
+        role: "Trustee",
+        imageUrl2: "https://local2627.org/resources/images/KennardGopaul150x225_20191119.jpg"
+    },
+    {
+        name: "William Freeman",
+        role: "Trustee",
+        imageUrl2: "https://local2627.org/resources/images/william_freeman.jpg"
     }
 ];
 
@@ -23,7 +95,7 @@ export default function Leadership() {
                     people.map((person) => (
                         <li key={ person.name }>
                             <div className="flex items-center gap-x-6">
-                                <img className="h-16 w-16 rounded-full" src={ person.imageUrl } alt="" />
+                                <img className="h-16 w-16 rounded-full" src={ person.imageUrl2 } alt="" />
                                 <div>
                                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{ person.name }</h3>
                                     <p className="text-sm font-semibold leading-6 text-indigo-600">{ person.role }</p>
