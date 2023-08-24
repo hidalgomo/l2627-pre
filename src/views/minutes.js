@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 export function Minutes() {
     return (
         <>
-            <p className="mb-8 text-3xl font-bold">Minutes</p>
+            <h3 className="text-3xl font-bold pb-8">Minutes</h3>
+            
             <details open>
                 <summary>2023</summary>
                 <ul className="list-disc mb-6 pl-8">
