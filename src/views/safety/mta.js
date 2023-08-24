@@ -21,7 +21,7 @@ export function MTA() {
                 </li>
             </ul>
 
-            <p className="text-lg font-bold mb-2">Article XXVIII. City-wide Issues</p>
+            <p className="text-lg font-bold mb-2">Article XXVIII. Citywide Issues</p>
             <ul className="list-disc mb-4 pl-8">
                 <li>
                     The parties agree to re-open discussions on the following topics should the City effect changes during 
