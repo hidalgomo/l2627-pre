@@ -277,7 +277,7 @@ export default function Education() {
                     children, as well as to members and retirees. Click on the links below to find out more.
                     <br />
                     <br />
-                    <ul className="list-disc mb-6 pl-8">
+                    <ul className="list-disc mb-4 pl-8">
                         <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/SAT.html'}>SAT Prep Courses</Link></li>
                         <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/saturday.html'}>Saturday Fun Programs (Guitar, Photography, Tai Chi, and Yoga, etc.)</Link></li>
                         <li><Link to={'http://www.dc37.net/benefits/education/deptclasses/retirees.html'}>Special Programs for Retirees</Link></li>
@@ -295,9 +295,9 @@ export default function Education() {
             </section>
 
             <section>
-                <p className="text-xl font-bold">Members in CUNY</p>
+                <p className="text-xl font-bold mb-2">Members in CUNY</p>
                 <div>
-                    <p className="text-md font-bold">CUNY White Collar Contract</p>
+                    <p className="text-md font-bold mb-2">CUNY White Collar Contract</p>
                     <p className="text-sm font-bold">Section 5 — Educational Opportunities</p>
                     <p className="mb-2">
                         Employees shall be exempted from the payment of tuition fees for courses offered at 
