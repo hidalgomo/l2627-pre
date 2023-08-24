@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export function Telework() {
     return (
         <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold pb-2">Telework</h3>
+            <h3 className="text-3xl font-bold pb-8">Telework</h3>
             
             <h3 className="text-2xl">Leave, & Timekeeping Policies During COVID-19</h3>
             <div className="py-4">

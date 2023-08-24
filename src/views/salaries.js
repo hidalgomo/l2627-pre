@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export function Salaries() {
     return (
         <>
+            <h3 className="text-3xl font-bold pb-8">Salaries</h3>
             <ul>
                 <li><Link to={ 'https://local2627.org/resources/pdf/PA04122023.pdf' } target="_blank">Citywide Salaries</Link></li>
                 <li><Link to={ 'https://local2627.org/resources/pdf/longevity.pdf' } target="_blank">Citywide Longevity</Link></li>
