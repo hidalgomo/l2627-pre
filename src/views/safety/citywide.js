@@ -4,7 +4,7 @@ export function Citywide() {
             <h3 className="text-3xl font-bold">Citywide Safety Contract</h3>
             <p className="text-xl font-bold pb-8">Safety & Health</p>
 
-            <p className="text-lg font-bold mb-2">ARTICLE XIV — OCCUPATIONAL SAFETY AND HEALTH</p>
+            <p className="text-lg font-bold mb-2">Article XIV. Occupational Safety & Health</p>
             <p className="font-bold mb-2">Section 1</p>
             <p className="mb-4">
                 The Employer shall establish a Citywide Occupational Safety and Health Committee, the members 
@@ -85,7 +85,7 @@ export function Citywide() {
                 </li>
             </ol>
 
-            <p className="text-lg font-bold mb-2">ARTICLE XVIII — VDT OPERATORS</p>
+            <p className="text-lg font-bold mb-2">Article XVIII. VDT Operators</p>
 
             <p className="font-bold mb-2">Section 1. Applicability</p>
             <p className="mb-4">

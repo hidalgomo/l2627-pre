@@ -4,7 +4,7 @@ export function CUNY() {
             <h3 className="text-3xl font-bold">CUNY Contract</h3>
             <p className="text-xl font-bold pb-8">Safety & Health</p>
 
-            <p className="text-lg font-bold mb-2">ARTICLE XVI — OCCUPATIONAL SAFETY AND HEALTH</p>
+            <p className="text-lg font-bold mb-2">Article XVI. Occupational Safety & Health</p>
             <p className="font-bold mb-2">Section 1</p>
             <p className=" mb-4">
                 The Labor-Management Committee established pursuant to Article XIX shall sit, 
