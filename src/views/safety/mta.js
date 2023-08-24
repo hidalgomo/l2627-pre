@@ -1,9 +1,10 @@
 export function MTA() {
     return (
         <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold pb-8">MTA Safety</h3>
+            <h3 className="text-3xl font-bold">Metropolitan Transit Authority Contract</h3>
+            <p className="text-xl font-bold pb-8">Safety & Health</p>
             
-            <p className="text-xl font-bold mb-2">Article XVIII. Miscellaneous Working Conditions</p>
+            <p className="text-lg font-bold mb-2">Article XVIII. Miscellaneous Working Conditions</p>
             <ul className="list-disc mb-4 pl-8">
                 <li className="mb-2">
                     The Authority agrees to provide adequate, clean, safe and sanitary working conditions, in 
@@ -20,7 +21,7 @@ export function MTA() {
                 </li>
             </ul>
 
-            <p className="text-xl font-bold mb-2">Article XXVIII. City-wide Issues</p>
+            <p className="text-lg font-bold mb-2">Article XXVIII. City-wide Issues</p>
             <ul className="list-disc mb-4 pl-8">
                 <li>
                     The parties agree to re-open discussions on the following topics should the City effect changes during 
@@ -28,7 +29,7 @@ export function MTA() {
                 </li>
             </ul>
 
-            <p className="text-xl font-bold mb-2">Article XXXII. Disabled Employees</p>
+            <p className="text-lg font-bold mb-2">Article XXXII. Disabled Employees</p>
             <ul className="list-disc mb-4 pl-8">
                 <li>
                     The parties agree to make any modifications to this collective bargaining agreement as may be 
