@@ -62,7 +62,7 @@ export default function Navbar() {
                             { name: 'DOE', href: 'safety/doe' },
                             { name: 'MTA', href: 'safety/mta' },
                             { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
-                            { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
+                            // { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
                         ],
                     },
                 ],
