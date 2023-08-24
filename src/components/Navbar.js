@@ -56,7 +56,7 @@ export default function Navbar() {
                         id: 'workSafety',
                         name: 'Work Safety',
                         items: [
-                            { name: 'Workplace Safety', href: 'safety/workplace' },
+                            { name: 'Workplace', href: 'safety/workplace' },
                             { name: 'Citywide', href: 'safety/citywide' },
                             { name: 'CUNY', href: 'safety/cuny' },
                             { name: 'DOE', href: 'safety/doe' },
