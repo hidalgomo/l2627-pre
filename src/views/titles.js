@@ -3,7 +3,7 @@ import { Collapse } from "react-collapse";
 import { Link } from "react-router-dom";
 import TitlePanel from "../components/title-panel";
 
-export default function Titles() {
+export function Titles() {
     const [titles, setTitles] = useState();
     const [isTitleListOpen, setTitleListOpen] = useState(false);
     const [isTitlePanelOpen, setTitlePanelOpen] = useState(false);

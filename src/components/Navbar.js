@@ -13,6 +13,7 @@ export default function Navbar() {
             { name: 'TITLES', href: 'titles' },
             { name: 'CONTACT US', href: 'contact' },
             { name: 'E-ALERTS', href: 'ealert' },
+            { name: 'TELEWORK', href: 'telework' },
         ],
         categories: [
             {
@@ -37,7 +38,6 @@ export default function Navbar() {
                         id: 'resources',
                         name: 'Resources',
                         items: [
-                            { name: 'Telework', href: 'telework' },
                             { name: 'Salaries', href: 'salaries' },
                             { name: 'Grievances', href: 'grievances' },
                             { name: 'Benefits', href: 'benefits' },

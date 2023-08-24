@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Benefits() {
+export function Benefits() {
     return (
         <div className="max-w-3xl">
             <h3 className="text-3xl font-bold pb-2">Benefits</h3>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import LDPImage from "../assets/ldp2023_001.jpg"
 
-export default function Home() {
+export function Home() {
     return (
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 grid-flow-row">
             <div className="lg:col-span-3">

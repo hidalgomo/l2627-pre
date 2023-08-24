@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Workplace() {
     return (
         <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold pb-8">Workplace Safety</h3>
+            <h3 className="text-3xl font-bold pb-8">Safety & Health</h3>
 
             <div>
                 <p className="text-xl font-bold mb-2">Contract Language</p>
@@ -17,7 +17,7 @@ export function Workplace() {
                     <li><Link to={ '/safety/cuny' }>City University of New York</Link></li>
                     <li><Link to={ '/safety/doe' }>Department of Education</Link></li>
                     <li><Link to={ '/safety/sca' }>School Construction Authority</Link></li>
-                    <li><Link to={ '/safety/ta' }>Transit Authority</Link></li>
+                    <li><Link to={ '/safety/mta' }>Transit Authority</Link></li>
                 </ul>
 
                 <p className="text-xl font-bold mb-2">Safety & Health Law</p>
@@ -34,7 +34,7 @@ export function Workplace() {
                     <li><Link to={ '/safety/cuny' }>City University of New York</Link></li>
                     <li><Link to={ '/safety/doe' }>Department of Education</Link></li>
                     <li><Link to={ '/safety/sca' }>School Construction Authority</Link></li>
-                    <li><Link to={ '/safety/ta' }>Transit Authority</Link></li>
+                    <li><Link to={ '/safety/mta' }>Transit Authority</Link></li>
                 </ul>
                 <p className="mb-2">
                     The DC 37 Safety & Health Dept. can help with filing forms, finding a reputable workers' 
