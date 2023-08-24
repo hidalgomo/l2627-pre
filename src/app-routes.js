@@ -6,6 +6,7 @@ import { Salaries } from './views/salaries';
 import { Meetings } from './views/meetings';
 import { Minutes } from './views/minutes';
 import { Contracts } from './views/contracts';
+import { Workplace } from './views/safety/workplace';
 
 const AppRoutes = () => { 
     return (
@@ -26,6 +27,7 @@ const AppRoutes = () => {
                     <Route path="meetings" element={ <Meetings /> } />
                     <Route path="minutes" element={ <Minutes /> } />
                     <Route path="contracts" element={ <Contracts /> } />
+                    <Route path="safety/workplace" element={ <Workplace /> } />
                 </Routes>
             </main>
             <Footer />
