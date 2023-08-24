@@ -56,9 +56,6 @@ export function Workplace() {
 
                 <p className="text-xl font-bold mb-2">Computers & Ergonomics</p>
                 <ul className="list-disc mb-8 pl-8">
-                    {/* <li><Link to={ 'https://www.nycosh.org/workplace_hazards/vdt.html' } target="_blank">Computer Workstation Health & Safety Checklist (NYCOSH)</Link></li>
-                    <li><Link to={ 'https://www.afscme.orgpublications/1328.cfm' } target="_blank">The Keys to Healthy Computing: A Health and Safety Handbook (AFSCME)</Link></li>
-                    <li><Link to={ 'https://www.nycosh.org/specific_industries/office_work.html' } target="_blank">Office Work (NYCOSH)</Link></li> */}
                     <li><Link to={ 'http://www.healthycomputing.com/' } target="_blank">Healthy Computing</Link></li>
                 </ul>
 
@@ -67,12 +64,6 @@ export function Workplace() {
                     <li><Link to={ 'https://www.dc37.net/about/OSHA/health' } target="_blank">DC 37 Safety & Health Page</Link></li>
                     <li><Link to={ 'https://www.nycosh.org/' } target="_blank">New York Committee for Occupational Safety & Health (NYCOSH)</Link></li>
                 </ul>
-
-
-                
-                
-
-                
             </div>
         </div>
     );
