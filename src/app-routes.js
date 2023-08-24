@@ -8,6 +8,10 @@ import { Minutes } from './views/minutes';
 import { Contracts } from './views/contracts';
 import { Workplace } from './views/safety/workplace';
 import { Citywide } from './views/safety/citywide';
+import { CUNY } from './views/safety/cuny';
+import { DOE } from './views/safety/doe';
+import { MTA } from './views/safety/mta';
+import { AirConditioning } from './views/safety/air-conditioning';
 
 const AppRoutes = () => { 
     return (
@@ -30,6 +34,10 @@ const AppRoutes = () => {
                     <Route path="contracts" element={ <Contracts /> } />
                     <Route path="safety/workplace" element={ <Workplace /> } />
                     <Route path="safety/citywide" element={ <Citywide /> } />
+                    <Route path="safety/cuny" element={ <CUNY /> } />
+                    <Route path="safety/doe" element={ <DOE /> } />
+                    <Route path="safety/mta" element={ <MTA /> } />
+                    <Route path="safety/airconditioning" element={ <AirConditioning /> } />
                 </Routes>
             </main>
             <Footer />
