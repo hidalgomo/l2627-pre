@@ -7,6 +7,7 @@ import { Meetings } from './views/meetings';
 import { Minutes } from './views/minutes';
 import { Contracts } from './views/contracts';
 import { Workplace } from './views/safety/workplace';
+import { Citywide } from './views/safety/citywide';
 
 const AppRoutes = () => { 
     return (
@@ -28,6 +29,7 @@ const AppRoutes = () => {
                     <Route path="minutes" element={ <Minutes /> } />
                     <Route path="contracts" element={ <Contracts /> } />
                     <Route path="safety/workplace" element={ <Workplace /> } />
+                    <Route path="safety/citywide" element={ <Citywide /> } />
                 </Routes>
             </main>
             <Footer />
