@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export default function Telework() {
+export function Telework() {
     return (
         <div className="max-w-3xl">
             <h3 className="text-3xl font-bold pb-2">Telework</h3>

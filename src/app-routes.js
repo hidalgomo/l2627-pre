@@ -1,6 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './components';
-import { Benefits, Education, Grievances, Home, Leadership, Telework, Titles, EalertSignupForm } from './views';
+import { Home } from './views/home';
+import { Education } from './views/education';
+import { Leadership } from './views/leadership';
+import { Titles } from './views/titles';
+import { EalertSignupForm } from './views/ealert-signup-form';
+import { Grievances } from './views/grievances';
+import { Benefits } from './views/benefits';
+import { Telework } from './views/telework';
 import { Contact } from './views/contact';
 import { Salaries } from './views/salaries';
 import { Meetings } from './views/meetings';
@@ -12,6 +19,7 @@ import { CUNY } from './views/safety/cuny';
 import { DOE } from './views/safety/doe';
 import { MTA } from './views/safety/mta';
 import { AirConditioning } from './views/safety/air-conditioning';
+import { ChurchStaff } from './views/safety/church-staff';
 
 const AppRoutes = () => { 
     return (
@@ -38,6 +46,7 @@ const AppRoutes = () => {
                     <Route path="safety/doe" element={ <DOE /> } />
                     <Route path="safety/mta" element={ <MTA /> } />
                     <Route path="safety/airconditioning" element={ <AirConditioning /> } />
+                    <Route path="safety/churchstaff" element={ <ChurchStaff /> } />
                 </Routes>
             </main>
             <Footer />

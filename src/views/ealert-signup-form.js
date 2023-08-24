@@ -1,5 +1,5 @@
 
-export default function EalertSignupForm() {
+export function EalertSignupForm() {
     return (
         <div className="flex justify-center">
             <div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Education() {
+export function Education() {
     return (
         <div className="max-w-3xl">
             <p className="mb-8 text-3xl font-bold">Education</p>

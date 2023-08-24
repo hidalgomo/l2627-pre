@@ -1,4 +1,4 @@
-export default function Grievances() {
+export function Grievances() {
     return (
         <div className="max-w-3xl">
             <h3 className="text-3xl font-bold pb-2">Grievance</h3>
