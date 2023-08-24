@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Benefits() {
     return (
         <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold pb-2">Benefits</h3>
+            <h3 className="text-3xl font-bold pb-8">Benefits</h3>
             <section>
                 <h3 className="text-2xl">DC 37 Web Site</h3>
                     <ul className="list-disc p-4">
