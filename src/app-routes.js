@@ -19,7 +19,6 @@ import { CUNY } from './views/safety/cuny';
 import { DOE } from './views/safety/doe';
 import { MTA } from './views/safety/mta';
 import { AirConditioning } from './views/safety/air-conditioning';
-import { ChurchStaff } from './views/safety/church-staff';
 import NotFound from './views/error/not-found';
 
 const AppRoutes = () => { 
@@ -48,7 +47,6 @@ const AppRoutes = () => {
                     <Route path="safety/doe" element={ <DOE /> } />
                     <Route path="safety/mta" element={ <MTA /> } />
                     <Route path="safety/airconditioning" element={ <AirConditioning /> } />
-                    <Route path="safety/churchstaff" element={ <ChurchStaff /> } />
                 </Routes>
             </main>
             <Footer />
