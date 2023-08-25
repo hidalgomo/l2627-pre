@@ -19,7 +19,7 @@ import { CUNY } from './views/safety/cuny';
 import { DOE } from './views/safety/doe';
 import { MTA } from './views/safety/mta';
 import { AirConditioning } from './views/safety/air-conditioning';
-import { ChurchStaff } from './views/safety/church-staff';
+import NotFound from './views/error/not-found';
 
 const AppRoutes = () => { 
     return (
@@ -27,8 +27,9 @@ const AppRoutes = () => {
             <Navbar />
             <main className="container mx-auto max-w-full p-4 sm:p-6 lg:p-8" style={{ minHeight: '500px' }}>
                 <Routes>
-                    <Route path="education" element={<Education />} />
+                    <Route path="*" element={<NotFound />} />
                     <Route path="/" element={<Home />} />
+                    <Route path="education" element={<Education />} />
                     <Route path="leadership" element={<Leadership />} />
                     <Route path="titles" element={<Titles />} />
                     <Route path="ealert" element={<EalertSignupForm />} />
@@ -46,7 +47,6 @@ const AppRoutes = () => {
                     <Route path="safety/doe" element={ <DOE /> } />
                     <Route path="safety/mta" element={ <MTA /> } />
                     <Route path="safety/airconditioning" element={ <AirConditioning /> } />
-                    <Route path="safety/churchstaff" element={ <ChurchStaff /> } />
                 </Routes>
             </main>
             <Footer />

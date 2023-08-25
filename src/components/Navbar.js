@@ -49,7 +49,11 @@ export default function Navbar() {
                                 href: 'https://local2627.org/resources/pdf/L2627Constitution.pdf',
                                 hasTarget: true
                             },
-                            { name: 'Workers\'s Comp Attorneys & Reps', href: 'workerscomp' },
+                            { 
+                                name: 'Workers\'s Comp Attorneys & Reps',
+                                href: 'https://local2627.org/resources/pdf/workers_comp_attorneys_reps.pdf',
+                                hasTarget: true
+                            },
                         ],
                     },
                     {
@@ -61,11 +65,10 @@ export default function Navbar() {
                             { name: 'CUNY', href: 'safety/cuny' },
                             { name: 'DOE', href: 'safety/doe' },
                             { name: 'MTA', href: 'safety/mta' },
-                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
-                            { name: '90 Church Staff Lobbying for Better Windows', href: 'safety/churchstaff' },
+                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' }
                         ],
-                    },
-                ],
+                    }
+                ]
             }
         ]
     };
