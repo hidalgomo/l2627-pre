@@ -88,18 +88,18 @@ export function Telework() {
                 <br />
                 <p>Contact Congress and tell them to fund the front lines by texting FUND to 237-263.</p>
                 <p>
-                    <iframe title="Public Service Army" height="315" width="560" border="0" 
-                        src="https://www.youtube-nocookie.com/embed/NvpBk400Ifw" frameborder="0" 
+                    <iframe title="Public Service Army" style={{ maxWidth: '560px', width: '100%', aspectRatio: '2/1' }} 
+                        src="https://www.youtube-nocookie.com/embed/NvpBk400Ifw"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen="allowfullscreen">
+                        allowFullScreen="allowfullscreen">
                     </iframe>
                 </p>
                 <br />
                 <p>
-                    <iframe title="Front-Line Fighters" height="315" width="560" border="0" 
-                        src="https://www.youtube-nocookie.com/embed/gOb0FHT4xsI" frameborder="0" 
+                    <iframe title="Front-Line Fighters" style={{ maxWidth: '560px', width: '100%', aspectRatio: '2/1' }} 
+                        src="https://www.youtube-nocookie.com/embed/gOb0FHT4xsI"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen="allowfullscreen">
+                        allowFullScreen="allowfullscreen">
                     </iframe>
                 </p>
 
