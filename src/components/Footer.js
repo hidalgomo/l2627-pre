@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Pages } from './pages';
 import L2627Logo from '../assets/l2627_logo.png'
 
 export default function Footer() {
@@ -67,31 +68,15 @@ export default function Footer() {
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Navigation</h4>
                             <ul>
-                                <li>
-                                    <Link to="/" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        Home
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="education" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        Education
-                                    </Link>
-                                </li>
-                                <li>
-                                <Link to="titles" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                    Titles
-                                </Link>
-                                </li>
-                                <li>
-                                    <Link to="contactus" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        Contact Us
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="ealerts" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        E-Alerts
-                                    </Link>
-                                </li>
+                                {
+                                    Pages.main.map((page) => (
+                                        <li key={ page.name }>
+                                            <Link to={ page.href } className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
+                                                { page.name }
+                                            </Link>
+                                        </li>
+                                    ))
+                                }
                             </ul>
                         </div>
                     </div>
@@ -100,11 +85,6 @@ export default function Footer() {
                         <div className="mb-10 w-full">
                             <h4 className="mb-9 text-lg font-semibold text-dark">Quick Links</h4>
                             <ul>
-                                <li>
-                                    <Link to="telework" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        Telework
-                                    </Link>
-                                </li>
                                 <li>
                                     <Link to="grievances" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
                                         Grievances

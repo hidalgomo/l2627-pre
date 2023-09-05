@@ -2,19 +2,13 @@ import { Link } from 'react-router-dom';
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Pages } from './pages';
 
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     const classNames = (...classes) =>  classes.filter(Boolean).join(' ');
 
     const navigation = {
-        pages: [
-            { name: 'EDUCATION', href: 'education' },
-            { name: 'TITLES', href: 'titles' },
-            { name: 'CONTACT US', href: 'contact' },
-            { name: 'E-ALERTS', href: 'ealert' },
-            { name: 'TELEWORK', href: 'telework' },
-        ],
         categories: [
             {
                 id: 'moreinfo',
@@ -99,9 +93,9 @@ export default function Navbar() {
                                     </button>
                                 </div>
 
-                                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                                <div className="space-y-6 border-t border-gray-200 px-4 py-6 uppercase">
                                     {
-                                        navigation.pages.map((page) => (
+                                        Pages.main.map((page) => (
                                             <div key={ page.name } className="flow-root">
                                                 <Link to={ page.href } className="-m-2 block p-2 font-medium text-gray-900">
                                                     { page.name }
@@ -199,8 +193,8 @@ export default function Navbar() {
                             <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
                                 <div className="flex h-full space-x-8">
                                     {
-                                        navigation.pages.map((page) => (
-                                            <Link to={ page.href } key={ page.name } className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
+                                        Pages.main.map((page) => (
+                                            <Link to={ page.href } key={ page.name } className="uppercase flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
                                                 { page.name }
                                             </Link>
                                         ))
