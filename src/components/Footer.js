@@ -86,11 +86,6 @@ export default function Footer() {
                             <h4 className="mb-9 text-lg font-semibold text-dark">Quick Links</h4>
                             <ul>
                                 <li>
-                                    <Link to="telework" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
-                                        Telework
-                                    </Link>
-                                </li>
-                                <li>
                                     <Link to="grievances" className="mb-2 inline-block text-base leading-loose text-inherit hover:text-primary">
                                         Grievances
                                     </Link>
