@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function AirConditioning() {
     return (
         <div className="max-w-3xl">
@@ -46,6 +48,15 @@ export function AirConditioning() {
                 </li>
                 <li className="mb-2">NOTE: A CYCLOMETER (SWING THERMOMETER) IS A USEFUL METHOD FOR QUICK MEASUREMENT OF ROOM TEMPERATURE.</li>
             </ul>
+
+            <p className="text-xl font-bold mb-2">Worksite Temperatures</p>
+            <p>
+                <Link to="https://local2627.org/resources/pdf/SafetyAndHealthTemperatures2.pdf"
+                    target="_blank" style={{ color: '#3B71CA' }}>
+                    
+                    Read the article
+                </Link>
+            </p>
         </div>
     );
 }

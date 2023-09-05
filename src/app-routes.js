@@ -20,6 +20,7 @@ import { DOE } from './views/safety/doe';
 import { MTA } from './views/safety/mta';
 import { AirConditioning } from './views/safety/air-conditioning';
 import NotFound from './views/error/not-found';
+import { Home2 } from './views/home2';
 
 const AppRoutes = () => { 
     return (
@@ -47,6 +48,7 @@ const AppRoutes = () => {
                     <Route path="safety/doe" element={ <DOE /> } />
                     <Route path="safety/mta" element={ <MTA /> } />
                     <Route path="safety/airconditioning" element={ <AirConditioning /> } />
+                    <Route path="home2" element={ <Home2 /> } />
                 </Routes>
             </main>
             <Footer />
