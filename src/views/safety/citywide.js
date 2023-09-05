@@ -144,7 +144,7 @@ export function Citywide() {
 
             <p className="font-bold mb-2">Section 5. VDT and Related Equipment</p>
             <ol className="pl-8 mb-6" style={{ listStyleType: 'lower-alpha' }}>
-                <li classname="mb-2">
+                <li className="mb-2">
                     A standing VDT Sub-Committee of the Citywide Occupational Safety and Health Committee instituted 
                     pursuant to Article XIV, section 1 of this Agreement, shall be established with joint Employer and 
                     Union membership. Such sub-committee shall study, issue, and periodically review procurement and 
@@ -153,23 +153,23 @@ export function Citywide() {
                     Agreement. A separate labor-management committee shall be established in the Health and Hospitals 
                     Corporation for such purposes.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     Procurement and ergonomic standards shall be implemented by Mayoral directive. In the Health and 
                     Hospitals Corporation such standards shall be implemented in accordance with existing 
                     procedures. Agencies and facilities of the Health and Hospitals Corporation shall purchase new 
                     equipment and ancillary furniture and equipment in compliance with the then current Mayoral directive 
                     or Health and Hospital Corporation procedure.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     Agencies shall advise the Union of the installation and proposed utilization of new VDT equipment, 
                     and shall make service logs available on a reasonable basis to qualified, authorized Union personnel.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     Employees may at any time informally discuss alleged violation(s) of this section with their 
                     supervisors. The Union may also seek to resolve any alleged violation(s) of this section through 
                     the agency Labor Management Health and Safety Committees.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     If a complaint alleging violation(s) of this section cannot be resolved pursuant to 
                     subsection 5(d), such complaint may be filed by the Union in writing with the Director of the 
                     Citywide Office of Occupational Safety and Health or the Director's designee, or, in the Health 
@@ -181,7 +181,7 @@ export function Citywide() {
                     correct the violation(s) within sixty (60) days. A complaint pursuant to the sub-section must 
                     be brought within sixty (60) days of the initial occurrence of the alleged violation(s).
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     A dispute concerning a determination by the Director of the Office of Citywide Occupational 
                     Health and Safety or the Director's designee, or, in the Health and Hospitals Corporation, 
                     the Director of Occupational Health and Environmental Services or the Director's designee 
@@ -189,7 +189,7 @@ export function Citywide() {
                     ten (10) work days of its issuance for resolution pursuant to Article XV, section 11 of 
                     this Agreement.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     A complaint concerning failure by an agency or agencies to comply with a determination issued 
                     by the Director of the Office of Citywide Occupational Health and Safety or the Director's 
                     designee, or, in the Health and Hospitals Corporation, the Director of Occupational Health 
@@ -197,7 +197,7 @@ export function Citywide() {
                     of Labor Relations within ten (10) working days of the expiration of the time limits set 
                     forth in sub-section 5(e) for resolution pursuant to Article XV, section 11 of this Agreement.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     The provisions of this section 5 shall apply to all employees subject to the terms of the 
                     Citywide Agreement regardless of the number of hours of employment.
                 </li>
@@ -205,19 +205,19 @@ export function Citywide() {
 
             <p className="font-bold mb-2">Section 6. Eye Examinations and Corrective Lenses</p>
             <ol className="pl-8 mb-6" style={{ listStyleType: 'lower-alpha' }}>
-                <li classname="mb-2">
+                <li className="mb-2">
                     The parties shall form a joint sub-committee to develop a program related to the provision of 
                     eye examinations and corrective lenses for VDT operators. It is understood that said sub-committee 
                     shall be charged with developing a program which will operate in the most cost efficient 
                     manner possible.
                 </li>
-                <li classname="mb-2">
+                <li className="mb-2">
                     The guidelines under which the sub-committee shall study the issues are:
                     <ol className="pl-8 mb-6" style={{ listStyleType: 'lower-roman' }}>
-                        <li classname="mb-2">The provision of a base line examination with a follow-up examination every second year.</li>
-                        <li classname="mb-2">The provision of corrective lenses if necessary due to the operation of a VDT terminal.</li>
-                        <li classname="mb-2">Establishment of a cap on the costs of providing the examinations and lenses.</li>
-                        <li classname="mb-2">
+                        <li className="mb-2">The provision of a base line examination with a follow-up examination every second year.</li>
+                        <li className="mb-2">The provision of corrective lenses if necessary due to the operation of a VDT terminal.</li>
+                        <li className="mb-2">Establishment of a cap on the costs of providing the examinations and lenses.</li>
+                        <li className="mb-2">
                             Allowance by the Employer to covered employees of up to two (2) hours of time to take 
                             the baseline examination and follow-up examinations.
                         </li>
