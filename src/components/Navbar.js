@@ -93,7 +93,7 @@ export default function Navbar() {
                                     </button>
                                 </div>
 
-                                <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                                <div className="space-y-6 border-t border-gray-200 px-4 py-6 uppercase">
                                     {
                                         Pages.main.map((page) => (
                                             <div key={ page.name } className="flow-root">
@@ -194,7 +194,7 @@ export default function Navbar() {
                                 <div className="flex h-full space-x-8">
                                     {
                                         Pages.main.map((page) => (
-                                            <Link to={ page.href } key={ page.name } className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
+                                            <Link to={ page.href } key={ page.name } className="uppercase flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
                                                 { page.name }
                                             </Link>
                                         ))

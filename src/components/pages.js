@@ -1,9 +1,9 @@
 export const Pages = {
     main: [
-        { name: 'EDUCATION', href: 'education' },
-        { name: 'TITLES', href: 'titles' },
-        { name: 'CONTACT US', href: 'contact' },
-        { name: 'E-ALERTS', href: 'ealert' },
-        { name: 'TELEWORK', href: 'telework' },
+        { name: 'Education', href: 'education' },
+        { name: 'Titles', href: 'titles' },
+        { name: 'Contact Us', href: 'contact' },
+        { name: 'E-Alerts', href: 'ealert' },
+        { name: 'Telework', href: 'telework' },
     ]
 };
