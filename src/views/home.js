@@ -139,13 +139,13 @@ export function Home() {
                 </p>
                 <br />
 
-                <h3 className="mb-8 text-3xl font-bold">Apply for Exams</h3>
+                {/* <h3 className="mb-8 text-3xl font-bold">Apply for Exams</h3>
                 <p>
                     <Link to="https://local2627.org/whereToApply" style={{ color: '#3B71CA' }}>
                         Click here for more information
                     </Link>
                 </p>
-                <br />
+                <br /> */}
 
                 <h3 className="mb-8 text-3xl font-bold">Apply for Jobs</h3>
                 <ul className="list-disc px-8">
@@ -188,14 +188,14 @@ export function Home() {
                 </p>
                 <br />
                 
-                <h3 className="mb-8 text-3xl font-bold">Worksite Temperatures</h3>
+                {/* <h3 className="mb-8 text-3xl font-bold">Worksite Temperatures</h3>
                 <p>
                     <Link to="https://local2627.org/resources/pdf/SafetyAndHealthTemperatures2.pdf"
                         target="_blank" style={{ color: '#3B71CA' }}>
                         
                         Read the article
                     </Link>
-                </p>
+                </p> */}
             </div>
             <div className="lg:col-span-2">
 
