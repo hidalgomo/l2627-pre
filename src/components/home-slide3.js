@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const posts = [
     {
@@ -80,10 +80,12 @@ export function HomeSlide3() {
                             </div>
                             <div className="group relative">
                                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <a href={ post.href }>
+                                    {/* <a href={ post.href }> */}
+                                    <p>
                                         <span className="absolute inset-0" />
                                         { post.title }
-                                    </a>
+                                    </p>
+                                    {/* </a> */}
                                 </h3>
                                 <p className="mt-5 line-clamp-7 text-sm leading-6 text-gray-600">
                                     { post.description }
