@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+import { DotButton, useDotButton } from './embla-carousel-dot-button'
 import Autoplay from 'embla-carousel-autoplay'
 import { flushSync } from 'react-dom'
 
@@ -7,15 +8,20 @@ import image1 from '../assets/home0001bg.svg'
 import image2 from '../assets/home0002bg.svg'
 import image3 from '../assets/home0003bg.svg'
 import image4 from '../assets/home0004bg.svg'
+import { HomeSlide1 } from './home-slide1'
+import { HomeSlide2 } from './home-slide2'
+import { HomeSlide3 } from './home-slide3'
 
-export const images = [image1, image2, image3, image4]
+const images = [image1, image2, image1, image4]
+const elements = [<HomeSlide1 />, <HomeSlide2 />, <HomeSlide3 />];
 const imageByIndex = (index) => images[index % images.length]
 
 const TWEEN_FACTOR = 1.2
 
 const EmblaCarousel = (props) => {
     const { slides, options } = props;
-    const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 4000 })])
+    const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 15000 })])
+    const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi)
     const [tweenValues, setTweenValues] = useState([])
 
     const onScroll = useCallback(() => {
@@ -60,19 +66,15 @@ const EmblaCarousel = (props) => {
                 { 
                     slides.map((index) => (
                         <div className="embla__slide" key={ index }>
-                            <div className="embla__slide__number">
-                                <span>{index + 1}</span>
-                            </div>
                             <div className="embla__parallax">
                                 <div className="embla__parallax__layer" style={{ ...(tweenValues.length && { transform: `translateX(${ tweenValues[index] }%)` }) }}>
                                     <div style={{ 
                                         width: '100%',
-                                        height: '100vh',
+                                        height: 'calc(100vh - 65px)',
                                         background: `url('${ imageByIndex(index) }') no-repeat center center`,
                                         backgroundSize: 'cover' }}>
 
-                                        {/* Element per each slide */}
-
+                                        { elements[index] }
                                     </div>
                                 </div>
                             </div>
@@ -81,8 +83,17 @@ const EmblaCarousel = (props) => {
                 }
                 </div>
             </div>
+
+            <div className="embla__dots">
+            {
+                scrollSnaps.map((_, index) => (
+                    <DotButton key={index} onClick={() => onDotButtonClick(index)} 
+                        className={'embla__dot'.concat(index === selectedIndex ? ' embla__dot--selected' : '' )} />
+                ))
+            }
+            </div>
         </div>
     )
 }
 
-export default EmblaCarousel
+export default EmblaCarousel;
