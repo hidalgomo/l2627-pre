@@ -6,7 +6,7 @@ import { flushSync } from 'react-dom'
 
 import image1 from '../assets/home0001bg.svg'
 import image2 from '../assets/home0002bg.svg'
-import image3 from '../assets/home0003bg.svg'
+// import image3 from '../assets/home0003bg.svg'
 import image4 from '../assets/home0004bg.svg'
 import { HomeSlide1 } from './home-slide1'
 import { HomeSlide2 } from './home-slide2'
