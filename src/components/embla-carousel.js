@@ -55,22 +55,25 @@ const EmblaCarousel = (props) => {
 
     return (
         <div className="embla">
-            <div className="embla__viewport" ref={emblaRef}>
+            <div className="embla__viewport" ref={ emblaRef }>
                 <div className="embla__container">
                 { 
                     slides.map((index) => (
-                        <div className="embla__slide" key={index}>
+                        <div className="embla__slide" key={ index }>
                             <div className="embla__slide__number">
                                 <span>{index + 1}</span>
                             </div>
                             <div className="embla__parallax">
-                                <div className="embla__parallax__layer" style={{ ...(tweenValues.length && { transform: `translateX(${tweenValues[index]}%)` }) }}>
+                                <div className="embla__parallax__layer" style={{ ...(tweenValues.length && { transform: `translateX(${ tweenValues[index] }%)` }) }}>
                                     <div style={{ 
                                         width: '100%',
                                         height: '100vh',
                                         background: `url('${ imageByIndex(index) }') no-repeat center center`,
-                                        backgroundSize: 'cover' }}></div>
-                                    {/* <img className="embla__slide__img embla__parallax__img" src={imageByIndex(index)} alt="Your alt text" /> */}
+                                        backgroundSize: 'cover' }}>
+
+                                        {/* Element per each slide */}
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
