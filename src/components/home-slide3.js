@@ -43,7 +43,7 @@ const posts = [
         id: 3,
         title: 'Union Representation',
         href: '#',
-        description: 'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+        description: `You have the right to union representation during certain meetings with management.`,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         category: '',
