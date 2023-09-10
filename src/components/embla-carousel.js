@@ -20,7 +20,7 @@ const TWEEN_FACTOR = 1.2
 
 const EmblaCarousel = (props) => {
     const { slides, options } = props;
-    const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 15000 })])
+    const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 20000 })])
     const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi)
     const [tweenValues, setTweenValues] = useState([])
 
