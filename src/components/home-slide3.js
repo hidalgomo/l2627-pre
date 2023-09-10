@@ -61,7 +61,7 @@ export function HomeSlide3() {
         <div className="bg-white sm:mx-6 lg:mx-8 py-24 sm:py-32 mx-auto max-w-7xl lg:px-8 sm:px-6 px-4">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Good to know!</h2>
+                    <h2 className="lg:text-2xl md:text-2xl text-6xl font-bold tracking-tight text-gray-900">Good to know!</h2>
                     <p className="mt-2 text-lg leading-8 text-gray-600">
                         Learn and grow with the IT Professionals of the City of New York!
                     </p>
