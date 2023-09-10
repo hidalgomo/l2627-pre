@@ -58,8 +58,8 @@ const posts = [
 
 export function HomeSlide3() {
     return (
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className=" bg-white py-24 sm:py-32">
+            <div className="sm:mx-6 lg:mx-8 mx-auto max-w-7xl lg:px-8 sm:px-6 px-11">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="sm:text-3xl text-4xl font-bold tracking-tight text-gray-900">Good to know!</h2>
                     <p className="mt-2 text-lg leading-8 text-gray-600">
