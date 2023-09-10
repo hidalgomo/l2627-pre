@@ -4,7 +4,7 @@ export function HomeSlide2() {
     return (
         <div className="sm:mx-6 lg:mx-8 py-24 sm:py-32 mx-auto max-w-7xl lg:px-8 sm:px-6 px-11">
             <div className="mx-auto max-w-2xl lg:mx-0">
-                <h2 className="lg:text-2lg md:text-2xl text-4xl mb-6 font-bold tracking-tight text-white">Stay informed with us!</h2>
+                <h2 className="sm:text-3xl text-4xl mb-6 font-bold tracking-tight text-white">Stay informed with us!</h2>
 
                 <ul className="list-none">
                     <li className="mb-3">
