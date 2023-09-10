@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const posts = [
     {
@@ -58,7 +58,7 @@ const posts = [
 
 export function HomeSlide3() {
     return (
-        <div className="bg-white sm:mx-6 lg:mx-8 py-24 sm:py-32 mx-auto max-w-7xl lg:px-8 sm:px-6 px-5">
+        <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="lg:text-2xl md:text-2xl sm:text-3xl text-4xl font-bold tracking-tight text-gray-900">Good to know!</h2>
@@ -82,6 +82,7 @@ export function HomeSlide3() {
                                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     {/* <a href={ post.href }> */}
                                     <p>
+
                                         <span className="absolute inset-0" />
                                         { post.title }
                                     </p>
