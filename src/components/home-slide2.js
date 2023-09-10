@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function HomeSlide2() {
     return (
-        <div className="py-24 sm:py-32 mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="sm:mx-6 lg:mx-8 py-24 sm:py-32 mx-auto max-w-7xl lg:px-8 sm:px-6 px-10">
             <div className="mx-auto max-w-2xl lg:mx-0">
                 <h2 className="text-2xl mb-6 font-bold tracking-tight text-white sm:text-4xl">Stay informed with us!</h2>
 
