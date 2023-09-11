@@ -1,8 +1,7 @@
 export function Grievances() {
     return (
-        <div className="max-w-3xl">
-            <h3 className="text-3xl font-bold pb-8">Air Conditioning</h3>
-
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
+            <h3 className="text-3xl font-bold pb-8">Grievance</h3>
             <div>
                 <p>
                     When, how and why to file a grievance

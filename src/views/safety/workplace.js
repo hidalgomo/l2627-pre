@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 
 export function Workplace() {
     return (
-        <div className="max-w-3xl">
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Safety & Health</h3>
-
             <div>
                 <p className="text-xl font-bold mb-2">Contract Language</p>
                 

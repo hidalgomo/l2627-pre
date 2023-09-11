@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function AirConditioning() {
     return (
-        <div className="max-w-3xl">
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Air Conditioning</h3>
             
             <p className="text-xl font-bold mb-2">Interpretive Memorandum No. 52</p>
