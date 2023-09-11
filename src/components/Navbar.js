@@ -7,7 +7,6 @@ import { Pages } from './pages';
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     const classNames = (...classes) =>  classes.filter(Boolean).join(' ');
-    const closeMenu = () => setOpen(false);
 
     const navigation = {
         categories: [
@@ -152,7 +151,7 @@ export default function Navbar() {
                                                                     {
                                                                         section.items.map((item) => (
                                                                             <li key={ item.name } className="flow-root">
-                                                                                <Link to={ item.href } onClick={ closeMenu } className="-m-2 block p-2 text-gray-500">{ item.name }</Link>
+                                                                                <Link to={ item.href } className="-m-2 block p-2 text-gray-500">{ item.name }</Link>
                                                                             </li>
                                                                         ))
                                                                     }
