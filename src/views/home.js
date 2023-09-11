@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Banner } from "../components/banner";
 import EmblaCarousel from "../components/embla-carousel";
-import LDPImage from "../assets/ldp2023_001.jpg"
 import '../css/embla.css'
 
 const OPTIONS = { align: 'start', dragFree: false }
