@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export function Telework() {
     return (
-        <div className="max-w-3xl">
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Telework</h3>
             
             <h3 className="text-xl font-bold">Leave, & Timekeeping Policies During COVID-19</h3>
@@ -77,7 +77,7 @@ export function Telework() {
                 </p>
             </div>
             
-            <h3 className="text-xl font-bold">Fund the Front Lines</h3>
+            {/* <h3 className="text-xl font-bold">Fund the Front Lines</h3>
             <div className="py-4">
                 <p>
                     This isn't about partisanship. It's about clean water, road repairs, safe schools, first responders and
@@ -102,19 +102,7 @@ export function Telework() {
                         allowFullScreen="allowfullscreen">
                     </iframe>
                 </p>
-
-                <ul className="list-disc p-4">
-                    <li><Link to="/covid19" title="COVID-19">COVID-19</Link></li>
-                    <li>
-                        <Link to="/resources/pdf/PSB_600_4_Temporary_Citywide_Telework_Policy_for_City_Employees_During_t.pdf" target="_blank"
-                            title="PSB 600.4 Temporary Citywide Telework Policy for City Employees During the current COVID-19 Outbreak">
-                            
-                            Telework for Mayoral Agencies Telework Policy
-                        </Link>
-                    </li>
-                    <li>CSM's Accretion</li>
-                </ul>
-            </div>
+            </div> */}
         </div>
     );
 }

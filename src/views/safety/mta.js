@@ -1,6 +1,6 @@
 export function MTA() {
     return (
-        <div className="max-w-3xl">
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold">Metropolitan Transit Authority Contract</h3>
             <p className="text-xl font-bold pb-8">Safety & Health</p>
             
