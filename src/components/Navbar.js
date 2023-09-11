@@ -7,6 +7,7 @@ import { Pages } from './pages';
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     const classNames = (...classes) =>  classes.filter(Boolean).join(' ');
+    const closeMenu = () => setOpen(false);
 
     const navigation = {
         categories: [
@@ -106,7 +107,7 @@ export default function Navbar() {
                                 </div>
 
                                 {/* Links */}
-                                <Tab.Group as="div" className="mt-2">
+                                <Tab.Group as="div" className="mt-2" id='temppp'>
                                     <div className="border-b border-gray-200">
                                         <Tab.List className="-mb-px flex space-x-8 px-4">
                                             {
@@ -151,7 +152,7 @@ export default function Navbar() {
                                                                     {
                                                                         section.items.map((item) => (
                                                                             <li key={ item.name } className="flow-root">
-                                                                                <Link to={ item.href } className="-m-2 block p-2 text-gray-500">{ item.name }</Link>
+                                                                                <Link to={ item.href } onClick={ closeMenu } className="-m-2 block p-2 text-gray-500">{ item.name }</Link>
                                                                             </li>
                                                                         ))
                                                                     }
@@ -231,7 +232,7 @@ export default function Navbar() {
                                                                                             <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                                                                                                 <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                                                                                             </div>
-                                                                                            <Link to={ item.href } className="mt-6 block font-medium text-gray-900">
+                                                                                            <Link to={ item.href } onClick={ open } className="mt-6 block font-medium text-gray-900">
                                                                                                 <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                                                 { item.name }
                                                                                             </Link>
@@ -249,7 +250,7 @@ export default function Navbar() {
                                                                                                 {
                                                                                                     section.items.map((item) => (
                                                                                                         <li key={item.name} className="flex">
-                                                                                                            <Link to={ item.href } className="hover:text-gray-800"
+                                                                                                            <Link to={ item.href } onClick={ open } className="hover:text-gray-800"
                                                                                                                 target={ item.hasTarget? '_blank' : '' } >{ item.name }</Link>
                                                                                                         </li>
                                                                                                     ))
