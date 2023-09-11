@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import LDPImage from "../assets/ldp2023_001.jpg"
 
 export function HomeBak() {
     return (
@@ -198,13 +197,6 @@ export function HomeBak() {
                 </p> */}
             </div>
             <div className="lg:col-span-2">
-
-                <h3 className="mb-8 text-2xl font-bold">Labor Day Parade</h3>
-                <p>
-                    <img src={ LDPImage } alt="Labor Day Parade" style={{ maxWidth: '400px' }} />
-                </p>
-                <br />
-
                 <h3 className="mb-8 text-2xl font-bold">Orthopoxyvirus-Monkeypox</h3>
                 <p>
                     <Link to="https://local2627.org/resources/pdf/Monkeypox_Leave_Guidance_80922_sent_to_MLC.pdf"
