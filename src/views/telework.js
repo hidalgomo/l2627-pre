@@ -76,33 +76,6 @@ export function Telework() {
                     </Link>
                 </p>
             </div>
-            
-            {/* <h3 className="text-xl font-bold">Fund the Front Lines</h3>
-            <div className="py-4">
-                <p>
-                    This isn't about partisanship. It's about clean water, road repairs, safe schools, first responders and
-                    well-staffed hospitals. And the bottom line is this: we can't defeat the coronavirus and reopen the economy
-                    without strong, well-funded public services. We're shouting this message from the rooftops — and now over
-                    the airwaves.
-                </p>
-                <br />
-                <p>Contact Congress and tell them to fund the front lines by texting FUND to 237-263.</p>
-                <p>
-                    <iframe title="Public Service Army" style={{ maxWidth: '560px', width: '100%', aspectRatio: '2/1' }} 
-                        src="https://www.youtube-nocookie.com/embed/NvpBk400Ifw"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen="allowfullscreen">
-                    </iframe>
-                </p>
-                <br />
-                <p>
-                    <iframe title="Front-Line Fighters" style={{ maxWidth: '560px', width: '100%', aspectRatio: '2/1' }} 
-                        src="https://www.youtube-nocookie.com/embed/gOb0FHT4xsI"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen="allowfullscreen">
-                    </iframe>
-                </p>
-            </div> */}
         </div>
     );
 }
