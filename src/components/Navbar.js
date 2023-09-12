@@ -202,15 +202,16 @@ export default function Navbar() {
 
                                     {
                                         navigation.categories.map((category) => (
-                                            <Popover key={category.name} className="flex">
+                                            <Popover key={ category.name } className="flex">
                                                 {
                                                     ({ open }) => (
                                                         <>
                                                         <div className="relative flex">
-                                                            <Popover.Button className={classNames(
+                                                            <Popover.Button className={ classNames(
                                                                 open ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-700 hover:text-gray-800',
                                                                 'relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out'
-                                                                )}>{category.name}
+                                                                )}>
+                                                                    { category.name }
                                                             </Popover.Button>
                                                         </div>
 
@@ -227,14 +228,16 @@ export default function Navbar() {
                                                                             <div className="col-start-2 grid grid-cols-2 gap-x-8">
                                                                                 {
                                                                                     category.featured.map((item) => (
-                                                                                        <div key={item.name} className="group relative text-base sm:text-sm">
+                                                                                        <div key={ item.name } className="group relative text-base sm:text-sm">
                                                                                             <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                                                                                <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
+                                                                                                <img src={ item.imageSrc } alt={ item.imageAlt } className="object-cover object-center" />
                                                                                             </div>
-                                                                                            <Link to={ item.href } onClick={ open } className="mt-6 block font-medium text-gray-900">
+
+                                                                                            <Popover.Button as={ Link } to={ item.href } className="mt-6 block font-medium text-gray-900">
                                                                                                 <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                                                 { item.name }
-                                                                                            </Link>
+                                                                                            </Popover.Button>
+
                                                                                             <p aria-hidden="true" className="mt-1">Learn More</p>
                                                                                         </div>
                                                                                     ))
@@ -243,14 +246,16 @@ export default function Navbar() {
                                                                             <div className="row-start-1 grid grid-cols-3 gap-x-8 gap-y-10 text-sm">
                                                                                 {
                                                                                     category.sections.map((section) => (
-                                                                                        <div key={section.name}>
+                                                                                        <div key={ section.name }>
                                                                                             <p id={`${section.name}-heading`} className="font-medium text-gray-900">{ section.name }</p>
                                                                                             <ul aria-labelledby={`${section.name}-heading`} className="mt-6 space-y-6 sm:mt-4 sm:space-y-4">
                                                                                                 {
                                                                                                     section.items.map((item) => (
                                                                                                         <li key={item.name} className="flex">
-                                                                                                            <Link to={ item.href } onClick={ open } className="hover:text-gray-800"
-                                                                                                                target={ item.hasTarget? '_blank' : '' } >{ item.name }</Link>
+                                                                                                            <Popover.Button as={ Link } to={ item.href } className="hover:text-gray-800"
+                                                                                                                target={ item.hasTarget? '_blank' : '' }>
+                                                                                                                { item.name }
+                                                                                                            </Popover.Button>
                                                                                                         </li>
                                                                                                     ))
                                                                                                 }
