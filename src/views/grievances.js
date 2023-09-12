@@ -2,7 +2,7 @@ export function Grievances() {
     return (
         <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Grievance</h3>
-            <div>
+            <div className="mb-6">
                 <p>
                     When, how and why to file a grievance
                     <br />
@@ -14,8 +14,8 @@ export function Grievances() {
                 </p>
             </div>
 
-            <h3 className="text-2xl py-4">When to File a Grievance</h3>
-            <div>
+            <h3 className="text-lg font-bold mb-2">When to File a Grievance</h3>
+            <div className="mb-6">
                 <p>
                     File a grievance whenever
                     your employer violates a provision of the contract. If
@@ -44,8 +44,8 @@ export function Grievances() {
                 </p>
             </div>
 
-            <h3 className="text-2xl py-4">How a Grievance works</h3>
-            <div>
+            <h3 className="text-lg font-bold mb-2">How a Grievance works</h3>
+            <div className="mb-6">
                 <p>
                     Shop stewards have copies of
                     grievance forms. The first step in pursuing a grievance
@@ -100,8 +100,8 @@ export function Grievances() {
                 </p>
             </div>
 
-            <h3 className="text-2xl py-4">Why Filing a Grievance is Important</h3>
-            <div>
+            <h3 className="text-lg font-bold mb-2">Why Filing a Grievance is Important</h3>
+            <div className="mb-6">
                 <p>
                     Sometimes union members know
                     the employer is violating the contract but they are

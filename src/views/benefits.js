@@ -4,8 +4,9 @@ export function Benefits() {
     return (
         <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Benefits</h3>
+
             <section>
-                <h3 className="text-2xl">DC 37 Web Site</h3>
+                <p className="text-lg font-bold mb-2">DC 37 Web Site</p>
                     <ul className="list-disc p-4">
                     <li>
                         <Link to="http://www.dc37.net/benefits/health" target="_blank" title="DC 37 Health and Security Plan Benefits">
@@ -21,7 +22,7 @@ export function Benefits() {
             </section>
 
             <section>
-                <h3 className="text-2xl">Retirement</h3>
+                <p className="text-lg font-bold mb-2">Retirement</p>
                 <ul className="list-disc p-4">
                     <li>
                         <Link to="http://www.nycbers.org/" target="_blank" title="NY City Board of Education Retirement System (BER)">NY
@@ -60,7 +61,7 @@ export function Benefits() {
             </section>
 
             <section>
-                <h3 className="text-3xl">Lenovo offers discounts on new computers to DC 37 members</h3>
+                <p className="text-lg font-bold mb-2">Lenovo offers discounts on new computers to DC 37 members</p>
                 <p className="py-4">
                     DC 37 members can receive discounts on computer purchases through a discount
                     plan arranged by Lenovo and the union. The union expects the plan to be part
@@ -100,7 +101,7 @@ export function Benefits() {
             </section>
 
             <section>
-                <h3 className="text-3xl">Discounts on Movies, Broadway Tickets, DVD Rentals, and more</h3>
+                <p className="text-lg font-bold mb-2">Discounts on Movies, Broadway Tickets, DVD Rentals, and more</p>
                 <p className="py-4">
                     <Link to="http://www.unionplus.org" target="_blank" title="UnionPlus">UnionPlus &nbsp;</Link>
                     offers union members discounts on movie rentals and many kinds of tickets — movies,

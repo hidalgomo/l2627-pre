@@ -5,7 +5,7 @@ export function Meetings() {
         <>
             <h3 className="text-3xl font-bold pb-8">Meetings</h3>
             
-            <p className="text-xl font-bold">General Membership Meetings</p>
+            <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <ul>
                 <li>January 17, 2023     6:00 pm</li>
                 <li>March 21, 2023       6:00 pm</li>
@@ -19,7 +19,7 @@ export function Meetings() {
                 <li>November 21, 2023    6:00 pm</li>
             </ul>
             <br />
-            <p className="text-xl font-bold">Shop Steward Meetings Meetings</p>
+            <p className="text-lg font-bold mb-2">Shop Steward Meetings Meetings</p>
             <ul>
                 <li>February 21, 2023    6:00 pm</li>
                 <li>October 17, 2023     6:00 pm</li>
