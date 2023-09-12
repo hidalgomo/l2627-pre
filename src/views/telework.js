@@ -5,7 +5,7 @@ export function Telework() {
         <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Telework</h3>
             
-            <h3 className="text-xl font-bold">Leave, & Timekeeping Policies During COVID-19</h3>
+            <h3 className="text-lg font-bold mb-2">Leave, & Timekeeping Policies During COVID-19</h3>
             <div className="py-4">
                 <p>
                     <Link to="/resources/pdf/Personnel_Memorandum_No_1-2022-23.pdf" target="_blank" title="Personnel Memorandum No 1-2022-23">
@@ -14,7 +14,7 @@ export function Telework() {
                 </p>
             </div>
 
-            <h3 className="text-xl font-bold">Employees During Outbreak</h3>
+            <h3 className="text-lg font-bold mb-2">Employees During Outbreak</h3>
             <div className="py-4">
                 <p>
                     Updated Guidance for City Agencies on Leave Policy Applicable During the Outbreak of Coronavirus Disease
@@ -34,7 +34,7 @@ export function Telework() {
                 </p>
             </div>
             
-            <h3 className="text-xl font-bold">Telework Policy for Mayoral Agencies</h3>
+            <h3 className="text-lg font-bold mb-2">Telework Policy for Mayoral Agencies</h3>
             <div className="py-4">
                 <p>
                     <Link to="/resources/pdf/PSB_600_3_Temporary_Citywide_Telework_Policy_for_City_Employees_During_t.pdf" target="_blank" 
@@ -45,7 +45,7 @@ export function Telework() {
                 </p>
             </div>
             
-            <h3 className="text-xl font-bold">H+H Telework Policy</h3>
+            <h3 className="text-lg font-bold mb-2">H+H Telework Policy</h3>
             <div className="py-4">
                 <p>
                     <Link to="/resources/pdf/COVID19_Hospitals_Teleworking.pdf" target="_blank" title="COVID-19 NYC Health + Hospitals Telework Policy">
@@ -54,7 +54,7 @@ export function Telework() {
                 </p>
             </div>
             
-            <h3 className="text-xl font-bold">Remote Work Guidelines for CUNY</h3>
+            <h3 className="text-lg font-bold mb-2">Remote Work Guidelines for CUNY</h3>
             <div className="py-4">
                 <p>
                     <Link to="/resources/pdf/CUNY_Remote_Work_Guidelines.pdf" target="_blank" title="CUNY Remote Work Guidelines">
@@ -63,7 +63,7 @@ export function Telework() {
                 </p>
             </div>
             
-            <h3 className="text-xl font-bold">Emergency Childcare</h3>
+            <h3 className="text-lg font-bold mb-2">Emergency Childcare</h3>
             <div className="py-4">
                 <p>
                     <Link to="/resources/pdf/Regional_Enrichment_Centers_CONVID19.pdf" target="_blank" title="Regional Enrichment Centers (CONVID-19)">
