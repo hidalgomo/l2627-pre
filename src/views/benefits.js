@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Benefits() {
     return (
-        <div className="max-w-3xl">
+        <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Benefits</h3>
             <section>
                 <h3 className="text-2xl">DC 37 Web Site</h3>
