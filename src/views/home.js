@@ -21,8 +21,8 @@ export function Home() {
             <br />
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 grid-flow-row lg:px-8 sm:px-6 px-11">
                 <div className="lg:col-span-3">
-                    <h3 className="mb-8 text-3xl font-bold">Computer Use</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
+                    <p className="mb-8">
                         You cannot be bared from computer use for union activities.
                         <br />
                         <Link to="https://local2627.org/resources/pdf/DEP-CannotBarComputerUseForUnionActivities.pdf" target="_blank"
@@ -31,31 +31,28 @@ export function Home() {
                             Read the article
                         </Link>
                     </p>
-                    <br />
                     
-                    <h3 className="mb-8 text-3xl font-bold">Layoffs: Know your rights</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Layoffs: Know your rights</h3>
+                    <p className="mb-8">
                     Read this article from the Public Employee Press,&nbsp;
                         <Link to="https://local2627.org/resources/pdf/LayoffRightsTakenFromPEP.pdf"
                             target="_blank" style={{ color: '#3B71CA' }}>
                             
                             page 20
                         </Link>
-                        </p>
-                    <br />
+                    </p>
 
-                    <h3 className="mb-8 text-3xl font-bold">Civil Service Employment Status</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Civil Service Employment Status</h3>
+                    <p className="mb-8">
                         <Link to="https://local2627.org/resources/pdf/TypesOfEmploymentStatus.pdf"
                             target="_blank" style={{ color: '#3B71CA' }}>
                             
                             Read the article
                         </Link>
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-3xl font-bold">Fair Labor Standards Act</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Fair Labor Standards Act</h3>
+                    <p className="mb-8">
                         Who gets paid overtime according to the Fair Labor Standards Act,&nbsp;
                         <Link to="https://local2627.org/resources/pdf/FLSA-CashOvertime.pdf"
                             target="_blank" style={{ color: '#3B71CA' }}>
@@ -63,10 +60,9 @@ export function Home() {
                             Read the article
                         </Link>
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-3xl font-bold">DCAS List Restoration</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">DCAS List Restoration</h3>
+                    <p className="mb-8">
                         What do I do if I'm called from a civil service list for a job interview?<br />
                         Follow the instructions on your interview... (
                             <Link to="https://local2627.org/listRestoration" style={{ color: '#3B71CA' }}>
@@ -74,10 +70,9 @@ export function Home() {
                             </Link>
                         )
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-3xl font-bold">Apply for Jobs</h3>
-                    <ul className="list-disc px-8">
+                    <h3 className="mb-2 text-xl font-bold">Apply for Jobs</h3>
+                    <ul className="list-disc px-8 mb-8">
                         <li>
                             For a list of New York City jobs,&nbsp;
                             <Link to="https://a127-jobs.nyc.gov/" target="_blank" style={{ color: '#3B71CA' }}>click here</Link>
@@ -91,10 +86,9 @@ export function Home() {
                             </Link>
                         </li>
                     </ul>
-                    <br />
 
-                    <h3 className="mb-8 text-3xl font-bold">Bereavement</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Bereavement</h3>
+                    <p className="mb-8">
                         Good and Welfare is generally flowers or a fruit basket sent to members 
                         that are seriously ill or members who suffer the death of an immediate 
                         family member or a new birth in the members immediate family. As I stated 
@@ -115,40 +109,36 @@ export function Home() {
                         include the member's name, agency and phone number. We need to know the where 
                         to send, the what to send and the who to send to.
                     </p>
-                    <br />
                 </div>
 
                 <div className="lg:col-span-2">
-                    <h3 className="mb-8 text-2xl font-bold">Orthopoxyvirus-Monkeypox</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Orthopoxyvirus-Monkeypox</h3>
+                    <p className="mb-8">
                         <Link to="https://local2627.org/resources/pdf/Monkeypox_Leave_Guidance_80922_sent_to_MLC.pdf"
                             target="_blank" style={{ color: '#3B71CA' }}>
                             
                             Read the policy
                         </Link>
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">Women's Leadership Academy</h3>
+                    <p className="mb-8">
                         <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
                             target="_blank">
                             
                             <img src="https://local2627.org/resources/images/Womens_Leadership_Academy.png" alt="Women" />
                         </Link>
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">DC37 Rewards</h3>
-                    <p>
+                    <h3 className="mb-2 text-xl font-bold">DC37 Rewards</h3>
+                    <p className="mb-8">
                         <Link to="https://local2627.org/resources/pdf/DC37_Rewards.pdf" target="_blank">
                             <img src="https://local2627.org/resources/images/DC37_Rewards.png" alt="DC37" />
                         </Link>
                     </p>
-                    <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Paid Family Leave</h3>
-                    <ul className="list-disc px-8">
+                    <h3 className="mb-2 text-xl font-bold">Paid Family Leave</h3>
+                    <ul className="list-disc px-8 mb-8">
                         <li><Link to="https://local2627.org/resources/pdf/440_16.pdf" target="_blank">Paid Family Leave Benefits for Represented Employees</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/NY_PFL_20181203.pdf" target="_blank">NY Paid Family Leave Summary</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/PFL_Mayorals.pdf" target="_blank">NY Paid Family Leave — Mayoral Agencies</Link></li>
@@ -157,7 +147,6 @@ export function Home() {
                         <li><Link to="https://local2627.org/resources/pdf/PFL_NYCHA.pdf" target="_blank">NY Paid Family Leave — NYCHA</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/Paid_Family_Leave_Info.pdf" target="_blank">More Info</Link></li>
                     </ul>
-                    <br />
                 </div>
             </div>
 
