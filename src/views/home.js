@@ -129,26 +129,6 @@ export function Home() {
                     </p>
                     <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Unlimited Sick Leave for Employees with 9/11 Related Illnesses</h3>
-                    <p>
-                        <Link to="https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf"
-                            target="_blank" style={{ color: '#3B71CA' }}>
-                            
-                            Read more
-                        </Link>
-                    </p>
-                    <br />
-
-                    {/* <h3 className="mb-8 text-2xl font-bold">Titles That Can Live Outside of NYC</h3>
-                    <p>
-                        <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
-                            target="_blank" style={{ color: '#3B71CA' }}>
-                            
-                            Read more
-                        </Link>
-                    </p>
-                    <br /> */}
-
                     <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
                     <p>
                         <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
@@ -168,18 +148,14 @@ export function Home() {
                     <br />
 
                     <h3 className="mb-8 text-2xl font-bold">Paid Family Leave</h3>
-                    <p>
-                        <Link to="https://local2627.org/resources/pdf/Paid_Family_Leave_Info.pdf" target="_blank">
-                            <img src="https://local2627.org/resources/images/Paid_Family_Leave_Info.png" alt="DCAS" />
-                        </Link>
-                    </p>
                     <ul className="list-disc px-8">
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/440_16.pdf" target="_blank">Paid Family Leave Benefits for Represented Employees</Link></li>
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/NY_PFL_20181203.pdf" target="_blank">NY Paid Family Leave Summary</Link></li>
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/PFL_Mayorals.pdf" target="_blank">NY Paid Family Leave — Mayoral Agencies</Link></li>
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/PFL_DOE.pdf" target="_blank">NY Paid Family Leave — DOE</Link></li>
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/PFL_HH.pdf" target="_blank">NY Paid Family Leave — H+H</Link></li>
-                        <li><Link style={{ color: '#3B71CA' }} to="https://local2627.org/resources/pdf/PFL_NYCHA.pdf" target="_blank">NY Paid Family Leave — NYCHA</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/440_16.pdf" target="_blank">Paid Family Leave Benefits for Represented Employees</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/NY_PFL_20181203.pdf" target="_blank">NY Paid Family Leave Summary</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/PFL_Mayorals.pdf" target="_blank">NY Paid Family Leave — Mayoral Agencies</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/PFL_DOE.pdf" target="_blank">NY Paid Family Leave — DOE</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/PFL_HH.pdf" target="_blank">NY Paid Family Leave — H+H</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/PFL_NYCHA.pdf" target="_blank">NY Paid Family Leave — NYCHA</Link></li>
+                        <li><Link to="https://local2627.org/resources/pdf/Paid_Family_Leave_Info.pdf" target="_blank">More Info</Link></li>
                     </ul>
                     <br />
                 </div>
