@@ -139,7 +139,7 @@ export function Home() {
                     </p>
                     <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Titles That Can Live Outside of NYC</h3>
+                    {/* <h3 className="mb-8 text-2xl font-bold">Titles That Can Live Outside of NYC</h3>
                     <p>
                         <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
                             target="_blank" style={{ color: '#3B71CA' }}>
@@ -147,7 +147,7 @@ export function Home() {
                             Read more
                         </Link>
                     </p>
-                    <br />
+                    <br /> */}
 
                     <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
                     <p>

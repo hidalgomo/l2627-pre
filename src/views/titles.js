@@ -59,7 +59,7 @@ export function Titles() {
                     <div className="pb-80 pt-16 sm:p-40 sm:pt-24 lg:pb-48 lg:pt-40">
                         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                             <div className="sm:max-w-lg">
-                                <h1 className="text-5xl font-bold tracking-tight text-gray-900 font-extralight">
+                                <h1 className="text-5xl tracking-tight text-gray-900 font-light">
                                     Career <span className="text-3xl">& Titles</span>
                                 </h1>
                                 <p className="mt-4 text-base">
@@ -71,19 +71,26 @@ export function Titles() {
                                     culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                             </div>
-                            <div>
+                            <div className="mb-4">
                                 <div className="mt-10">
-                                    <button className="inline-block rounded-md border border-transparent 
-                                        bg-cyan-700 px-4 py-1 text-center font-medium text-white"
+                                    <button className="text-white rounded-full bg-cyan-700 px-6 py-1.5 text-center font-medium"
                                         onClick={ () => setTitleListOpen(!isTitleListOpen) }>
                                         
                                         Title list
-                                        <svg className="inline-block w-6 h-6 ml-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                                        </svg>
                                     </button>
                                 </div>
                             </div>
+
+                            <div>
+                                <Link to={ 'https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf' }
+                                    target="_blank" className="text-black rounded-full bg-gray-50 px-6 py-1.5 font-medium">
+                                    
+                                    Titles That Can Live Outside of NYC
+                                </Link>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
