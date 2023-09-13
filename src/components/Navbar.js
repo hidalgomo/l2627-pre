@@ -18,7 +18,7 @@ export default function Navbar() {
                         name: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
                         href: 'https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf',
                         imageSrc: 'https://img.freepik.com/free-vector/flat-hand-drawn-time-management-concept_23-2148822825.jpg',
-                        imageAlt: 'The majority of city departments use this tech stack to construct applications or systems.',
+                        imageAlt: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
                         hasTarget: true
                     },
                     {

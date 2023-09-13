@@ -130,13 +130,6 @@ export function Home() {
                         </Link>
                     </p>
 
-                    <h3 className="mb-2 text-xl font-bold">DC37 Rewards</h3>
-                    <p className="mb-8">
-                        <Link to="https://local2627.org/resources/pdf/DC37_Rewards.pdf" target="_blank">
-                            <img src="https://local2627.org/resources/images/DC37_Rewards.png" alt="DC37" />
-                        </Link>
-                    </p>
-
                     <h3 className="mb-2 text-xl font-bold">Paid Family Leave</h3>
                     <ul className="list-disc px-8 mb-8">
                         <li><Link to="https://local2627.org/resources/pdf/440_16.pdf" target="_blank">Paid Family Leave Benefits for Represented Employees</Link></li>
