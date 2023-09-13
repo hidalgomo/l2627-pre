@@ -123,7 +123,7 @@ export function Home() {
 
                     <h3 className="mb-2 text-xl font-bold">Women's Leadership Academy</h3>
                     <p className="mb-8">
-                        <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"
+                        <Link to="https://local2627.org/resources/pdf/Womens_Leadership_Academy.pdf "
                             target="_blank">
                             
                             <img src="https://local2627.org/resources/images/Womens_Leadership_Academy.png" alt="Women" />
