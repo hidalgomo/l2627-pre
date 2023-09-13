@@ -139,7 +139,7 @@ export function Home() {
                     </p>
                     <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
+                    <h3 className="mb-8 text-2xl font-bold">DC37 Rewards</h3>
                     <p>
                         <Link to="https://local2627.org/resources/pdf/DC37_Rewards.pdf" target="_blank">
                             <img src="https://local2627.org/resources/images/DC37_Rewards.png" alt="DC37" />
