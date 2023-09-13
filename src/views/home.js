@@ -129,16 +129,6 @@ export function Home() {
                     </p>
                     <br />
 
-                    <h3 className="mb-8 text-2xl font-bold">Unlimited Sick Leave for Employees with 9/11 Related Illnesses</h3>
-                    <p>
-                        <Link to="https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf"
-                            target="_blank" style={{ color: '#3B71CA' }}>
-                            
-                            Read more
-                        </Link>
-                    </p>
-                    <br />
-
                     <h3 className="mb-8 text-2xl font-bold">Women's Leadership Academy</h3>
                     <p>
                         <Link to="https://local2627.org/resources/pdf/Hard_To_Recruit_Titles_Titles_That_Must_Live_in_NYC_b.pdf"

@@ -15,10 +15,11 @@ export default function Navbar() {
                 name: 'MORE INFO',
                 featured: [
                     {
-                        name: 'Predominant Stack Used Citywide',
-                        href: 'techstack',
-                        imageSrc: 'https://miro.medium.com/v2/resize:fit:6042/1*znTBsSR_DHLHDJlYz6Goow.jpeg',
+                        name: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
+                        href: 'https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf',
+                        imageSrc: 'https://img.freepik.com/free-vector/flat-hand-drawn-time-management-concept_23-2148822825.jpg',
                         imageAlt: 'The majority of city departments use this tech stack to construct applications or systems.',
+                        hasTarget: true
                     },
                     {
                         name: 'Working as a Civil Servant',
@@ -132,7 +133,9 @@ export default function Navbar() {
                                                                     <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                                                                         <img src={ item.imageSrc } alt={ item.imageAlt } className="object-cover object-center" />
                                                                     </div>
-                                                                    <Link to={ item.href } className="mt-6 block font-medium text-gray-900">
+                                                                    <Link to={ item.href } className="mt-6 block font-medium text-gray-900"
+                                                                        target={ item.hasTarget? '_blank' : '' }>
+                                                                        
                                                                         <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                         { item.name }
                                                                     </Link>
@@ -233,7 +236,8 @@ export default function Navbar() {
                                                                                                 <img src={ item.imageSrc } alt={ item.imageAlt } className="object-cover object-center" />
                                                                                             </div>
 
-                                                                                            <Popover.Button as={ Link } to={ item.href } className="mt-6 block font-medium text-gray-900">
+                                                                                            <Popover.Button as={ Link } to={ item.href } className="mt-6 block font-medium text-gray-900"
+                                                                                                target={ item.hasTarget? '_blank' : '' }>
                                                                                                 <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                                                                 { item.name }
                                                                                             </Popover.Button>
