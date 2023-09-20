@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Banner } from "../components/banner";
 import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
 
@@ -10,7 +9,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 export function Home() {
     return (
         <div className="-m-4 sm:-m-6 lg:-m-8" style={{ width: '100vw', minHeight: '100vh' }}>
-            <Banner />
+            {/* <Banner /> */}
             <EmblaCarousel slides={ SLIDES } options={ OPTIONS } />
 
 

@@ -4,16 +4,18 @@ import { DotButton, useDotButton } from './embla-carousel-dot-button'
 import Autoplay from 'embla-carousel-autoplay'
 import { flushSync } from 'react-dom'
 
-import image1 from '../assets/home0001bg.svg'
+// import image1 from '../assets/home0001bg.svg'
 import image2 from '../assets/home0002bg.svg'
 // import image3 from '../assets/home0003bg.svg'
 import image4 from '../assets/home0004bg.svg'
-import { HomeSlide1 } from './home-slide1'
+// import { HomeSlide1 } from './home-slide1'
 import { HomeSlide2 } from './home-slide2'
 import { HomeSlide3 } from './home-slide3'
+import { Homeslide0 } from './home-slide0'
 
-const images = [image1, image2, image1, image4]
-const elements = [<HomeSlide1 />, <HomeSlide2 />, <HomeSlide3 />];
+/*eslint no-sparse-arrays: "off"*/
+const images = [,image2,, image4];
+const elements = [<Homeslide0 />, <HomeSlide2 />, <HomeSlide3 />];
 const imageByIndex = (index) => images[index % images.length]
 
 const TWEEN_FACTOR = 1.2
