@@ -10,7 +10,7 @@ export function Homeslide0() {
     return (
         <div className="relative overflow-hidden bg-white" style={{ height: 'calc(100vh - 100px)' }}>
             <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-                <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+                <div className="relative mx-auto max-w-7xl sm:static lg:px-8 sm:px-6 px-11">
                 <div className="sm:max-w-lg">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                         Welcome
@@ -59,13 +59,6 @@ export function Homeslide0() {
                         </div>
                         </div>
                     </div>
-
-                    {/* <a
-                        href="#"
-                        className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
-                    >
-                        Shop Collection
-                    </a> */}
                     </div>
                 </div>
                 </div>
