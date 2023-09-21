@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
+import health001 from '../assets/health001.jpg';
+import health001_flyer from '../assets/health001.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -111,12 +113,12 @@ export function Home() {
                 </div>
 
                 <div className="lg:col-span-2">
-                    <h3 className="mb-2 text-xl font-bold">Orthopoxyvirus-Monkeypox</h3>
+
+                    <h3 className="mb-2 text-xl font-bold">Alzheimer's Disease Dementia Meeting</h3>
                     <p className="mb-8">
-                        <Link to="https://local2627.org/resources/pdf/Monkeypox_Leave_Guidance_80922_sent_to_MLC.pdf"
-                            target="_blank" style={{ color: '#3B71CA' }}>
-                            
-                            Read the policy
+                        <Link to={ health001_flyer } target="_blank">
+                            <img src={ health001 } alt="Alzheimer's Disease Dementia Meeting"
+                                style={{ maxWidth: '400px', width: '100%' }} />
                         </Link>
                     </p>
 
