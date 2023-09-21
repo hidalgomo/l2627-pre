@@ -1,8 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
-import { DotButton, useDotButton } from './embla-carousel-dot-button'
-import Autoplay from 'embla-carousel-autoplay'
 import { flushSync } from 'react-dom'
+import Autoplay from 'embla-carousel-autoplay'
+import useEmblaCarousel from 'embla-carousel-react'
+import React, { useCallback, useEffect, useState } from 'react'
+import { DotButton, useDotButton } from './embla-carousel-dot-button'
 
 import image1 from '../assets/home0001bg.svg'
 // import image2 from '../assets/home0002bg.svg'
