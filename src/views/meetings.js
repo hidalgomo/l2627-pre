@@ -11,18 +11,14 @@ export function Meetings() {
                 <li>March 21, 2023       6:00 pm</li>
                 <li>May 16, 2023         6:00 pm</li>
                 <li>June 20, 2023        6:00 pm</li>
-                <li>
-                    <Link className="font-bold" to={ 'https://email.cloud.secureclick.net/c/6603?id=376361.680.1.1d92a6f8ad87d4ffad04375fb133feb4' } target="_blank">
-                        September 19, 2023 6:00pm - REGISTER HERE!
-                    </Link>
-                </li>
+                <li>September 19, 2023   6:00pm</li>
                 <li>November 21, 2023    6:00 pm</li>
             </ul>
             <br />
-            <p className="text-lg font-bold mb-2">Shop Steward Meetings Meetings</p>
+            <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
             <ul>
                 <li>February 21, 2023    6:00 pm</li>
-                <li>October 17, 2023     6:00 pm</li>
+                <li>October 17, 2023     6:00 pm (Cancelled)</li>
                 <li>December 19, 2023    6:00 pm</li>
             </ul>
 
