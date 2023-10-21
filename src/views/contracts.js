@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import RemoteWorkMOU from '../assets/remote_work_mou.pdf';
 
 export function Contracts() {
     return (
@@ -22,6 +23,7 @@ export function Contracts() {
                 <li><Link to={'https://local2627.org/resources/pdf/ContractSCAUnitB2010-2017b.pdf'} target="_blank">SCA Contract Unit B</Link></li>
                 <li><Link to={'https://local2627.org/resources/pdf/ContractNYCTransit2005-2008.pdf'} target="_blank">Transit Authority</Link></li>
                 <li><Link to={'https://local2627.org/resources/pdf/EconomicAgreementTransit2010-2017.pdf'} target="_blank">Transit Authority Economic Agreement</Link></li>
+                <li><Link to={ RemoteWorkMOU } target="_blank">Remote Work MOU</Link></li>
             </ul>
         </>
     );
