@@ -73,7 +73,7 @@ export function HomeBak() {
                 
                 <h3 className="mb-8 text-3xl font-bold">Computer Use</h3>
                 <p>
-                    You cannot be bared from computer use for union activities.
+                    You cannot be barred from computer use for union activities.
                     <br />
                     <Link to="https://local2627.org/resources/pdf/DEP-CannotBarComputerUseForUnionActivities.pdf" target="_blank"
                         style={{ color: '#3B71CA' }}>
