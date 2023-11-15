@@ -24,7 +24,7 @@ export function Home() {
                 <div className="lg:col-span-3">
                     <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
                     <p className="mb-8">
-                        You cannot be bared from computer use for union activities.
+                        You cannot be barred from computer use for union activities.
                         <br />
                         <Link to="https://local2627.org/resources/pdf/DEP-CannotBarComputerUseForUnionActivities.pdf" target="_blank"
                             style={{ color: '#3B71CA' }}>
