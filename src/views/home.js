@@ -114,13 +114,13 @@ export function Home() {
 
                 <div className="lg:col-span-2">
 
-                    <h3 className="mb-2 text-xl font-bold">Alzheimer's Disease Dementia Meeting</h3>
+                    {/* <h3 className="mb-2 text-xl font-bold">Alzheimer's Disease Dementia Meeting</h3>
                     <p className="mb-8">
                         <Link to={ health001_flyer } target="_blank">
                             <img src={ health001 } alt="Alzheimer's Disease Dementia Meeting"
                                 style={{ maxWidth: '400px', width: '100%' }} />
                         </Link>
-                    </p>
+                    </p> */}
 
                     <h3 className="mb-2 text-xl font-bold">Women's Leadership Academy</h3>
                     <p className="mb-8">
