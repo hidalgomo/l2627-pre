@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
-import health001 from '../assets/health001.jpg';
-import health001_flyer from '../assets/health001.pdf';
+// import health001 from '../assets/health001.jpg';
+// import health001_flyer from '../assets/health001.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
