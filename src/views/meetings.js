@@ -7,19 +7,24 @@ export function Meetings() {
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <ul>
-                <li>January 17, 2023     6:00 pm</li>
-                <li>March 21, 2023       6:00 pm</li>
-                <li>May 16, 2023         6:00 pm</li>
-                <li>June 20, 2023        6:00 pm</li>
-                <li>September 19, 2023   6:00pm</li>
-                <li>November 21, 2023    6:00 pm</li>
+                <li>
+                    January 16, 2024 at 6:00 PM &nbsp;
+                    <Link to={"https://docs.google.com/forms/d/e/1FAIpQLSf6IWEsfnrD7VieJkBPU2XjR8V-aoA4iuN6Uy2OLPDSPhYDPw/viewform"}
+                        target="_blank" style={{ fontWeight: "bold" }}>(REGISTER HERE)</Link>
+                </li>
+                <li>March 19, 2024 at 6:00 PM</li>
+                <li>May 21, 2024 at 6:00 PM</li>
+                <li>June 18, 2024 at 6:00 PM</li>
+                <li>September 17, 2024 at 6:00 PM</li>
+                <li>November 19, 2024 at 6:00 PM</li>
             </ul>
             <br />
             <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
             <ul>
-                <li>February 21, 2023    6:00 pm</li>
-                <li>October 17, 2023     6:00 pm (Cancelled)</li>
-                <li>December 19, 2023    6:00 pm</li>
+                <li>February 20, 2024 at 6:00 PM</li>
+                <li>April 16, 2024 at 6:00 PM</li>
+                <li>October 15, 2024 at 6:00 PM</li>
+                <li>December 17, 2024 at 6:00 PM</li>
             </ul>
 
             <br />

@@ -18,10 +18,9 @@ export function Titles() {
 
     useEffect(() => {
         fetch('https://local2627.org/api/titles')
-        .then(res => res.json())
-        .then(data => setTitles(data))
-        .catch(err => console.log(err));
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+            .then(res => res.json())
+            .then(data => setTitles(data))
+            .catch(err => console.log(err));
     }, []);
 
     return (
