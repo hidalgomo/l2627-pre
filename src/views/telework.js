@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import HhTeleworkAgreement from '../assets/hh_telework_agreement.pdf';
+import RemoteWorkMOU from '../assets/remote_work_mou.pdf';
 
 export function Telework() {
     return (
@@ -43,6 +45,10 @@ export function Telework() {
                         PSB 600.3 Temporary Citywide Telework Policy for City Employees During the current COVID-19 Outbreak
                     </Link>
                 </p>
+                <br />
+                <p>
+                    <Link to={ RemoteWorkMOU } target="_blank">Mayoral Agencies Remote Work Policy</Link>
+                </p>
             </div>
             
             <h3 className="text-lg font-bold mb-2">H+H Telework Policy</h3>
@@ -59,6 +65,15 @@ export function Telework() {
                 <p>
                     <Link to="/resources/pdf/CUNY_Remote_Work_Guidelines.pdf" target="_blank" title="CUNY Remote Work Guidelines">
                         CUNY Remote Work Guidelines
+                    </Link>
+                </p>
+            </div>
+
+            <h3 className="text-lg font-bold mb-2">Health and Hospitals Remote Work Agreement</h3>
+            <div className="py-4">
+                <p>
+                    <Link to={ HhTeleworkAgreement } target="_blank" title="Health and Hospitals Remote Work Agreement">
+                        Health and Hospitals Remote Work Agreement
                     </Link>
                 </p>
             </div>
