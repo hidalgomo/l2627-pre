@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import RemoteWorkMOU from '../assets/remote_work_mou.pdf';
+// import RemoteWorkMOU from '../assets/remote_work_mou.pdf';
 
 export function Contracts() {
     return (
@@ -8,7 +8,7 @@ export function Contracts() {
             <ul className="list-disc mb-6 pl-8">
                 <li><Link to={'https://local2627.org/resources/pdf/EconomicAgreementAcctEDPUnitHHC2008-2010.pdf'} target="_blank">EDP, HHC Economic Agreement</Link></li>
                 <li><Link to={'https://local2627.org/resources/pdf/ContractCitywide2001-2021.pdf'} target="_blank">CityWide</Link></li>
-                <li><Link to={ RemoteWorkMOU } target="_blank">Mayoral Agencies Remote Work Policy</Link></li>
+                {/* <li><Link to={ RemoteWorkMOU } target="_blank">Mayoral Agencies Remote Work Policy</Link></li> */}
                 <li><Link to={'https://local2627.org/resources/pdf/white_collar_agremeent_2016_2022.pdf'} target="_blank">CUNY White Collar</Link></li>
                 <li><Link to={'https://local2627.org/resources/pdf/ContractDOE2010-2017.pdf'} target="_blank">DOE Boardwide</Link></li>
                 <li>
