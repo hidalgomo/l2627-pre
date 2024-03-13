@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import minutes072023 from '../assets/minutes_jun_20_2023.pdf';
+import minutes092023 from '../assets/minutes_sep_19_2023.pdf';
+import minutes112023 from '../assets/minutes_nov_21_2023.pdf';
 
 export function Minutes() {
     return (
@@ -11,6 +14,10 @@ export function Minutes() {
                     <li><Link to="https://local2627.org/resources/pdf/Jan_2023_Local_2626_GMM.pdf" target="_blank" title="January 2023 Minutes">January 23</Link></li>
                     <li><Link to="https://local2627.org/resources/pdf/L2627-General-Membership_Minutes_March-14-2023.pdf" target="_blank" title="March 2023 Minutes">March 14</Link></li>
                     <li><Link to="https://local2627.org/resources/pdf/L2627-General-Membership_Minutes_May-16-2023.pdf" target="_blank" title="May 2023 Minutes">May 16</Link></li>
+
+                    <li><Link to={ minutes072023 } target="_blank" title="June 2023 Minutes">June 20</Link></li>
+                    <li><Link to={ minutes092023 } target="_blank" title="September 2023 Minutes">September 19</Link></li>
+                    <li><Link to={ minutes112023 } target="_blank" title="November 2023 Minutes">November 21</Link></li>
                 </ul>
             </details>
             <details open>
