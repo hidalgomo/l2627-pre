@@ -7,11 +7,7 @@ export function Meetings() {
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <ul>
-                <li>
-                    January 16, 2024 at 6:00 PM &nbsp;
-                    <Link to={"https://docs.google.com/forms/d/e/1FAIpQLSf6IWEsfnrD7VieJkBPU2XjR8V-aoA4iuN6Uy2OLPDSPhYDPw/viewform"}
-                        target="_blank" style={{ fontWeight: "bold" }}>(REGISTER HERE)</Link>
-                </li>
+                <li>January 16, 2024 at 6:00 PM</li>
                 <li>March 19, 2024 at 6:00 PM</li>
                 <li>May 21, 2024 at 6:00 PM</li>
                 <li>June 18, 2024 at 6:00 PM</li>
