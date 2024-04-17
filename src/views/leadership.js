@@ -98,14 +98,9 @@ export function Leadership() {
                         <br />
                         <br />
                         At the heart of our administration lies a steadfast commitment to the principles of fairness, 
-                        equity, and solidarity. We are not mere arbiters of conflict, but champions of justice; not just 
+                        equality, and solidarity. We are not mere arbiters of conflict, but champions of justice; not just 
                         administrators of policy, but architects of progress. With every decision we make, we reaffirm 
                         our unwavering dedication to the well-being and prosperity of our members.
-                        <br/>
-                        <br />
-                        Yet, let us not mistake strength for rigidity, nor authority for infallibility. Ours is a leadership 
-                        forged in the crucible of empathy—a willingness to listen, to learn, and to adapt. We recognize 
-                        that true strength lies not in the exercise of power, but in the capacity for empathy and understanding.
                         <br/>
                         <br />
                         As custodians of this union, we pledge to uphold the sanctity of our members' rights, to amplify 
