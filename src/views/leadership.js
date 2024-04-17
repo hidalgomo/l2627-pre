@@ -1,9 +1,14 @@
+import lauraM from '../assets/LauraMorand300x300.jpeg';
+import nicholasP from '../assets/NicholasPineda299x299.jpg';
+import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
+import williamF from '../assets/WilliamFreeman266x313.jpg';
+
 const people = [
     {
         name: 'Laura Morand',
         role: 'President',
         imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        imageUrl2: 'https://local2627.org/resources/images/LauraPirtleMorand150x255_20180808.jpg',
+        imageUrl2: lauraM,
     },
     {
         name: 'Kalpesh Patel',
@@ -18,9 +23,9 @@ const people = [
         imageUrl2: 'https://local2627.org/resources/images/MarieLodescar150x255_20220203.jpg',
     },
     {
-        name: "Mohammad Chowdhury",
+        name: "Nicholas Pineda",
         role: "Treasurer, DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/MohammadChowdhury150x225_200141219.jpg"
+        imageUrl2: nicholasP
     },
     {
         name: "Ann George",
@@ -65,7 +70,7 @@ const people = [
     {
         name: "Mitchell Goldberg",
         role: "NYC Central Labor Council Delegate",
-        imageUrl2: "https://local2627.org/resources/images/MitchellGoldberg150x255_20220203.jpg"
+        imageUrl2: mitchellG
     },
     {
         name: "Kennard Gopaul",
@@ -75,7 +80,7 @@ const people = [
     {
         name: "William Freeman",
         role: "Trustee",
-        imageUrl2: "https://local2627.org/resources/images/william_freeman.jpg"
+        imageUrl2: williamF
     }
 ];
 
