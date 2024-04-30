@@ -3,7 +3,7 @@ import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
 import pfl_memo from '../assets/pfl_memo.pdf';
 import pfl_deduction from '../assets/pfl_deduction.pdf';
-// import { Banner } from "../components/banner";
+import { Banner } from "../components/banner";
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -12,7 +12,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 export function Home() {
     return (
         <div className="-m-4 sm:-m-6 lg:-m-8" style={{ width: '100vw', minHeight: '100vh' }}>
-            {/* <Banner /> */}
+            <Banner />
             <EmblaCarousel slides={ SLIDES } options={ OPTIONS } />
 
 
