@@ -12,7 +12,7 @@ export function Banner() {
             -
             <br/>
             <Link to={ delegatesPdf } target="_blank" className="font-semibold text-black">
-                Notice of Nomination for AFSCME Delegates 2024
+                Notice of Nomination for AFSCME Convention Delegates 2024
             </Link>
         </div>
     );
