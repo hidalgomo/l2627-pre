@@ -2,6 +2,7 @@ import lauraM from '../assets/LauraMorand300x300.jpeg';
 import nicholasP from '../assets/NicholasPineda299x299.jpg';
 import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
+import annGeorge from '../assets/AnnGeorge400x400.jpg';
 
 const people = [
     {
@@ -30,7 +31,7 @@ const people = [
     {
         name: "Ann George",
         role: "Secretary, DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/AnnGeorge150x225_20200506.jpg"
+        imageUrl2: annGeorge
     },
     {
         name: "Charles L. McClain",
