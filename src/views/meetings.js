@@ -10,7 +10,7 @@ export function Meetings() {
                 <li>January 16, 2024 at 6:00 PM</li>
                 <li>March 19, 2024 at 6:00 PM</li>
                 <li>May 21, 2024 at 6:00 PM</li>
-                <li>June 18, 2024 at 6:00 PM</li>
+                <li>July 09, 2024 at 6:00 PM</li>
                 <li>September 17, 2024 at 6:00 PM</li>
                 <li>November 19, 2024 at 6:00 PM</li>
             </ul>
