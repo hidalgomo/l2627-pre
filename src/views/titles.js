@@ -87,9 +87,6 @@ export function Titles() {
                                     Titles That Can Live Outside of NYC
                                 </Link>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
