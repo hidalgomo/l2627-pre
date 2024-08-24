@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import minutes072023 from '../assets/minutes_jun_20_2023.pdf';
-import minutes092023 from '../assets/minutes_sep_19_2023.pdf';
-import minutes112023 from '../assets/minutes_nov_21_2023.pdf';
+import minutes062023corrected from '../assets/minutes_jun_20_2023_corrected.pdf';
+import minutes011624corrected from '../assets/minutes_jan_16_2024_corrected.pdf';
+import minutes092023corrected from '../assets/minutes_sep_19_2023_corrected.pdf';
+import minutes112023corrected from '../assets/minutes_nov_21_2023_corrected.pdf';
 
 export function Minutes() {
     return (
@@ -9,15 +10,21 @@ export function Minutes() {
             <h3 className="text-3xl font-bold pb-8">Minutes</h3>
             
             <details open>
+                <summary>2024</summary>
+                <ul className="list-disc mb-6 pl-8">
+                    <li><Link to={ minutes011624corrected } target="_blank" title="January 16, 2024 Minutes">January 16</Link></li>
+                </ul>
+            </details>
+            <details open>
                 <summary>2023</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to="https://local2627.org/resources/pdf/Jan_2023_Local_2626_GMM.pdf" target="_blank" title="January 2023 Minutes">January 23</Link></li>
                     <li><Link to="https://local2627.org/resources/pdf/L2627-General-Membership_Minutes_March-14-2023.pdf" target="_blank" title="March 2023 Minutes">March 14</Link></li>
                     <li><Link to="https://local2627.org/resources/pdf/L2627-General-Membership_Minutes_May-16-2023.pdf" target="_blank" title="May 2023 Minutes">May 16</Link></li>
 
-                    <li><Link to={ minutes072023 } target="_blank" title="June 2023 Minutes">June 20</Link></li>
-                    <li><Link to={ minutes092023 } target="_blank" title="September 2023 Minutes">September 19</Link></li>
-                    <li><Link to={ minutes112023 } target="_blank" title="November 2023 Minutes">November 21</Link></li>
+                    <li><Link to={ minutes062023corrected } target="_blank" title="June 20, 2023 Minutes">June 20</Link></li>
+                    <li><Link to={ minutes092023corrected } target="_blank" title="September 19, 2023 Minutes">September 19</Link></li>
+                    <li><Link to={ minutes112023corrected } target="_blank" title="November 21, 2023 Minutes">November 21</Link></li>
                 </ul>
             </details>
             <details open>
