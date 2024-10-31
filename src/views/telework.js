@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import HhTeleworkAgreement from '../assets/hh_telework_agreement.pdf';
 import RemoteWorkMOU from '../assets/remote_work_mou.pdf';
+import RemoteWorkMTA from '../assets/mta_telework.pdf';
 
 export function Telework() {
     return (
@@ -65,6 +66,15 @@ export function Telework() {
                 <p>
                     <Link to="/resources/pdf/CUNY_Remote_Work_Guidelines.pdf" target="_blank" title="CUNY Remote Work Guidelines">
                         CUNY Remote Work Guidelines
+                    </Link>
+                </p>
+            </div>
+
+            <h3 className="text-lg font-bold mb-2">Remote Work for MTA</h3>
+            <div class="py-4">
+                <p>
+                    <Link to={ RemoteWorkMTA } target="_blank" title="Remote Work for MTA">
+                        Remote Work for MTA
                     </Link>
                 </p>
             </div>
