@@ -1,5 +1,5 @@
-// import { Link } from "react-router-dom";
-// import delegateResults from '../assets/dc37_local2627_cor_5.23.2024.pdf';
+import { Link } from "react-router-dom";
+import delegateResults from '../assets/dc37_local2627_cor_5.23.2024.pdf';
 
 export function Banner() {
     return (
@@ -11,9 +11,9 @@ export function Banner() {
             <br/>
             -
             <br/> */}
-            {/* <Link to={ delegateResults } target="_blank" className="font-semibold text-black">
+            <Link to={ delegateResults } target="_blank" className="font-semibold text-black">
                 Results for AFSCME Convention Delegates 2024
-            </Link> */}
+            </Link>
         </div>
     );
 }
