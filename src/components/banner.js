@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import delegateResults from '../assets/dc37_local2627_cor_5.23.2024.pdf';
+// import { Link } from "react-router-dom";
+// import delegateResults from '../assets/dc37_local2627_cor_5.23.2024.pdf';
 
 export function Banner() {
     return (
