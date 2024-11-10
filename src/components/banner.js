@@ -11,9 +11,9 @@ export function Banner() {
             <br/>
             -
             <br/> */}
-            <Link to={ delegateResults } target="_blank" className="font-semibold text-black">
+            {/* <Link to={ delegateResults } target="_blank" className="font-semibold text-black">
                 Results for AFSCME Convention Delegates 2024
-            </Link>
+            </Link> */}
         </div>
     );
 }
