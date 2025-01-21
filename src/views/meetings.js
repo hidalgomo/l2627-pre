@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Meetings() {
 
-    const year = 2025,
+    const year = 2025;
     const hour = 18;
     const dateFormatingOptions = {
         year: 'numeric',
