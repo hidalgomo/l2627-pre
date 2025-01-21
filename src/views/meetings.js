@@ -15,12 +15,15 @@ export function Meetings() {
     };
     
     const meetingDatesAndTime = [
-        new Date(Date.UTC(year, 1, 18, hour, 0)),
-        new Date(Date.UTC(year, 2, 18, hour, 0)),
-        new Date(Date.UTC(year, 4, 20, hour, 0)),
-        new Date(Date.UTC(year, 5, 17, hour, 0)),
-        new Date(Date.UTC(year, 8, 18, hour, 0)),
-        new Date(Date.UTC(year, 10, 18, hour, 0))
+        { type: 'general', date: new Date(Date.UTC(year, 1, 18, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 2, 18, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 4, 20, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 5, 17, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 8, 16, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 10, 18, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 3, 15, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 9, 21, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 11, 16, hour, 0)) },
     ];
 
     return (
@@ -29,19 +32,23 @@ export function Meetings() {
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <p>All meeting will be held at the following location:</p>
-            <address>125 Barclay, New York, NY 10007</address>
+            <address><b>125 Barclay, New York, NY 10007</b></address>
             <br />
             <ul>
                 { 
-                    meetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>)
+                    meetingDatesAndTime
+                        .filter(meeting => metting.type === 'general')
+                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
                 }
             </ul>
             <br />
             <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
             <ul>
-                <li>April 15, {year} at 6PM</li>
-                <li>October 21, {year} at 6PM</li>
-                <li>December 16, {year} at 6PM</li>
+                {
+                    meetingDatesAndTime
+                        .filter(meeting => metting.type === 'steward')
+                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
+                }
             </ul>
 
             <br />
