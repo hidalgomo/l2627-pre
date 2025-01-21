@@ -31,10 +31,10 @@ export function Meetings() {
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <p>All meeting will be held at the following location:</p>
             <address>125 Barclay, New York, NY 10007</address>
-            <br>
+            <br />
             <ul>
                 <li>test start</li>
-                { genMeetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>) }
+                { meetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>) }
 
                 <li>test end</li>
                                              
