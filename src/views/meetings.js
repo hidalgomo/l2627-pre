@@ -39,9 +39,9 @@ export function Meetings() {
             <br />
             <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
             <ul>
-                <li>April 15, {year} at {time}</li>
-                <li>October 21, {year} at {time}</li>
-                <li>December 16, {year} at {time}</li>
+                <li>April 15, {year} at 6PM</li>
+                <li>October 21, {year} at 6PM</li>
+                <li>December 16, {year} at 6PM</li>
             </ul>
 
             <br />
