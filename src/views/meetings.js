@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom";
 
-var year = 2025,
-var hour = 18;
-var dateFormatingOptions = {
-    year: 'numeric',
-    month: 'long', 
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-    hour12: true
-};
-
-var meetingDatesAndTime = [
-    new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
-    new Date(Date.UTC(year, 3, 18, hour, 0, 0)),
-    new Date(Date.UTC(year, 5, 20, hour, 0, 0)),
-    new Date(Date.UTC(year, 6, 17, hour, 0, 0)),
-    new Date(Date.UTC(year, 9, 18, hour, 0, 0)),
-    new Date(Date.UTC(year, 11, 18, hour, 0, 0))
-];
-
 export function Meetings() {
-    const year = 2025;
+
+    const year = 2025,
+    const hour = 18;
+    const dateFormatingOptions = {
+        year: 'numeric',
+        month: 'long', 
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true
+    };
+    
+    const meetingDatesAndTime = [
+        new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
+        new Date(Date.UTC(year, 3, 18, hour, 0, 0)),
+        new Date(Date.UTC(year, 5, 20, hour, 0, 0)),
+        new Date(Date.UTC(year, 6, 17, hour, 0, 0)),
+        new Date(Date.UTC(year, 9, 18, hour, 0, 0)),
+        new Date(Date.UTC(year, 11, 18, hour, 0, 0))
+    ];
+
     const time = '6PM';
     
     return (
