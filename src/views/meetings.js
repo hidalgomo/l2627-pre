@@ -1,26 +1,32 @@
 import { Link } from "react-router-dom";
 
 export function Meetings() {
+    const year = 2025;
+    const time = '6PM';
+    
     return (
         <>
             <h3 className="text-3xl font-bold pb-8">Meetings</h3>
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
+            <p>All meeting will be held at the following location:</p>
+            <address>
+                125 Barclay, New York, NY 10007
+            </address>
             <ul>
-                <li>January 16, 2024 at 6:00 PM</li>
-                <li>March 19, 2024 at 6:00 PM</li>
-                <li>May 21, 2024 at 6:00 PM</li>
-                <li>July 09, 2024 at 6:00 PM</li>
-                <li>September 17, 2024 at 6:00 PM</li>
-                <li>November 19, 2024 at 6:00 PM</li>
+                <li>February 18, {year} at {time}</li>
+                <li>March 18, {year} at {time}</li>
+                <li>May 20, {year} at {time}</li>
+                <li>June 17, {year} at {time}</li>
+                <li>September 16, {year} at {time}</li>
+                <li>November 18, {year} at {time}</li>
             </ul>
             <br />
             <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
             <ul>
-                <li>February 20, 2024 at 6:00 PM</li>
-                <li>April 16, 2024 at 6:00 PM</li>
-                <li>October 15, 2024 at 6:00 PM</li>
-                <li>December 17, 2024 at 6:00 PM</li>
+                <li>April 15, {year} at {time}</li>
+                <li>October 21, {year} at {time}</li>
+                <li>December 16, {year} at {time}</li>
             </ul>
 
             <br />
