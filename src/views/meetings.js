@@ -37,7 +37,7 @@ export function Meetings() {
             <ul>
                 { 
                     meetingDatesAndTime
-                        .filter(meeting => metting.type === 'general')
+                        .filter(meeting => meeting.type === 'general')
                         .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
                 }
             </ul>
@@ -46,7 +46,7 @@ export function Meetings() {
             <ul>
                 {
                     meetingDatesAndTime
-                        .filter(meeting => metting.type === 'steward')
+                        .filter(meeting => meeting.type === 'steward')
                         .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
                 }
             </ul>
