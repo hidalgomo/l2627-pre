@@ -1,5 +1,25 @@
 import { Link } from "react-router-dom";
 
+const year = 2025,
+const hour = 18;
+const dateFormatingOptions = {
+    year: 'numeric',
+    month: 'long', 
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    hour12: true
+};
+
+const meetingDatesAndTime = [
+    new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
+    new Date(Date.UTC(year, 3, 18, hour, 0, 0)),
+    new Date(Date.UTC(year, 5, 20, hour, 0, 0)),
+    new Date(Date.UTC(year, 6, 17, hour, 0, 0)),
+    new Date(Date.UTC(year, 9, 18, hour, 0, 0)),
+    new Date(Date.UTC(year, 11, 18, hour, 0, 0))
+];
+
 export function Meetings() {
     const year = 2025;
     const time = '6PM';
@@ -10,10 +30,14 @@ export function Meetings() {
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <p>All meeting will be held at the following location:</p>
-            <address>
-                125 Barclay, New York, NY 10007
-            </address>
+            <address>125 Barclay, New York, NY 10007</address>
+            <br>
             <ul>
+                <li>test start</li>
+                { genMeetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>) }
+
+                <li>test end</li>
+                                             
                 <li>February 18, {year} at {time}</li>
                 <li>March 18, {year} at {time}</li>
                 <li>May 20, {year} at {time}</li>
