@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Meetings() {
 
     const year = 2025;
-    const hour = 18;
+    const hour = 6;
     const dateFormatingOptions = {
         year: 'numeric',
         month: 'long', 
@@ -14,12 +14,12 @@ export function Meetings() {
     };
     
     const meetingDatesAndTime = [
+        new Date(Date.UTC(year, 1, 18, hour, 0, 0)),
         new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 3, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 5, 20, hour, 0, 0)),
-        new Date(Date.UTC(year, 6, 17, hour, 0, 0)),
-        new Date(Date.UTC(year, 9, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 11, 18, hour, 0, 0))
+        new Date(Date.UTC(year, 4, 20, hour, 0, 0)),
+        new Date(Date.UTC(year, 5, 17, hour, 0, 0)),
+        new Date(Date.UTC(year, 8, 18, hour, 0, 0)),
+        new Date(Date.UTC(year, 10, 18, hour, 0, 0))
     ];
 
     const time = '6PM';
@@ -33,17 +33,9 @@ export function Meetings() {
             <address>125 Barclay, New York, NY 10007</address>
             <br />
             <ul>
-                <li>test start</li>
-                { meetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>) }
-
-                <li>test end</li>
-                                             
-                <li>February 18, {year} at {time}</li>
-                <li>March 18, {year} at {time}</li>
-                <li>May 20, {year} at {time}</li>
-                <li>June 17, {year} at {time}</li>
-                <li>September 16, {year} at {time}</li>
-                <li>November 18, {year} at {time}</li>
+                { 
+                    meetingDatesAndTime.map((meeting, index) => <li key={index}>{ meeting.toLocaleString("en-US", dateFormatingOptions) }</li>)
+                }
             </ul>
             <br />
             <p className="text-lg font-bold mb-2">Shop Steward Meetings</p>
