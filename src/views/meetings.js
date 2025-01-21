@@ -3,27 +3,26 @@ import { Link } from "react-router-dom";
 export function Meetings() {
 
     const year = 2025;
-    const hour = 6;
+    const hour = 18;
     const dateFormatingOptions = {
         year: 'numeric',
         month: 'long', 
         day: 'numeric',
         hour: 'numeric',
         minute: 'numeric',
-        hour12: true
+        hour12: true,
+        timeZone: 'UTC'
     };
     
     const meetingDatesAndTime = [
-        new Date(Date.UTC(year, 1, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 4, 20, hour, 0, 0)),
-        new Date(Date.UTC(year, 5, 17, hour, 0, 0)),
-        new Date(Date.UTC(year, 8, 18, hour, 0, 0)),
-        new Date(Date.UTC(year, 10, 18, hour, 0, 0))
+        new Date(Date.UTC(year, 1, 18, hour, 0)),
+        new Date(Date.UTC(year, 2, 18, hour, 0)),
+        new Date(Date.UTC(year, 4, 20, hour, 0)),
+        new Date(Date.UTC(year, 5, 17, hour, 0)),
+        new Date(Date.UTC(year, 8, 18, hour, 0)),
+        new Date(Date.UTC(year, 10, 18, hour, 0))
     ];
 
-    const time = '6PM';
-    
     return (
         <>
             <h3 className="text-3xl font-bold pb-8">Meetings</h3>
