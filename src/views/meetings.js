@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const year = 2025,
-const hour = 18;
-const dateFormatingOptions = {
+var year = 2025,
+var hour = 18;
+var dateFormatingOptions = {
     year: 'numeric',
     month: 'long', 
     day: 'numeric',
@@ -11,7 +11,7 @@ const dateFormatingOptions = {
     hour12: true
 };
 
-const meetingDatesAndTime = [
+var meetingDatesAndTime = [
     new Date(Date.UTC(year, 2, 18, hour, 0, 0)),
     new Date(Date.UTC(year, 3, 18, hour, 0, 0)),
     new Date(Date.UTC(year, 5, 20, hour, 0, 0)),
