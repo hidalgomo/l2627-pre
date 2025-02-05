@@ -19,8 +19,8 @@ export function Contact() {
                         <p className="text-lg font-bold mb-2">LOCATION</p>
                         <p>
                             Local 2627 - DC 37<br />
-                            55 Water Street<br />
-                            New York, NY 10041
+                            125 Barclay Street<br />
+                            New York, NY 10007
                         </p>
                     </div>
                 </div>
