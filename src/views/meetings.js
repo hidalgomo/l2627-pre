@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Address from "../components/address";
 
 export function Meetings() {
 
@@ -32,7 +33,9 @@ export function Meetings() {
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
             <p>All meeting will be held at the following location:</p>
-            <address><b>125 Barclay, New York, NY 10007</b></address>
+            
+            <Address />
+
             <br />
             <ul>
                 { 

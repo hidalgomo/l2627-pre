@@ -1,5 +1,6 @@
 import { BellIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import Address from "../components/address";
 
 export function Contact() {
     return (
@@ -17,11 +18,8 @@ export function Contact() {
                     <div className="p-8"><MapPinIcon className="h-6 w-6" aria-hidden="true" /></div>
                     <div>
                         <p className="text-lg font-bold mb-2">LOCATION</p>
-                        <p>
-                            Local 2627 - DC 37<br />
-                            125 Barclay Street<br />
-                            New York, NY 10007
-                        </p>
+                        
+                        <Address />
                     </div>
                 </div>
                 <div style={{ display: 'flex' }}>
