@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Address from "../components/address";
 
 export function Education() {
     return (
@@ -195,12 +196,10 @@ export function Education() {
                     phone numbers, address, the agency for which you work, and your e-mail address if you have one.
                     <br />
                     <br />
-                    <p>
-                        Mail to:<br />
-                        DC 37 — IT Professionals of NYC<br />
-                        55 Water Street, 23rd Floor<br />
-                        New York, NY 10041
-                    </p>
+                    Mail to:<br />
+                    
+                    <Address />
+
                     <br />
                     <Link to={'https://local2627.org/resources/pdf/2627_Tuition_Reimbursement_FormV1a_20191030.pdf'}>
                         Tuition Reimbursement Form
