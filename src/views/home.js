@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
-import pfl_memo from '../assets/pfl_memo.pdf';
-import pfl_deduction from '../assets/pfl_deduction.pdf';
+import pfl_memo from '../assets/pfl_memo2025.pdf';
+import pfl_deduction from '../assets/pfl_deduction2025.pdf';
 //import { Banner } from "../components/banner";
 
 const OPTIONS = { align: 'start', dragFree: false }
@@ -134,8 +134,8 @@ export function Home() {
 
                     <h3 className="mb-2 text-xl font-bold">Paid Family Leave</h3>
                     <ul className="list-disc px-8 mb-8">
-                        <li><Link to={ pfl_memo } target="_blank">Memo to Presidents 2024</Link></li>
-                        <li><Link to={ pfl_deduction } target="_blank">Deduction benefits Chart 2024</Link></li>
+                        <li><Link to={ pfl_memo } target="_blank">Memo to Presidents 2025</Link></li>
+                        <li><Link to={ pfl_deduction } target="_blank">Deduction benefits Chart 2025</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/440_16.pdf" target="_blank">Paid Family Leave Benefits for Represented Employees</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/NY_PFL_20181203.pdf" target="_blank">NY Paid Family Leave Summary</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/PFL_Mayorals.pdf" target="_blank">NY Paid Family Leave — Mayoral Agencies</Link></li>
