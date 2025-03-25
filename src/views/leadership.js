@@ -3,6 +3,7 @@ import lauraM from '../assets/LauraMorand300x300.jpeg';
 import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
 import annGeorge from '../assets/AnnGeorge400x400.jpg';
+import stephenVisovsky from '../assets/StephenVisovsky399x400.jpg'
 
 const people = [
     {
@@ -43,11 +44,6 @@ const people = [
         role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: "https://local2627.org/resources/images/GeorgeVillegas150x225_20151020.jpg"
     },
-    //{
-    //    name: "Anthony Chambers",
-    //    role: "Executive Board Member, DC 37 Delegate",
-    //    imageUrl2: "https://local2627.org/resources/images/anthony_chambers.jpg"
-    //},
     {
         name: "Noel Ramos",
         role: "Executive Board Member, DC 37 Delegate",
@@ -82,6 +78,11 @@ const people = [
         name: "William Freeman",
         role: "Trustee",
         imageUrl2: williamF
+    },
+    {
+        name: "Stephen Visovsky",
+        role: "Trustee",
+        imageUrl2: stephenVisovsky
     }
 ];
 
