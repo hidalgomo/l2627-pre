@@ -3,7 +3,7 @@ import lauraM from '../assets/LauraMorand300x300.jpeg';
 import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
 import annGeorge from '../assets/AnnGeorge400x400.jpg';
-import stephenVisovsky from '../assets/StephenVisovsky399x400.jpg'
+import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
 
 const people = [
     {
