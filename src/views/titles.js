@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Collapse } from "react-collapse";
 import { Link } from "react-router-dom";
 import TitlePanel from "../components/title-panel";
+import ITProjSpecPO from '../assets/personnel_order_202406_it_project_specialist_05602.pdf';
 
 export function Titles() {
     const [titles, setTitles] = useState();
@@ -57,7 +58,20 @@ export function Titles() {
                 <div className="relative overflow-hidden">
                     <div className="pb-80 pt-16 sm:p-40 sm:pt-24 lg:pb-48 lg:pt-40">
                         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+
                             <div className="sm:max-w-lg">
+
+                                <div style={{ marginBottom: '100px' }}>
+                                    <p>The following title is hereby added to the Competitive Class Service of the City University of New York:</p>
+                                    <h1 className="text-5xl">IT Project Specialist</h1>
+                                    <p className="text-3xl mb-5">Personnel Order</p>
+                                    <p>
+                                        <Link to={ ITProjSpecPO } target="_blank" className="text-white rounded-full bg-cyan-700 px-6 py-1.5 text-center font-medium">
+                                            Read more
+                                        </Link>
+                                    </p>
+                                </div>
+
                                 <h1 className="text-5xl tracking-tight text-gray-900 font-light">
                                     Career <span className="text-3xl">& Titles</span>
                                 </h1>
