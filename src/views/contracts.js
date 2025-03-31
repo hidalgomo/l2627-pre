@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import RemoteWorkMTAAgree from '../assets/mta_remote_work_agreement.pdf';
+import RemoteWorkNYCHAAgree from '../assets/nycha_remote_work_pilot.pdf';
 
 const contractItems = [
     {
@@ -125,6 +126,11 @@ const contractItems = [
                 index: 1004,
                 Name: 'Signed MOA 2016',
                 Href: 'https://local2627.org/resources/pdf/ContractNYCHA_Redeployment_Signed_MOA_20160630.pdf'
+            },
+            {
+                index: 1004,
+                Name: 'Remote Work Pilot Agreement',
+                Href: RemoteWorkNYCHAAgree
             }
         ]
     },
