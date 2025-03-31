@@ -32,10 +32,10 @@ export function Education() {
                     YEAR RUNS OUT, NO MORE PAYMENTS WILL BE REIMBURSED FOR THE REMAINDER OF THE CALENDAR YEAR.
                 </p>
                 <p className="mb-6">
-                    DC 37 offers tuition reimbursement of up to $915 a year for a wide range of courses. 
+                    DC 37 offers tuition reimbursement of up to $1500 a year for a wide range of courses. 
                     Members are HIGHLY ENCOURAGED to send their request for reimbursement (DC37 letter & 
                     2627 request form) via the United States Postal Service Certified Return Receipt. 
-                    In addition, certificate reimbursement requests up to $915 will now be accepted. 
+                    In addition, certificate reimbursement requests up to $1500 will now be accepted. 
                     If the request is denied by DC 37, please resubmit to Local 2627 with the DC 37 rejection 
                     information. If approved by Local 2627, a reimbursement up to $600 will be distributed. 
                     We encourage our members to take advantage of this program, both for pleasure and 
@@ -96,13 +96,13 @@ export function Education() {
                 </p>
                 <p className="text-sm font-bold">How much can I be reimbursed?</p>
                 <div className="mb-6">
-                    DC 37 reimburses up to $915 per year for just about any courses/classes you take as 
+                    DC 37 reimburses up to $1500 per year for just about any courses/classes you take as 
                     long as you pass or receive a letter grade of "C" or above. DC 37 will reimburse up 
-                    to $915 for any computer/IT certification exams, so you should apply directly to DC 37. 
+                    to $150 for any computer/IT certification exams, so you should apply directly to DC 37. 
                     Local 2627 will evaluate requests (max $600 ) denied by DC 37.
                     <br />
                     <br />
-                    DC 37 reimburses up to $915 for on-line courses. Always apply to DC 37 first. DC 37 
+                    DC 37 reimburses up to $1500 for on-line courses. Always apply to DC 37 first. DC 37 
                     uses a reimbursement form which can be obtained by calling (212) 815-1700. You will 
                     also need to provide a copy of the DC 37 reimbursement check or the rejection letter 
                     when you submit your request to Local 2627.
@@ -111,20 +111,20 @@ export function Education() {
                     <ul className="list-disc mb-6 pl-8">
                         <li>
                             Example A: Tuition during a calendar year for covered courses (computer courses 
-                            or — for members who have taken Shop Steward Training) is $915. DC 37 pays 
-                            $915. Local 2627 pays nothing.
+                            or — for members who have taken Shop Steward Training) is $1500. DC 37 pays 
+                            $1500. Local 2627 pays nothing.
                         </li>
                         <li>
                             Example B: Tuition during a calendar year for covered courses is $1600. DC 37 
-                            pays $915. If DC 37 rejected the computer courses or certification exam, 
+                            pays $1500. If DC 37 rejected the computer courses or certification exam, 
                             Local 2627 may pay up to $600 for Computer/IT related courses or certs that 
-                            it deems valid. Once you receive $915 or less in reimbursement from DC 37, 
+                            it deems valid. Once you receive $1500 or less in reimbursement from DC 37, 
                             you cannot receive reimbursement from Local 2627 for the same courses/certification/training, 
                             etc. reimbursed by DC 37.
                         </li>
                         <li>
                             Example C: The cost of a covered certification exam is $200. DC 37 will reimburse for 
-                            certification exams up to $915. If denied by DC 37; resubmit to Local 2627. 
+                            certification exams up to $1500. If denied by DC 37; resubmit to Local 2627. 
                             If approved, $200 will be reimbursed.
                         </li>
                     </ul>
@@ -143,13 +143,13 @@ export function Education() {
                     <br />
                     NON-CREDIT COMPUTER COURSES: If you are seeking reimbursement for a non-credit computer course 
                     taken at a college, apply to DC 37 as soon as you have proof you passed the course. 
-                    Reimbursement is a maximum of $915 for the calendar year. If denied by DC 37; resubmit to 
+                    Reimbursement is a maximum of $1500 for the calendar year. If denied by DC 37; resubmit to 
                     Local 2627 with the rejection letter.
                     <br />
                     <br />
                     ACCREDITED TECHNICAL SCHOOL COMPUTER COURSES: If you are seeking reimbursement for a computer 
                     course taken at an accredited technical school, apply to DC 37 as soon as you have proof 
-                    you passed the course. Reimbursement is a maximum of $915 for the calendar year. If 
+                    you passed the course. Reimbursement is a maximum of $1500 for the calendar year. If 
                     denied by DC 37; resubmit to Local 2627 with the rejection letter.
                     <br />
                     <br />
