@@ -3,6 +3,10 @@ import { Collapse } from "react-collapse";
 import { Link } from "react-router-dom";
 import TitlePanel from "../components/title-panel";
 import ITProjSpecPO from '../assets/personnel_order_202406_it_project_specialist_05602.pdf';
+import ITArchPO from '../assets/personnel_order_202404_it_architect_05600.pdf';
+import ITInfraPO from '../assets/personnel_order_202405_it_infrastructure_engineer_05601.pdf';
+import ITSecuritySpecPO from '../assets/personnel_order_202407_it_security_specialist_05603.pdf';
+
 
 export function Titles() {
     const [titles, setTitles] = useState();
@@ -61,13 +65,27 @@ export function Titles() {
 
                             <div className="sm:max-w-lg">
 
-                                <div style={{ marginBottom: '100px' }}>
-                                    <p>The following title is hereby added to the Competitive Class Service of the City University of New York:</p>
-                                    <h1 className="text-5xl">IT Project Specialist</h1>
-                                    <p className="text-3xl mb-5">Personnel Order</p>
+                                <div style={{ marginBottom: '80px' }}>
+                                    <h1 className="text-5xl">Personnel Order</h1>
+                                    <p className="text-lg mb-5">The following titles are hereby added to the Competitive Class Service of CUNY:</p>
                                     <p>
-                                        <Link to={ ITProjSpecPO } target="_blank" className="text-white rounded-full bg-cyan-700 px-6 py-1.5 text-center font-medium">
-                                            Read more
+                                        <Link to={ ITProjSpecPO } target="_blank" className="text-black rounded-full bg-gray-50 px-6 py-1.5 font-medium">
+                                            IT Project Specialist
+                                        </Link>
+                                    </p>
+                                    <p>
+                                        <Link to={ ITArchPO } target="_blank" className="text-black rounded-full bg-gray-50 px-6 py-1.5 font-medium">
+                                            IT Architect
+                                        </Link>
+                                    </p>
+                                    <p>
+                                        <Link to={ ITInfraPO } target="_blank" className="text-black rounded-full bg-gray-50 px-6 py-1.5 font-medium">
+                                            IT Infrastracture Engineer
+                                        </Link>
+                                    </p>
+                                    <p>
+                                        <Link to={ ITSecuritySpecPO } target="_blank" className="text-black rounded-full bg-gray-50 px-6 py-1.5 font-medium">
+                                            IT Security Specialist
                                         </Link>
                                     </p>
                                 </div>
@@ -76,12 +94,7 @@ export function Titles() {
                                     Career <span className="text-3xl">& Titles</span>
                                 </h1>
                                 <p className="mt-4 text-base">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    All Local 2627 titles and more information.
                                 </p>
                             </div>
                             <div className="mb-4">
