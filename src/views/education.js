@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Address from "../components/address";
+import tuitionReimbursementForm from "../assets/2627_Tuition_Reimbursement_FormV1a_20250402.pdf";
 
 export function Education() {
     return (
@@ -201,7 +202,7 @@ export function Education() {
                     <Address />
 
                     <br />
-                    <Link to={'https://local2627.org/resources/pdf/2627_Tuition_Reimbursement_FormV1a_20191030.pdf'}>
+                    <Link to={ tuitionReimbursementForm } target="_blank">
                         Tuition Reimbursement Form
                     </Link>
                 </div>
