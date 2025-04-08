@@ -22,7 +22,7 @@ export function Meetings() {
         { type: 'general', date: new Date(Date.UTC(year, 5, 17, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 8, 16, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 10, 18, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 3, 15, hour, 0)) },
+        // { type: 'steward', date: new Date(Date.UTC(year, 3, 15, hour, 0)) },
         { type: 'steward', date: new Date(Date.UTC(year, 9, 21, hour, 0)) },
         { type: 'steward', date: new Date(Date.UTC(year, 11, 16, hour, 0)) },
     ];
