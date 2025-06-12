@@ -1,8 +1,9 @@
 import lauraM from '../assets/LauraMorand300x300.jpeg';
-import nicholasP from '../assets/NicholasPineda299x299.jpg';
+//import nicholasP from '../assets/NicholasPineda299x299.jpg';
 import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
 import annGeorge from '../assets/AnnGeorge400x400.jpg';
+import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
 
 const people = [
     {
@@ -24,14 +25,14 @@ const people = [
         imageUrl2: 'https://local2627.org/resources/images/MarieLodescar150x255_20220203.jpg',
     },
     {
-        name: "Nicholas Pineda",
+        name: "Ann George",
         role: "Treasurer, DC 37 Delegate",
-        imageUrl2: nicholasP
+        imageUrl2: annGeorge
     },
     {
-        name: "Ann George",
+        name: "Anthony Chambers",
         role: "Secretary, DC 37 Delegate",
-        imageUrl2: annGeorge
+        imageUrl2: "https://local2627.org/resources/images/anthony_chambers.jpg"
     },
     {
         name: "Charles L. McClain",
@@ -42,11 +43,6 @@ const people = [
         name: "George Villegas",
         role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: "https://local2627.org/resources/images/GeorgeVillegas150x225_20151020.jpg"
-    },
-    {
-        name: "Anthony Chambers",
-        role: "Executive Board Member, DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/anthony_chambers.jpg"
     },
     {
         name: "Noel Ramos",
@@ -82,6 +78,11 @@ const people = [
         name: "William Freeman",
         role: "Trustee",
         imageUrl2: williamF
+    },
+    {
+        name: "Stephen Visovsky",
+        role: "Trustee",
+        imageUrl2: stephenVisovsky
     }
 ];
 
