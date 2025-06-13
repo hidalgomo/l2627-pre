@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import CitywideOverTimeCapPDF from '../assets/citywide_ot_cap.pdf';
-import CitywideSalaries from '../assets/citywide_salaries.pdf';
+import CitywideSalaries from '../assets/129_PA_5-26-2025_amended_4.11.25_Final.pdf';
 import CUNYAppendixA from '../assets/cuny_appendix_a_rip.pdf';
 import AccountingEDP15YearLongPayOrder from '../assets/accnt_edp_15_year_longevity.pdf';
 import advancementIncrease from '../assets/129_AI_5-26-2025_FINAL.pdf';
