@@ -4,6 +4,7 @@ import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
 import annGeorge from '../assets/AnnGeorge400x400.jpg';
 import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
+import SumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
 
 const people = [
     {
@@ -48,6 +49,11 @@ const people = [
         name: "Noel Ramos",
         role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: "https://local2627.org/resources/images/NoelRamos150x225_20151020.jpg"
+    },
+    {
+        name: "Sumiko Gilchrist",
+        role: "Executive Board Member, DC 37 Delegate",
+        imageUrl2: SumikoGilchrist
     },
     {
         name: "Robert Benjamin",
