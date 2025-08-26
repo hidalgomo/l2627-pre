@@ -6,12 +6,14 @@ export function Education() {
     return (
         <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Education</h3>
-            <section className="mb-10">
-
+            <section class="mb-10">
                 <p class="text-red-600 font-medium">
                     ALERT, as of April 2, 2019, only IT Professionals of NYC members in good standing for a 
                     minimum of two years can qualify for education reimbursement!
-                </p>        
+                </p>    
+            </section>
+                        
+            <section className="mb-10">
                 <p className="text-xl font-bold">Online Training</p>
                 <p>
                     Courses on the Internet are eligible for tuition reimbursement the same as courses 
