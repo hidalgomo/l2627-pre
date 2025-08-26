@@ -32,7 +32,7 @@ export function Education() {
             <section className="mb-10">
                 <p className="text-xl font-bold">Reimbursement</p>
                 <p className="mb-6">
-                    Certificate of reimbursement MUST be submitted. Education reimbursement will 
+                    Certificate of reimbursement MUST be submitted to Local 2627. Education reimbursement will 
                     be distributed on a FIRST COME, FIRST SERVE basis. ONCE BUDGETED FUNDING FOR THE 
                     YEAR RUNS OUT, NO MORE PAYMENTS WILL BE REIMBURSED FOR THE REMAINDER OF THE CALENDAR YEAR.
                 </p>
