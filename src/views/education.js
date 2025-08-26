@@ -7,6 +7,11 @@ export function Education() {
         <div className="max-w-3xl" style={{ margin: '0 auto' }}>
             <h3 className="text-3xl font-bold pb-8">Education</h3>
             <section className="mb-10">
+
+                <p class="text-red-600">
+                    ALERT, as of April 2, 2019, only IT Professionals of NYC members in good standing for a 
+                    minimum of two years can qualify for education reimbursement!
+                </p>        
                 <p className="text-xl font-bold">Online Training</p>
                 <p>
                     Courses on the Internet are eligible for tuition reimbursement the same as courses 
@@ -27,8 +32,7 @@ export function Education() {
             <section className="mb-10">
                 <p className="text-xl font-bold">Reimbursement</p>
                 <p className="mb-6">
-                    Certificate of reimbursement MUST be submitted to DC 37 FIRST. Local 2627 will only 
-                    accept and evaluate requests denied by DC 37 FIRST. Education reimbursement will 
+                    Certificate of reimbursement MUST be submitted. Education reimbursement will 
                     be distributed on a FIRST COME, FIRST SERVE basis. ONCE BUDGETED FUNDING FOR THE 
                     YEAR RUNS OUT, NO MORE PAYMENTS WILL BE REIMBURSED FOR THE REMAINDER OF THE CALENDAR YEAR.
                 </p>
@@ -174,10 +178,6 @@ export function Education() {
                         <li>Description of class</li>
                     </ul>
                     NO Payments to vendors in Cash!
-                    <br />
-                    <br />
-                    ALERT, as of April 2, 2019, only IT Professionals of NYC members in good standing for a 
-                    minimum of two years can qualify for education reimbursement!
                     <br />
                     <br />
                     Education reimbursement will be distributed on the FIRST COME, FIRST SERVE basis.
