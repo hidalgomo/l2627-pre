@@ -8,7 +8,7 @@ export function Education() {
             <h3 className="text-3xl font-bold pb-8">Education</h3>
             <section className="mb-10">
 
-                <p class="text-red-600">
+                <p class="text-red-600 font-medium">
                     ALERT, as of April 2, 2019, only IT Professionals of NYC members in good standing for a 
                     minimum of two years can qualify for education reimbursement!
                 </p>        
