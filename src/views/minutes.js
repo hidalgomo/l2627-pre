@@ -4,15 +4,26 @@ import minutes011624corrected from '../assets/minutes_jan_16_2024_corrected.pdf'
 import minutes092023corrected from '../assets/minutes_sep_19_2023_corrected.pdf';
 import minutes112023corrected from '../assets/minutes_nov_21_2023_corrected.pdf';
 
+import minutes092024 from '../assets/minutes_sep_17_2024.pdf';
+import meeting062025 from '../assets/meeting_jun_17_2025.pdf';
+
 export function Minutes() {
     return (
         <>
             <h3 className="text-3xl font-bold pb-8">Minutes</h3>
+
+            <details open>
+                <summary>2025</summary>
+                <ul className="list-disc mb-6 pl-8">
+                    <li><Link to={ meeting062025 } target="_blank" title="June 17, 2025 Meeting">June 17 Meeting</Link></li>
+                </ul>
+            </details>
             
             <details open>
                 <summary>2024</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to={ minutes011624corrected } target="_blank" title="January 16, 2024 Minutes">January 16</Link></li>
+                    <li><Link to={ minutes092024 } target="_blank" title="September 17, 2024 Minutes">September 17</Link></li>
                 </ul>
             </details>
             <details open>
