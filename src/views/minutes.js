@@ -9,6 +9,9 @@ import minutes052024 from '../assets/minutes_may_21_2024.pdf';
 import minutes092024 from '../assets/minutes_sep_17_2024.pdf';
 import minutes112024 from '../assets/minutes_nov_19_2024.pdf';
 
+import minutes022025 from '../assets/minutes_feb_18_2025.pdf';
+import minutes032025 from '../assets/minutes_mar_18_2025.pdf';
+import minutes052025 from '../assets/meeting_may_20_2025.pdf';
 import meeting062025 from '../assets/meeting_jun_17_2025.pdf';
 
 export function Minutes() {
@@ -19,6 +22,9 @@ export function Minutes() {
             <details open>
                 <summary>2025</summary>
                 <ul className="list-disc mb-6 pl-8">
+                    <li><Link to={ minutes022025 } target="_blank" title="February 18, 2025 Minutes">February 18 Minutes</Link></li>
+                    <li><Link to={ minutes032025 } target="_blank" title="March 18, 2025 Meeting">March 18 Minutes</Link></li>
+                    <li><Link to={ minutes052025 } target="_blank" title="May 20, 2025 Meeting">May 20 Meeting</Link></li>
                     <li><Link to={ meeting062025 } target="_blank" title="June 17, 2025 Meeting">June 17 Meeting</Link></li>
                 </ul>
             </details>
@@ -34,7 +40,7 @@ export function Minutes() {
                     <li><Link to={ minutes112024 } target="_blank" title="November 19, 2024 Minutes">November 19</Link></li>
                 </ul>
             </details>
-            <details open>
+            <details>
                 <summary>2023</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to="https://local2627.org/resources/pdf/Jan_2023_Local_2626_GMM.pdf" target="_blank" title="January 2023 Minutes">January 23</Link></li>
@@ -46,7 +52,7 @@ export function Minutes() {
                     <li><Link to={ minutes112023corrected } target="_blank" title="November 21, 2023 Minutes">November 21</Link></li>
                 </ul>
             </details>
-            <details open>
+            <details>
                 <summary>2022</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to="https://local2627.org/resources/pdf/Jan_2022_Local_2627_GMM.pdf" target="_blank" title="January 2022 Minutes">January 22</Link></li>
@@ -57,7 +63,7 @@ export function Minutes() {
                     <li><Link to="https://local2627.org/resources/pdf/Nov_2022_Local_2627_GMM.pdf" target="_blank" title="November 2022 Minutes">November 22</Link></li>
                 </ul>
             </details>
-            <details open>
+            <details>
                 <summary>2021</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to="https://local2627.org/resources/pdf/gm202101.pdf" target="_blank" title="January 2021 Minutes">January 21</Link></li>
