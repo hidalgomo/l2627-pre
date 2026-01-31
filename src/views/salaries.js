@@ -6,6 +6,7 @@ import AccountingEDP15YearLongPayOrder from '../assets/accnt_edp_15_year_longevi
 import advancementIncrease from '../assets/129_AI_5-26-2025_FINAL.pdf';
 import longevityDiff from '../assets/129_LD_5-26-2025_amended 3-10-25_FINAL.pdf';
 import rip05262025 from '../assets/129_RIP_5.26.25_FINAL.pdf';
+import obbbaFlsaOtPremium from '../assets/OBBBA_FLSA_OT_Premium_FAQ.pdf'
 
 
 export function Salaries() {
@@ -26,6 +27,7 @@ export function Salaries() {
                 <li><Link to={ 'https://local2627.org/resources/pdf/longevityCUNY.pdf' } target="_blank">CUNY Longevity</Link></li>
                 <li><Link to={ 'https://local2627.org/resources/pdf/salariesSCA.pdf' } target="_blank">School Construction Authority Salaries and Longevity</Link></li>
                 <li><Link to={ 'https://local2627.org/resources/pdf/additions_to_gross_mta.pdf' } target="_blank">MTA Longevity Differential/RIP</Link></li>
+                <li><Link to={ obbbaFlsaOtPremium } target="_blank">OBBBA FLSA OT Premium FAQ</Link></li>
             </ul>
         </>
     );
