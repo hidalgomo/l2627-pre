@@ -3,7 +3,7 @@ import Address from "../components/address";
 
 export function Meetings() {
 
-    const year = 2025;
+    const year = 2026;
     const hour = 18;
     const dateFormatingOptions = {
         year: 'numeric',
@@ -16,15 +16,16 @@ export function Meetings() {
     };
     
     const meetingDatesAndTime = [
-        { type: 'general', date: new Date(Date.UTC(year, 1, 18, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 2, 18, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 4, 20, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 5, 17, hour, 0)) },
+
+        { type: 'general', date: new Date(Date.UTC(year, 0, 20, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 2, 17, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 4, 19, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 5, 16, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 8, 16, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 10, 18, hour, 0)) },
-        // { type: 'steward', date: new Date(Date.UTC(year, 3, 15, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 9, 21, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 11, 16, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 10, 17, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 1, 17, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 3, 21, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 9, 20, hour, 0)) },
     ];
 
     return (
