@@ -3,7 +3,7 @@ import EmblaCarousel from "../components/embla-carousel";
 import '../css/embla.css'
 import pfl_memo from '../assets/pfl_memo2025.pdf';
 import pfl_deduction from '../assets/pfl_deduction2025.pdf';
-//import { Banner } from "../components/banner";
+import aflacFlyer from '../assets/aflac_flyer.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -144,6 +144,15 @@ export function Home() {
                         <li><Link to="https://local2627.org/resources/pdf/PFL_NYCHA.pdf" target="_blank">NY Paid Family Leave — NYCHA</Link></li>
                         <li><Link to="https://local2627.org/resources/pdf/Paid_Family_Leave_Info.pdf" target="_blank">More Info</Link></li>
                     </ul>
+
+                    <div className="mb-8">
+                        <Link to={ aflacFlyer } target="_blank">
+                            <h3 className="mb-2 text-xl font-bold">
+                                Aflac
+                            </h3>
+                            <p><b>Get help with expenses health insurance doesn’t cover</b></p>
+                        </Link>
+                    </div>
                 </div>
             </div>
 
