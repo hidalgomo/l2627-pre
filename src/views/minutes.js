@@ -13,6 +13,7 @@ import minutes022025 from '../assets/minutes_feb_18_2025.pdf';
 import minutes032025 from '../assets/minutes_mar_18_2025.pdf';
 import minutes052025 from '../assets/meeting_may_20_2025.pdf';
 import meeting062025 from '../assets/meeting_jun_17_2025.pdf';
+import meeting111825 from '../assets/minutes_nov_18_2025.pdf';
 
 export function Minutes() {
     return (
@@ -26,6 +27,7 @@ export function Minutes() {
                     <li><Link to={ minutes032025 } target="_blank" title="March 18, 2025 Meeting">March 18 Minutes</Link></li>
                     <li><Link to={ minutes052025 } target="_blank" title="May 20, 2025 Meeting">May 20 Meeting</Link></li>
                     <li><Link to={ meeting062025 } target="_blank" title="June 17, 2025 Meeting">June 17 Meeting</Link></li>
+                    <li><Link to={ meeting111825 } target="_blank" title="November 18, 2025 Meeting">November 18 Minutes</Link></li>
                 </ul>
             </details>
             
