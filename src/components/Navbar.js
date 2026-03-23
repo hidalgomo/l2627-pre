@@ -204,6 +204,12 @@ export default function Navbar() {
                                     }
 
                                     {
+                                        <Link to={ "https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery" } className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
+                                            BLACK HISTORY MONTH
+                                        </Link>
+                                    }
+
+                                    {
                                         navigation.categories.map((category) => (
                                             <Popover key={ category.name } className="flex">
                                                 {
