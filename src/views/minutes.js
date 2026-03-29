@@ -15,10 +15,19 @@ import minutes052025 from '../assets/meeting_may_20_2025.pdf';
 import meeting062025 from '../assets/meeting_jun_17_2025.pdf';
 import meeting111825 from '../assets/minutes_nov_18_2025.pdf';
 
+import meeting012026 from '../assets/minutes_jan_20_2026.pdf';
+
 export function Minutes() {
     return (
         <>
             <h3 className="text-3xl font-bold pb-8">Minutes</h3>
+
+            <details open>
+                <summary>2026</summary>
+                <ul className="list-disc mb-6 pl-8">
+                    <li><Link to={ meeting012026 } target="_blank" title="January 20, 2026 Minutes">January 20 Minutes</Link></li>
+                </ul>
+            </details>
 
             <details open>
                 <summary>2025</summary>
