@@ -110,6 +110,14 @@ export default function Navbar() {
                                         
                                         BLACK HISTORY MONTH
                                     </Link>
+
+                                    <Link to={ "https://hysyncmedia.pic-time.com/-local2627womenempowerment-2026/gallery" } target='_blank'
+                                        className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
+                                        
+                                        WOMENS HISTORY MONTH
+                                    </Link>
+
+                                    
                                 </div>
 
                                 {/* Links */}
@@ -213,6 +221,12 @@ export default function Navbar() {
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         
                                         BLACK HISTORY MONTH
+                                    </Link>
+
+                                    <Link to={ "https://hysyncmedia.pic-time.com/-local2627womenempowerment-2026/gallery" } target='_blank'
+                                        className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
+                                        
+                                        WOMENS HISTORY MONTH
                                     </Link>
 
                                     {
