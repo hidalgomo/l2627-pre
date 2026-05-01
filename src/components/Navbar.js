@@ -15,17 +15,24 @@ export default function Navbar() {
                 name: 'MORE INFO',
                 featured: [
                     {
-                        name: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
-                        href: 'https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf',
-                        imageSrc: 'https://img.freepik.com/free-vector/flat-hand-drawn-time-management-concept_23-2148822825.jpg',
-                        imageAlt: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
+                        name: '2026 WOMEN HISTORY MONTH',
+                        // name: 'Unlimited Sick Leave for Employees with 9/11 Related Illnesses',
+                        // href: 'https://www1.nyc.gov/assets/dcas/downloads/pdf/reports/440_17.pdf',
+                        href: 'https://hysyncmedia.pic-time.com/-local2627womenempowerment-2026/gallery',
+                        imageSrc: 'https://advocacy.sba.gov/wp-content/uploads/2023/03/Womens-History-Month-1600x977-1.jpeg',
+                        imageAlt: '2026 Women History Month',
                         hasTarget: true
                     },
                     {
-                        name: 'Working as a Civil Servant',
-                        href: 'civilservant',
-                        imageSrc: 'https://cdn.dribbble.com/users/2424687/screenshots/5348661/media/a2b91fc37ceb5fc0895c0bb3d9f22e49.png?compress=1&resize=400x300&vertical=top',
-                        imageAlt: 'Close up on what it is to be a civil servant and serve the City of New York.',
+                        //name: 'Working as a Civil Servant',
+                        //href: 'civilservant',
+                        //imageSrc: 'https://cdn.dribbble.com/users/2424687/screenshots/5348661/media/a2b91fc37ceb5fc0895c0bb3d9f22e49.png?compress=1&resize=400x300&vertical=top',
+                        //imageAlt: 'Close up on what it is to be a civil servant and serve the City of New York.',
+                        name: '2026 BLACK HISTORY MONTH',
+                        imageSrc: 'https://media.licdn.com/dms/image/v2/D4E12AQHEPqvar8PV0g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1738675278165?e=2147483647&v=beta&t=rAXdj2ficEXWDfl0s-Efn8nuxq-vFMx0luufveNBMRs',
+                        imageAlt: '2026 BLACK HISTORY MONTH',
+                        href: 'https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery',
+                        hasTarget: true
                     },
                 ],
                 sections: [
@@ -105,7 +112,7 @@ export default function Navbar() {
                                         ))
                                     }
 
-                                    <Link to={ "https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery" } target='_blank'
+                                    {/* <Link to={ "https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery" } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         
                                         BLACK HISTORY MONTH
@@ -114,7 +121,12 @@ export default function Navbar() {
                                     <Link to={ "https://hysyncmedia.pic-time.com/-local2627womenempowerment-2026/gallery" } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         
-                                        WOMENS HISTORY MONTH
+                                        WOMEN HISTORY MONTH
+                                    </Link> */}
+
+                                    <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
+                                        className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
+                                        GENERAL MEETING REGISTRATION
                                     </Link>
 
                                     
@@ -217,7 +229,7 @@ export default function Navbar() {
                                         ))
                                     }
 
-                                    <Link to={ "https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery" } target='_blank'
+                                    {/* <Link to={ "https://hysyncmedia.pic-time.com/-local2627blackhistorymonthmarch62026/gallery" } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         
                                         BLACK HISTORY MONTH
@@ -226,7 +238,12 @@ export default function Navbar() {
                                     <Link to={ "https://hysyncmedia.pic-time.com/-local2627womenempowerment-2026/gallery" } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         
-                                        WOMENS HISTORY MONTH
+                                        WOMEN HISTORY MONTH
+                                    </Link> */}
+
+                                    <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
+                                        className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
+                                        GENERAL MEETING REGISTRATION
                                     </Link>
 
                                     {
