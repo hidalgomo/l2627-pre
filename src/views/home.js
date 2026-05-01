@@ -4,6 +4,8 @@ import '../css/embla.css'
 import pfl_memo from '../assets/pfl_memo2025.pdf';
 import pfl_deduction from '../assets/pfl_deduction2025.pdf';
 import aflacFlyer from '../assets/aflac_flyer.pdf';
+import nominationOfficers from '../assets/nomination_instruct_for_l2627_officers_2026.pdf';
+import nominationDelegates from '../assets/notice_of_nomination_for_delegate_2026.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -23,6 +25,22 @@ export function Home() {
             <br />
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 grid-flow-row lg:px-8 sm:px-6 px-11">
                 <div className="lg:col-span-3">
+                    <h3 className="mb-2 text-xl font-bold">2026 NOMINATION</h3>
+                    <div className="mb-8">
+                        <ul style={{ paddingLeft: '40px', listStyleType: 'disc' }}>
+                            <li>
+                                <Link to={ nominationOfficers } target="_blank">
+                                    NOMINATION INSTRUCTIONS FOR LOCAL 2627 OFFICERS 2026
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={ nominationDelegates } target="_blank">
+                                    NOTICE OF NOMINATION FOR LOCAL 2627 AFSCME DELEGATES 2026
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    
                     <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
                     <p className="mb-8">
                         You cannot be barred from computer use for union activities.
