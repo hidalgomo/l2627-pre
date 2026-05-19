@@ -20,12 +20,6 @@ const people = [
         imageUrl2: 'https://local2627.org/resources/images/KalpeshPatel150x225_20220203.jpg',
     },
     {
-        name: 'Marie Lodescar',
-        role: '2nd Vice President, DC 37 Delegate',
-        imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        imageUrl2: 'https://local2627.org/resources/images/MarieLodescar150x255_20220203.jpg',
-    },
-    {
         name: "Ann George",
         role: "Treasurer, DC 37 Delegate",
         imageUrl2: annGeorge
