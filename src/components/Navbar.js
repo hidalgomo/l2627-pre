@@ -67,7 +67,8 @@ export default function Navbar() {
                             { name: 'CUNY', href: 'safety/cuny' },
                             { name: 'DOE', href: 'safety/doe' },
                             { name: 'MTA', href: 'safety/mta' },
-                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' }
+                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
+                            { name: 'ASIAN HERITAGE CELEBRATION', href: 'https://hysyncmedia.pic-time.com/-local-2627-asian-heritage-celebration---2026/gallery', hasTarget: true}
                         ],
                     }
                 ]
