@@ -1,10 +1,10 @@
 import lauraM from '../assets/LauraMorand300x300.jpeg';
-//import nicholasP from '../assets/NicholasPineda299x299.jpg';
 import mitchellG from '../assets/MitchellGoldberg300x300.jpg';
 import williamF from '../assets/WilliamFreeman266x313.jpg';
 import annGeorge from '../assets/AnnGeorge400x400.jpg';
 import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
-import SumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
+import sumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
+import renettaEnglish from '../assets/RenettaEnglish200x200.jpg'
 
 const people = [
     {
@@ -18,6 +18,11 @@ const people = [
         role: '1st Vice President, DC 37 Delegate',
         imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         imageUrl2: 'https://local2627.org/resources/images/KalpeshPatel150x225_20220203.jpg',
+    },
+    {
+        name: "Noel Ramos",
+        role: "2nd Vice President, DC 37 Delegate",
+        imageUrl2: "https://local2627.org/resources/images/NoelRamos150x225_20151020.jpg"
     },
     {
         name: "Ann George",
@@ -39,20 +44,21 @@ const people = [
         role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: "https://local2627.org/resources/images/GeorgeVillegas150x225_20151020.jpg"
     },
-    {
-        name: "Noel Ramos",
-        role: "Executive Board Member, DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/NoelRamos150x225_20151020.jpg"
-    },
+    
     {
         name: "Sumiko Gilchrist",
         role: "Executive Board Member, DC 37 Delegate",
-        imageUrl2: SumikoGilchrist
+        imageUrl2: sumikoGilchrist
     },
     {
         name: "Robert Benjamin",
         role: "DC 37 Delegate",
         imageUrl2: "https://local2627.org/resources/images/RobertBenjamin150x225_20170918.jpg"
+    },
+    {
+        name: "Renetta English",
+        role: "DC 37 Delegate",
+        imageUrl2: renettaEnglish
     },
     {
         name: "Marie R. Jeremie",
