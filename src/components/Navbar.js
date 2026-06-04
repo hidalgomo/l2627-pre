@@ -67,7 +67,8 @@ export default function Navbar() {
                             { name: 'CUNY', href: 'safety/cuny' },
                             { name: 'DOE', href: 'safety/doe' },
                             { name: 'MTA', href: 'safety/mta' },
-                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' }
+                            { name: 'Citywide Air Conditioning', href: 'safety/airconditioning' },
+                            { name: 'ASIAN HERITAGE CELEBRATION', href: 'https://hysyncmedia.pic-time.com/-local-2627-asian-heritage-celebration---2026/gallery', hasTarget: true}
                         ],
                     }
                 ]
@@ -124,10 +125,10 @@ export default function Navbar() {
                                         WOMEN HISTORY MONTH
                                     </Link> */}
 
-                                    <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
+                                    {/* <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         GENERAL MEETING REGISTRATION
-                                    </Link>
+                                    </Link> */}
 
                                     
                                 </div>
@@ -241,10 +242,10 @@ export default function Navbar() {
                                         WOMEN HISTORY MONTH
                                     </Link> */}
 
-                                    <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
+                                    {/* <Link to={ 'https://forms.gle/5H5xAogiJC68Y5qXA' } target='_blank'
                                         className="uppercase flex items-center text-sm font-medium text-orange-700 hover:text-gray-800">
                                         GENERAL MEETING REGISTRATION
-                                    </Link>
+                                    </Link> */}
 
                                     {
                                         navigation.categories.map((category) => (
