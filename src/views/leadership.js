@@ -5,6 +5,7 @@ import annGeorge from '../assets/AnnGeorge400x400.jpg';
 import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
 import sumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
 import renettaEnglish from '../assets/RenettaEnglish200x200.jpg'
+import marieJeremie from '../assets/MarieJeremie300x300.jpg'
 
 const people = [
     {
@@ -62,8 +63,8 @@ const people = [
     },
     {
         name: "Marie R. Jeremie",
-        role: "NYC Central Labor Council Delegate",
-        imageUrl2: "https://local2627.org/resources/images/MarieJeremie150x225_20200915.jpg"
+        role: "DC 37 Delegate",
+        imageUrl2: marieJeremie
     },
     {
         name: "MD Jaman",
