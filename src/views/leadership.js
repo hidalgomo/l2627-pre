@@ -53,18 +53,13 @@ const people = [
         imageUrl2: sumikoGilchrist
     },
     {
-        name: "Robert Benjamin",
-        role: "DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/RobertBenjamin150x225_20170918.jpg"
-    },
-    {
         name: "Renetta English",
         role: "DC 37 Delegate",
         imageUrl2: renettaEnglish
     },
     {
         name: "Marie R. Jeremie",
-        role: "DC 37 Delegate",
+        role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: marieJeremie
     },
     {
