@@ -6,6 +6,7 @@ import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
 import sumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
 import renettaEnglish from '../assets/RenettaEnglish200x200.jpg'
 import marieJeremie from '../assets/MarieJeremie300x300.jpg'
+import annaPanickerDiaz from '../assets/AnnaPanickerDiaz300x300.jpg'
 
 const people = [
     {
@@ -90,6 +91,11 @@ const people = [
         name: "Stephen Visovsky",
         role: "Trustee",
         imageUrl2: stephenVisovsky
+    },
+    {
+        name: "Anna Panicker Diaz",
+        role: "CLC Delegate",
+        imageUrl2: annaPanickerDiaz
     }
 ];
 
