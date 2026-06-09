@@ -6,6 +6,7 @@ import stephenVisovsky from '../assets/StephenVisovsky399x400_2.jpg'
 import sumikoGilchrist from '../assets/SumikoGilchrist300x292.jpg'
 import renettaEnglish from '../assets/RenettaEnglish200x200.jpg'
 import marieJeremie from '../assets/MarieJeremie300x300.jpg'
+import annaPanickerDiaz from '../assets/AnnaPanickerDiaz300x300.jpg'
 
 const people = [
     {
@@ -52,18 +53,13 @@ const people = [
         imageUrl2: sumikoGilchrist
     },
     {
-        name: "Robert Benjamin",
-        role: "DC 37 Delegate",
-        imageUrl2: "https://local2627.org/resources/images/RobertBenjamin150x225_20170918.jpg"
-    },
-    {
         name: "Renetta English",
         role: "DC 37 Delegate",
         imageUrl2: renettaEnglish
     },
     {
         name: "Marie R. Jeremie",
-        role: "DC 37 Delegate",
+        role: "Executive Board Member, DC 37 Delegate",
         imageUrl2: marieJeremie
     },
     {
@@ -90,6 +86,11 @@ const people = [
         name: "Stephen Visovsky",
         role: "Trustee",
         imageUrl2: stephenVisovsky
+    },
+    {
+        name: "Anna Panicker Diaz",
+        role: "CLC Delegate",
+        imageUrl2: annaPanickerDiaz
     }
 ];
 
