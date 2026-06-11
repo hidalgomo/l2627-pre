@@ -5,7 +5,7 @@ export function Meetings() {
 
     const year = 2026;
     const hour = 18;
-    const dateFormatingOptions = {
+    const dateFormattingOptions = {
         year: 'numeric',
         month: 'long', 
         day: 'numeric',
@@ -20,7 +20,7 @@ export function Meetings() {
         { type: 'general', date: new Date(Date.UTC(year, 0, 20, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 2, 17, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 4, 19, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 5, 16, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 5, 30, hour, 0)), note: 'In-Person Only' },
         { type: 'general', date: new Date(Date.UTC(year, 8, 16, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 10, 17, hour, 0)) },
         { type: 'steward', date: new Date(Date.UTC(year, 1, 17, hour, 0)) },
@@ -42,7 +42,7 @@ export function Meetings() {
                 { 
                     meetingDatesAndTime
                         .filter(meeting => meeting.type === 'general')
-                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
+                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormattingOptions) } { meeting.note && <span className="text-sm text-gray-500">({ meeting.note })</span> }</li>)
                 }
             </ul>
             <br />
@@ -51,7 +51,7 @@ export function Meetings() {
                 {
                     meetingDatesAndTime
                         .filter(meeting => meeting.type === 'steward')
-                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormatingOptions) }</li>)
+                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormattingOptions) }</li>)
                 }
             </ul>
 
