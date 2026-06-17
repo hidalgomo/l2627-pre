@@ -111,7 +111,7 @@ export function Home() {
                         <p className="mb-2">In Solidarity,</p>
                         <p className="mb-2">2026 Local 2627 Election Committee</p>
 
-                        <ul style={{ paddingLeft: '40px', listStyleType: 'disc' }}>
+                        {/* <ul style={{ paddingLeft: '40px', listStyleType: 'disc' }}>
                             <li>
                                 <Link to={ nominationOfficers } target="_blank">
                                     NOMINATION INSTRUCTIONS FOR LOCAL 2627 OFFICERS 2026
@@ -122,7 +122,7 @@ export function Home() {
                                     NOTICE OF NOMINATION FOR LOCAL 2627 AFSCME DELEGATES 2026
                                 </Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     
                     <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
