@@ -27,6 +27,90 @@ export function Home() {
                 <div className="lg:col-span-3">
                     <h3 className="mb-2 text-xl font-bold">2026 NOMINATION</h3>
                     <div className="mb-8">
+                        <p className="mb-2">Dear Local 2627 member,</p>
+                        <p className="mb-2">
+                            Local 2627 elections for its Executive Board (four positions) 
+                            and for its Delegates to District Council 37 (five positions) 
+                            are being conducted by mail ballot administered by the American 
+                            Arbitration Association (AAA). The mailing of ballots to 
+                            members took place on Friday, June 5, 2026. The deadline for 
+                            the ballots to be received back by AAA is 10 a.m. on Friday, 
+                            June 26, 2026. If a member has not received a ballot, they can 
+                            call AAA at (800) 529-5218, Monday through Friday, 9 a.m. 
+                            to 5 p.m., Eastern Standard Time.
+                        </p>
+                        <p className="mb-2">Elections are held only for positions that are "contested."</p>
+                        <p className="font-semibold">There is an election for the following positions:</p>
+                        <ul className="list-disc px-8 mb-3">
+                            <li>DC37 Delegate</li>
+                            <li>E-Board</li>
+                        </ul>
+
+                        <p className="font-semibold">There will be NO election the following uncontested positions:</p>
+                        <ul className="list-disc px-8 mb-3">
+                            <li>President</li>
+                            <li>First Vice President</li>
+                            <li>Second Vice President</li>
+                            <li>Treasurer</li>
+                            <li>Secretary</li>
+                            <li>Trustee</li>
+                            <li>CLC Delegate</li>
+                            <li>AFSCME Convention Delegate</li>
+                        </ul>
+                        <p className="mb-2">
+                            *Note: The President is automatically a delegate for AFSCME 
+                            (the American Federation of State, County and Municipal 
+                            Employees), CLC (Central Labor Council), and DC37. The 
+                            President, First Vice President, Second Vice President, 
+                            Treasurer, and Secretary are automatically DC37 Delegates.
+                        </p>
+
+                        <p className="font-semibold">
+                            Nominees:<br />
+                            Role Nomination
+                        </p>
+                        <ul className="list-disc px-8 mb-3">
+                            <li>President Laura Morand</li>
+                            <li>First Vice President Kalpesh Patel</li>
+                            <li>Second Vice President Noel Ramos</li>
+                            <li>Secretary Anthony Chambers</li>
+                            <li>Treasurer Ann George</li>
+                            <li>Trustee Kennard Gopaul</li>
+                            <li>E-Board Charles Mcclain</li>
+                            <li>E-Board Marie Lodescar-Francois</li>
+                            <li>E-Board Sumiko Gilchrist</li>
+                            <li>E-Board George Villegas</li>
+                            <li>E-Board Marie Jeremie</li>
+                            <li>E-Board Jordan Pecora</li>
+                            <li>DC37 Delegate Marie Jeremie</li>
+                            <li>DC37 Delegate Sumiko J Gilchrist</li>
+                            <li>DC37 Delegate Renetta English</li>
+                            <li>DC37 Delegate Marie Lodescar-Francois</li>
+                            <li>DC37 Delegate George Villegas</li>
+                            <li>DC37 Delegate Charles Mcclain</li>
+                            <li>DC37 Delegate Michael Folan</li>
+                            <li>CLC Delegate Ann Panicker-Diaz</li>
+                            <li>CLC Delegate Mary Van Noy</li>
+                            <li>CLC Delegate MD Jaman</li>
+                            <li>CLC Delegate Dean Labowitz</li>
+                            <li>CLC Delegate Mitchell Goldberg</li>
+                            <li>AFSCME Convention Delegate Anthony Chambers</li>
+                            <li>AFSCME Convention Delegate Richard Baron</li>
+                            <li>AFSCME Convention Delegate Kalpesh Patel</li>
+                            <li>AFSCME Convention Delegate Charles McClain</li>
+                            <li>AFSCME Convention Delegate George Villegas</li>
+                            <li>AFSCME Convention Delegate Ann George</li>
+                            <li>AFSCME Convention Delegate Noel Ramos</li>
+                            <li>AFSCME Convention Delegate Marie Jeremie</li>
+                            <li>AFSCME Convention Delegate Sumiko Gilchrist</li>
+                        </ul>
+
+                        <p className="mb-2">The nominees listed either accepted or did not reject 
+                            their nomination.</p>
+
+                        <p className="mb-2">In Solidarity,</p>
+                        <p className="mb-2">2026 Local 2627 Election Committee</p>
+
                         <ul style={{ paddingLeft: '40px', listStyleType: 'disc' }}>
                             <li>
                                 <Link to={ nominationOfficers } target="_blank">
