@@ -4,8 +4,6 @@ import '../css/embla.css'
 import pfl_memo from '../assets/pfl_memo2025.pdf';
 import pfl_deduction from '../assets/pfl_deduction2025.pdf';
 import aflacFlyer from '../assets/aflac_flyer.pdf';
-import nominationOfficers from '../assets/nomination_instruct_for_l2627_officers_2026.pdf';
-import nominationDelegates from '../assets/notice_of_nomination_for_delegate_2026.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -110,19 +108,6 @@ export function Home() {
 
                         <p className="mb-2">In Solidarity,</p>
                         <p className="mb-2">2026 Local 2627 Election Committee</p>
-
-                        {/* <ul style={{ paddingLeft: '40px', listStyleType: 'disc' }}>
-                            <li>
-                                <Link to={ nominationOfficers } target="_blank">
-                                    NOMINATION INSTRUCTIONS FOR LOCAL 2627 OFFICERS 2026
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={ nominationDelegates } target="_blank">
-                                    NOTICE OF NOMINATION FOR LOCAL 2627 AFSCME DELEGATES 2026
-                                </Link>
-                            </li>
-                        </ul> */}
                     </div>
                     
                     <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
