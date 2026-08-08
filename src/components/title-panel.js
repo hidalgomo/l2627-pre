@@ -2,12 +2,26 @@ import { Transition, Dialog } from '@headlessui/react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
+import itProjectSpecialistTitleSpec from '../assets/it_project_specialist_title_specs.pdf';
+import seniorItArchitectTitleSpec from '../assets/senior_it_architect_title_specs.pdf';
 
 export default function TitlePanel(props) {
     const USDollar = new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',
     });
+
+    const getSpecLink = (titleSpecsFile) => {
+        console.log(titleSpecsFile);
+        if (titleSpecsFile === '/resources/pdf/titleXXXXX.pdf') {
+            return itProjectSpecialistTitleSpec;
+        } else if (titleSpecsFile === '/resources/pdf/title95711.pdf') {
+            return seniorItArchitectTitleSpec;
+        } else {
+            return 'https://local2627.org' + titleSpecsFile;
+        }
+    };
+
     return (
         <>
         <Transition appear show={ props.isTitlePanelOpen } as={ Fragment }>
@@ -58,7 +72,7 @@ export default function TitlePanel(props) {
                                             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                                                 <dt className="text-sm font-medium leading-6 text-gray-900">Level & rate</dt>
                                                 <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                                                    <div class="grid grid-cols-12 gap-1 text-xs">
+                                                    <div className="grid grid-cols-12 gap-1 text-xs">
                                                         <div className="col-span-1">Lvl</div>
                                                         <div className="col-span-3">Min</div>
                                                         <div className="col-span-4">Max</div>
@@ -88,11 +102,12 @@ export default function TitlePanel(props) {
                                                                 </div>
                                                             </div>
                                                             <div className="ml-4 flex-shrink-0">
-                                                                <Link to={ 'https://local2627.org' + props.title.doc_link } target='_blank' 
+                                                                
+                                                                <Link to={ getSpecLink(props.title.doc_link) } target='_blank' 
                                                                     className="font-medium text-indigo-600 hover:text-indigo-500">
-                                                                    
                                                                     Download
                                                                 </Link>
+                                                                
                                                             </div>
                                                         </li>
                                                     </ul>
