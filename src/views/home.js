@@ -4,6 +4,7 @@ import '../css/embla.css'
 import pfl_memo from '../assets/pfl_memo2025.pdf';
 import pfl_deduction from '../assets/pfl_deduction2025.pdf';
 import aflacFlyer from '../assets/aflac_flyer.pdf';
+import reportElection from '../assets/election_committee_report_on_protest_080526.pdf';
 
 const OPTIONS = { align: 'start', dragFree: false }
 const SLIDE_COUNT = 4
@@ -15,16 +16,17 @@ export function Home() {
             {/* <Banner /> */}
             <EmblaCarousel slides={ SLIDES } options={ OPTIONS } />
 
-
-
-
-
             <br />
             <br />
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 grid-flow-row lg:px-8 sm:px-6 px-11">
                 <div className="lg:col-span-3">
-                    <h3 className="mb-2 text-xl font-bold">2026 NOMINATION</h3>
+                    <h3 className="mb-2 text-xl font-bold">LOCAL 2627 ELECTION COMMITTEE REPORT ON ELECTION PROTEST</h3>
                     <div className="mb-8">
+                        <Link to={ reportElection } target="_blank">
+                            View Report
+                        </Link>
+                    </div>
+                    {/* <div className="mb-8">
                         <p className="mb-2">Dear Local 2627 member,</p>
                         <p className="mb-2">
                             Local 2627 elections for its Executive Board (four positions) 
@@ -108,7 +110,7 @@ export function Home() {
 
                         <p className="mb-2">In Solidarity,</p>
                         <p className="mb-2">2026 Local 2627 Election Committee</p>
-                    </div>
+                    </div> */}
                     
                     <h3 className="mb-2 text-xl font-bold">Computer Use</h3>
                     <p className="mb-8">
