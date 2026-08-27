@@ -156,7 +156,7 @@ export function Home() {
                     <p className="mb-8">
                         What do I do if I'm called from a civil service list for a job interview?<br />
                         Follow the instructions on your interview... (
-                            <Link to="https://local2627.org/listRestoration" style={{ color: '#3B71CA' }}>
+                            <Link to="./list-restoration" style={{ color: '#3B71CA' }}>
                                 more info
                             </Link>
                         )
