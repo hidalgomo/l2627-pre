@@ -26,6 +26,7 @@ import { DOE } from './views/safety/doe';
 import { MTA } from './views/safety/mta';
 import { AirConditioning } from './views/safety/air-conditioning';
 import NotFound from './views/error/not-found';
+import { ListRestoration } from './views/list-restoration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -55,6 +56,7 @@ root.render(
           <Route path="safety/doe" element={ <DOE /> } />
           <Route path="safety/mta" element={ <MTA /> } />
           <Route path="safety/airconditioning" element={ <AirConditioning /> } />
+          <Route path="list-restoration" element={ <ListRestoration /> } />
         </Routes>
       </main>
       <Footer />
