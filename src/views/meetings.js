@@ -23,9 +23,11 @@ export function Meetings() {
         { type: 'general', date: new Date(Date.UTC(year, 5, 30, hour, 0)), note: 'In-Person Only' },
         { type: 'general', date: new Date(Date.UTC(year, 8, 15, hour, 0)) },
         { type: 'general', date: new Date(Date.UTC(year, 10, 17, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 1, 17, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 3, 21, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(year, 9, 20, hour, 0)) },
+
+        { type: 'steward', date: new Date(Date.UTC(year, 9, 27, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(2027, 1, 16, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(2027, 3, 20, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(2027, 9, 19, hour, 0)) },
     ];
 
     return (
