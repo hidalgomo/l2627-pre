@@ -17,6 +17,12 @@ import meeting111825 from '../assets/minutes_nov_18_2025.pdf';
 
 import meeting012026 from '../assets/minutes_jan_20_2026.pdf';
 
+import meeting032026 from '../assets/meeting_mar_17_2026.pdf';
+import meeting052026 from '../assets/meeting_may_19_2026.pdf';
+import minutes062026 from '../assets/minutes_jun_30_2026.pdf';
+import meeting082026Special from '../assets/special_meeting_aug_5_2026.pdf';
+import meeting092026 from '../assets/meeting_sep_15_2026.pdf';
+
 export function Minutes() {
     return (
         <>
@@ -26,6 +32,12 @@ export function Minutes() {
                 <summary>2026</summary>
                 <ul className="list-disc mb-6 pl-8">
                     <li><Link to={ meeting012026 } target="_blank" title="January 20, 2026 Minutes">January 20 Minutes</Link></li>
+
+                    <li><Link to={ meeting032026 } target="_blank" title="March 17, 2026 Meeting">March 17 Meeting</Link></li>
+                    <li><Link to={ meeting052026 } target="_blank" title="May 19, 2026 Meeting">May 19 Meeting</Link></li>
+                    <li><Link to={ minutes062026 } target="_blank" title="June 30, 2026 Minutes">June 30 Minutes</Link></li>
+                    <li><Link to={ meeting082026Special } target="_blank" title="August 5, 2026 Special Meeting">August 5 Special Meeting</Link></li>
+                    <li><Link to={ meeting092026 } target="_blank" title="September 15, 2026 Meeting">September 15 Meeting</Link></li>
                 </ul>
             </details>
 

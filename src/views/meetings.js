@@ -3,7 +3,7 @@ import Address from "../components/address";
 
 export function Meetings() {
 
-    const year = 2026;
+    const year = 2027;
     const hour = 18;
     const dateFormattingOptions = {
         year: 'numeric',
@@ -14,20 +14,31 @@ export function Meetings() {
         hour12: true,
         timeZone: 'UTC'
     };
+
+    const dateFormattingOptionsShort = {
+        year: 'numeric',
+        month: 'long', 
+        day: 'numeric',
+        timeZone: 'UTC'
+    };
     
     const meetingDatesAndTime = [
 
-        { type: 'general', date: new Date(Date.UTC(year, 0, 20, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 2, 17, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 4, 19, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 5, 30, hour, 0)), note: 'In-Person Only' },
-        { type: 'general', date: new Date(Date.UTC(year, 8, 15, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 10, 17, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 0, 19, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 2, 16, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 4, 18, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 5, 15, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 8, 21, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 10, 16, hour, 0)) },
 
-        { type: 'steward', date: new Date(Date.UTC(year, 9, 27, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(2027, 1, 16, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(2027, 3, 20, hour, 0)) },
-        { type: 'steward', date: new Date(Date.UTC(2027, 9, 19, hour, 0)) },
+        // { type: 'steward', date: new Date(Date.UTC(year, 9, 27, hour, 0)) },
+        // { type: 'steward', date: new Date(Date.UTC(2027, 1, 16, hour, 0)) },
+        // { type: 'steward', date: new Date(Date.UTC(2027, 3, 20, hour, 0)) },
+        // { type: 'steward', date: new Date(Date.UTC(2027, 9, 19, hour, 0)) },
+
+        { type: 'event', date: new Date(Date.UTC(2026, 11, 18)), note: 'Holiday Party' },
+        { type: 'event', date: new Date(Date.UTC(year, 1, 26)), note: 'Black History' },
+        { type: 'event', date: new Date(Date.UTC(year, 2, 12)), note: 'Women"s History' },
     ];
 
     return (
@@ -54,6 +65,15 @@ export function Meetings() {
                     meetingDatesAndTime
                         .filter(meeting => meeting.type === 'steward')
                         .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormattingOptions) }</li>)
+                }
+            </ul>
+            <br />
+            <p className="text-lg font-bold mb-2">Upcoming Events</p>
+            <ul>
+                {
+                    meetingDatesAndTime
+                        .filter(meeting => meeting.type === 'event')
+                        .map((meeting, index) => <li key={index}>{ meeting.date.toLocaleString("en-US", dateFormattingOptionsShort) } { meeting.note && <span className="text-sm text-gray-500">({ meeting.note })</span> }</li>)
                 }
             </ul>
 
