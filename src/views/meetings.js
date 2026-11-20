@@ -31,14 +31,14 @@ export function Meetings() {
         { type: 'general', date: new Date(Date.UTC(year, 8, 21, hour, 0)), note: 'Hybrid Meeting' },
         { type: 'general', date: new Date(Date.UTC(year, 10, 16, hour, 0)), note: 'Hybrid Meeting' },
 
-        // { type: 'steward', date: new Date(Date.UTC(year, 9, 27, hour, 0)) },
-        // { type: 'steward', date: new Date(Date.UTC(2027, 1, 16, hour, 0)) },
-        // { type: 'steward', date: new Date(Date.UTC(2027, 3, 20, hour, 0)) },
-        // { type: 'steward', date: new Date(Date.UTC(2027, 9, 19, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 1, 16, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 4, 20, hour, 0)) },
+        { type: 'steward', date: new Date(Date.UTC(year, 9, 19, hour, 0)) },
 
         { type: 'event', date: new Date(Date.UTC(2026, 11, 18)), note: 'Holiday Party' },
         { type: 'event', date: new Date(Date.UTC(year, 1, 26)), note: 'Black History' },
         { type: 'event', date: new Date(Date.UTC(year, 2, 12)), note: 'Women"s History' },
+        { type: 'event', date: new Date(Date.UTC(year, 11, 10)), note: 'Holiday Party' },
     ];
 
     return (
