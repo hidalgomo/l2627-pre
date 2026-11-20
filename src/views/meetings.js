@@ -24,12 +24,12 @@ export function Meetings() {
     
     const meetingDatesAndTime = [
 
-        { type: 'general', date: new Date(Date.UTC(year, 0, 19, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 2, 16, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 4, 18, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 5, 15, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 8, 21, hour, 0)) },
-        { type: 'general', date: new Date(Date.UTC(year, 10, 16, hour, 0)) },
+        { type: 'general', date: new Date(Date.UTC(year, 0, 19, hour, 0)), note: 'Hybrid Meeting' },
+        { type: 'general', date: new Date(Date.UTC(year, 2, 16, hour, 0)), note: 'Hybrid Meeting'  },
+        { type: 'general', date: new Date(Date.UTC(year, 4, 18, hour, 0)), note: 'Hybrid Meeting'  },
+        { type: 'general', date: new Date(Date.UTC(year, 5, 15, hour, 0)), note: 'Hybrid Meeting' },
+        { type: 'general', date: new Date(Date.UTC(year, 8, 21, hour, 0)), note: 'Hybrid Meeting' },
+        { type: 'general', date: new Date(Date.UTC(year, 10, 16, hour, 0)), note: 'Hybrid Meeting' },
 
         // { type: 'steward', date: new Date(Date.UTC(year, 9, 27, hour, 0)) },
         // { type: 'steward', date: new Date(Date.UTC(2027, 1, 16, hour, 0)) },
@@ -46,7 +46,11 @@ export function Meetings() {
             <h3 className="text-3xl font-bold pb-8">Meetings</h3>
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
-            <p>All meeting will be held at the following location:</p>
+            <p>
+                All meeting will be held at the following location and through provided 
+                link, members should RSVP through the DC 37 Membership Portal by 3pm 
+                the day of the meeting:
+            </p>
             
             <Address />
 
