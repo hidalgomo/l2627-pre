@@ -46,11 +46,13 @@ export function Meetings() {
             <h3 className="text-3xl font-bold pb-8">Meetings</h3>
             
             <p className="text-lg font-bold mb-2">General Membership Meetings</p>
-            <p>
+            <p className="max-w-4xl">
                 All meeting will be held at the following location and through provided 
                 link, members should RSVP through the DC 37 Membership Portal by 3pm 
                 the day of the meeting:
             </p>
+
+            <br />
             
             <Address />
 
